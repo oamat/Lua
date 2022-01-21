@@ -1,0 +1,12 @@
+<skin name="placeholder14_black">
+
+	<params>
+		<param name="display_name" value="black Skin"/>
+		<param name="description" value="black Skin"/>
+		<param name="material" value="Objects/vehicles/ACTION-VEHICLES/US_Army_HMMVV/US_Army_HMMVV_black"/>
+	</params>
+
+	<items>
+		<item name="placeholder14"/>
+	</items>
+</skin>

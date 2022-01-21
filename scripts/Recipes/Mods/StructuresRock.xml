@@ -1,0 +1,103 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<recipes>
+   <guide name="default" id="0">
+      <cats>
+         <cat name="Base Building">
+            <subcats>             
+               <subcat name="Rock">
+                  <types>
+                     <type name="Walls">
+                        <items>
+                           <item class="rock_doorway_3m_4m" time="5">
+                              <materials>
+                                 <material class="Rocks" count="20" />
+                                 <material class="Lumber" count="4" />
+                              </materials>
+                           </item>
+                           <item class="rock_wall_3m_2m" time="5">
+                              <materials>
+                                 <material class="Rocks" count="10" />
+                                 <material class="Lumber" count="2" />
+                              </materials>
+                           </item>
+                           <item class="rock_wall_3m_4m" time="5">
+                              <materials>
+                                 <material class="Rocks" count="20" />
+                                 <material class="Lumber" count="4" />
+                              </materials>
+                           </item>
+                           <item class="rock_wall_4m_2m" time="5">
+                              <materials>
+                                 <material class="Rocks" count="10" />
+                                 <material class="Lumber" count="2" />
+                              </materials>
+                           </item>
+                           <item class="rock_wall_4m_4m" time="5">
+                              <materials>
+                                 <material class="Rocks" count="20" />
+                                 <material class="Lumber" count="4" />
+                              </materials>
+                           </item>
+                           <item class="rock_wall_window_3m_2m" time="5">
+                              <materials>
+                                 <material class="Rocks" count="10" />
+                                 <material class="Lumber" count="2" />
+                              </materials>
+                           </item>
+                           <item class="rock_wall_window_3m_4m" time="5">
+                              <materials>
+                                 <material class="Rocks" count="20" />
+                                 <material class="Lumber" count="4" />
+                              </materials>
+                           </item>
+                           <item class="rock_doorway_3m_4m_beamless" time="5">
+                              <materials>
+                                 <material class="Rocks" count="20" />
+                                 <material class="Lumber" count="4" />
+                              </materials>
+                           </item>
+                           <item class="rock_wall_3m_2m_beamless" time="5">
+                              <materials>
+                                 <material class="Rocks" count="10" />
+                                 <material class="Lumber" count="2" />
+                              </materials>
+                           </item>
+                           <item class="rock_wall_3m_4m_beamless" time="5">
+                              <materials>
+                                 <material class="Rocks" count="20" />
+                                 <material class="Lumber" count="4" />
+                              </materials>
+                           </item>
+                           <item class="rock_wall_4m_2m_beamless" time="5">
+                              <materials>
+                                 <material class="Rocks" count="10" />
+                                 <material class="Lumber" count="2" />
+                              </materials>
+                           </item>
+                           <item class="rock_wall_4m_4m_beamless" time="5">
+                              <materials>
+                                 <material class="Rocks" count="20" />
+                                 <material class="Lumber" count="4" />
+                              </materials>
+                           </item>
+                           <item class="rock_wall_window_3m_2m_beamless" time="5">
+                              <materials>
+                                 <material class="Rocks" count="10" />
+                                 <material class="Lumber" count="2" />
+                              </materials>
+                           </item>
+                           <item class="rock_wall_window_3m_4m_beamless" time="5">
+                              <materials>
+                                 <material class="Rocks" count="20" />
+                                 <material class="Lumber" count="4" />
+                              </materials>
+                           </item>
+                         </items>
+                     </type>
+                  </types>
+               </subcat>
+            </subcats>
+         </cat>
+      </cats>
+   </guide>
+</recipes>

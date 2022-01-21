@@ -1,0 +1,10 @@
+<skin name="placeholder9_Zebra">
+  <params>
+    <param name="display_name" value="Semi Truck Zebra Skin" />
+    <param name="description" value="Zebra skin for the Semi Truck" />
+    <param name="material" value="objects/vehicles/truck_semi/semi_truck_zebra" />
+  </params>
+  <items>
+    <item name="placeholder9" />
+  </items>
+</skin>

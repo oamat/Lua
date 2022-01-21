@@ -1,0 +1,41 @@
+<item name="SeedsWatermelons" class="Item" category="any">
+
+	<params>
+		<param name="selectable" value="1"/>
+		<param name="mass" value="0.1"/>
+		<param name="stack_size" value="50"/>
+		<param name="display_name" value="Watermelon Seeds"/>
+		<param name="description" value="A packet of watermelon seeds"/>
+		<param name="vendor_cost" value="20"/>
+	</params>
+
+	<geometry>
+		<thirdperson name="Objects/consumables/seedbags/seedbag.cgf" material="Objects/consumables/seedbags/seedbags_watermelons.mtl"/>
+	</geometry>
+
+	<usable>
+		<param name="title" value="Sow In Planter"/>
+		<param name="action" value="plant"/>
+		<param name="soundUsed" value="Play_plant_seeds"/>
+		<param name="targetClassNames" value="planter_box"/>
+	</usable>
+
+	<plantable>
+		<param name="crop_good" value="Watermelon"/>
+		<param name="crop_rotten" value="WatermelonRotten"/>
+		<param name="grow_time_minutes" value="29"/>
+		<param name="model_dirt" value="Objects/basebuilding/crops/potato/dirt_pile.cgf"/>
+		<param name="model_small" value="Objects/basebuilding/crops/carrots/watermelon_small.cgf"/>
+		<param name="model_medium" value="Objects/basebuilding/crops/carrots/watermelon_medium.cgf"/>
+		<param name="model_big" value="Objects/basebuilding/crops/carrots/watermelon_big.cgf"/>
+		<param name="material_good" value="Objects/basebuilding/crops/carrots/crops_watermelon.mtl"/>
+		<param name="material_dead" value="Objects/basebuilding/crops/carrots/crops_watermelon_dead.mtl"/>
+		<param name="material_rotten" value="Objects/basebuilding/crops/carrots/crops_watermelon_rotten.mtl"/>
+	</plantable>
+
+	<storage>
+		<locations>
+			<location category="any"/>
+		</locations>
+	</storage>
+</item>

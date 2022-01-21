@@ -1,0 +1,162 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<recipes>
+	<guide name="default" id="0">
+		<cats>
+			<cat name="Base Building">
+				<subcats>
+					<subcat name="Farming - Poaching">					   						
+								<items>
+									<item class="planter_box" time="3">
+										<materials>
+											<material class="Lumber" count="4" />
+											<material class="Nails" count="20" />
+										</materials>
+									</item>							
+									<item class="lobster_cage_packed_nz" time="3">
+										<materials>
+											<material class="Seaweed" count="25" />
+											<material class="ClamSingle" count="10" />
+											<material class="ScrapMetal" count="10" />
+											<material class="SheetMetal" count="5" />
+										</materials>
+									</item>
+									<item class="castor_cage_packed_nz" time="3">
+										<materials>
+											<material class="StickPile" count="25" />
+											<material class="AnimalFat" count="30" />
+											<material class="Nails" count="8" />
+											<material class="ScrapMetal" count="10" />
+											<material class="SheetMetal" count="5" />
+										</materials>
+									</item>
+									<item class="rabbit_cage_packed_nz" time="3">
+										<materials>
+                                            <material class="Radishes" count="25" />
+											<material class="Carrots" count="25" />
+											<material class="Nails" count="8" />
+											<material class="ScrapMetal" count="10" />
+											<material class="SheetMetal" count="5" />
+										</materials>
+									</item>
+									<item class="rat_cage_packed_nz" time="3">
+										<materials>
+											<material class="EggChicken" count="12" />
+											<material class="CerealBox" count="6" />
+											<material class="Nails" count="8" />
+											<material class="ScrapMetal" count="10" />
+											<material class="SheetMetal" count="5" />
+										</materials>
+									</item>
+									<item class="snake_cage_packed_nz" time="3">
+										<materials>
+											<material class="EggChickenRotten" count="12" />
+											<material class="squirrel_nzRotten" count="6" />
+											<material class="Nails" count="8" />
+											<material class="ScrapMetal" count="10" />
+											<material class="SheetMetal" count="5" />
+										</materials>
+									</item>
+									<item class="squirrel_cage_packed_nz" time="3">
+										<materials>
+											<material class="StickPile" count="25" />
+											<material class="NutSpread" count="8" />
+											<material class="Nails" count="8" />
+											<material class="ScrapMetal" count="10" />
+											<material class="SheetMetal" count="5" />
+										</materials>
+									</item>
+									<item class="turtle_cage_packed_nz" time="3">
+										<materials>
+											<material class="Seaweed" count="25" />
+											<material class="trout_nzRotten" count="10" />
+											<material class="Nails" count="8" />
+											<material class="ScrapMetal" count="10" />
+											<material class="SheetMetal" count="5" />
+										</materials>
+									</item>									
+															
+									<item class="chicken_coop_nz" time="3">
+										<materials>
+											<material class="Lumber" count="32" />
+											<material class="Nails" count="16" />
+											<material class="ScrapMetal" count="8" />
+											<material class="SheetMetal" count="4" />
+										</materials>
+									</item>	
+									<item class="pigpen_mat_nz" time="3">
+										<materials>
+											<material class="Lumber" count="32" />
+											<material class="Nails" count="16" />
+											<material class="ScrapMetal" count="8" />
+											<material class="SheetMetal" count="4" />
+										</materials>
+									</item>
+									<item class="manmade_beehive_3stack_nz" time="3">
+										<materials>
+											<material class="Lumber" count="25" />
+											<material class="Nails" count="8" />
+											<material class="ScrapMetal" count="4" />
+											<material class="Honeycomb" count="10" />
+										</materials>
+						        	</item>
+								</items>					
+					</subcat>
+				</subcats>	
+			</cat>
+			<cat name="Consumable">
+				<subcats>
+					<subcat name="Food">
+					    <types>
+    					    <type name="Poaching Food">
+						        <items>
+						        	<item class="trout_nzCured" time="2">
+						        		<materials>
+						        			<material class="trout_nz" />
+						        			<material class="Salt" />
+						        		</materials>
+						        	</item>
+									<item class="castor_nzCured" time="2">
+						        		<materials>
+						        			<material class="castor_nz" />
+						        			<material class="Salt" />
+						        		</materials>
+						        	</item> 
+									<item class="rabbit_nzCured" time="2">
+						        		<materials>
+						        			<material class="rabbit_nz" />
+						        			<material class="Salt" />
+						        		</materials>
+						        	</item>
+									<item class="rat_nzCured" time="2">
+						        		<materials>
+						        			<material class="rat_nz" />
+						        			<material class="Salt" />
+						        		</materials>
+						        	</item>									
+						        	<item class="snake_nzCured" time="2">
+						        		<materials>
+						        			<material class="snake_nz" />
+						        			<material class="Salt" />
+						        		</materials>
+						        	</item>
+						        	<item class="turtle_nzCured" time="2">
+						        		<materials>
+						        			<material class="turtle_nz" />
+						        			<material class="Salt" />
+						        		</materials>
+						        	</item>
+						        	<item class="squirrel_nzCured" time="2">
+						        		<materials>
+						        			<material class="squirrel_nz" />
+						        			<material class="Salt" />
+						        		</materials>
+						        	</item>
+								</items>
+							</type>									
+						</types>
+					</subcat>
+				</subcats>	
+			</cat>
+		</cats>
+	</guide>
+</recipes>

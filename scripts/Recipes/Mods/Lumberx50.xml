@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recipes>
+	<guide name="default" id="0">
+		<cats>
+			<cat name="Base Building">
+				<subcats>
+					<subcat name="Components">
+						<types>							
+							<type name="Lumber x10">
+								<items>
+									<item class="Lumber" time="0.5" amount="10">
+										<materials>
+											<material class="WoodPile" count="10" />										
+										</materials>
+									</item>
+								</items>
+							</type>	
+							<type name="Lumber x20">
+								<items>
+									<item class="Lumber" time="0.5" amount="20">
+										<materials>
+											<material class="WoodPile" count="20" />										
+										</materials>
+									</item>
+								</items>
+							</type>
+							<type name="Lumber x30">
+								<items>
+									<item class="Lumber" time="0.5" amount="30">
+										<materials>
+											<material class="WoodPile" count="30" />										
+										</materials>
+									</item>
+								</items>
+							</type>
+							<type name="Lumber x40">
+								<items>
+									<item class="Lumber" time="0.5" amount="40">
+										<materials>
+											<material class="WoodPile" count="40" />										
+										</materials>
+									</item>
+								</items>
+							</type>		
+							<type name="Lumber x50">
+								<items>
+									<item class="Lumber" time="0.5" amount="50">
+										<materials>
+											<material class="WoodPile" count="50" />										
+										</materials>
+									</item>
+								</items>
+							</type>		
+						</types>
+					</subcat>				
+				</subcats>
+			</cat>
+		</cats>
+	</guide>
+</recipes>	

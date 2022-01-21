@@ -1,0 +1,12 @@
+<skin name="placeholder9_default">
+
+	<params>
+		<param name="display_name" value="Default Skin"/>
+		<param name="description" value="Default Skin"/>
+		<param name="material" value="Objects/vehicles/SPORT VEHICLES/2012 Jaguar XKR/2012 Jaguar XKR"/>
+	</params>
+
+	<items>
+		<item name="placeholder9"/>
+	</items>
+</skin>

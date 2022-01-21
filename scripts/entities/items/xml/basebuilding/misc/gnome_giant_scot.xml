@@ -1,0 +1,22 @@
+<item name="gnome_giant_scot" class="Placeable" category="any">
+
+	<params>
+		<param name="selectable" value="0"/>
+		<param name="mass" value="800"/> <!-- metal parts must have a mass > 50 -->
+		<param name="physics" value="0"/> <!-- eIPhys_PhysicalizedRigid (see Item.h) -->
+		<param name="view_dist_min" value="100"/> <!-- minimum 100m draw distance -->
+		<param name="no_icon" value="1"/>
+		<param name="display_name" value="Farm Gnome Giant"/>
+		<param name="description" value="Farm Gnome Giant"/>
+		<param name="vendor_cost" value="500"/>	
+	</params>
+
+	<base_part class="static" type="2503" name="gnome_giant_scot" max_health="15000" repair_with="DuctTape" towable="1">
+		<static filename="objects/endtimestories/gnomes/gnome_giant_scot.cgf" Material="objects/endtimestories/gnomes/gardengnome_scot.mtl"/>
+	</base_part>
+
+	<geometry>
+		<thirdperson name="objects/endtimestories/gnomes/gnome_giant_scot.cgf" Material="objects/endtimestories/gnomes/gardengnome_scot.mtl"/>
+	</geometry>
+
+</item>

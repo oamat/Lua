@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recipes>
+	<guide name="guide_ammo_4" id="41">
+		<cats>
+			<cat name="Weapons">
+				<subcats>
+					<subcat name="Ammunition"> 
+						<types>
+							<type name="Ammo">
+								<items>							
+									<item class="Pile_50cal" time="0.5" amount="10">
+										<materials>
+											<material class="Gunpowder" count="30"/>	
+											<material class="SheetMetal" count="10"/>							
+											<material class="ScrapMetal" count="10"/>							
+										</materials>
+									</item>				
+									<item class="Pile_50calx" time="0.5" amount="10">
+										<materials>
+											<material class="Gunpowder" count="10"/>	
+											<material class="Pile_50cal" count="10"/>																												
+											<material class="PipeMetal" count="1"/>
+											<material class="BioFuel" count="2"/>
+										</materials>
+									</item>									
+								</items>
+							</type>
+						</types>
+					</subcat>				
+				</subcats>
+			</cat>
+		</cats>
+	</guide>
+		<guide name="workbench">
+		<cats>
+			<cat name="Weapons">
+				<subcats>
+					<subcat name="Ammunition"> 
+						<types>
+							<type name="Ammo">
+								<items>							
+									<item class="Pile_50cal" time="0.5" amount="10">
+										<materials>
+											<material class="Gunpowder" count="30"/>	
+											<material class="SheetMetal" count="10"/>							
+											<material class="ScrapMetal" count="10"/>							
+										</materials>
+									</item>				
+									<item class="Pile_50calx" time="0.5" amount="10">
+										<materials>
+											<material class="Gunpowder" count="10"/>	
+											<material class="Pile_50cal" count="10"/>																												
+											<material class="PipeMetal" count="1"/>
+											<material class="BioFuel" count="2"/>
+										</materials>
+									</item>									
+								</items>
+							</type>
+						</types>
+					</subcat>				
+				</subcats>
+			</cat>
+		</cats>
+	</guide>
+</recipes>

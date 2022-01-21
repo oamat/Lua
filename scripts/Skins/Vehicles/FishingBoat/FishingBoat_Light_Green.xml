@@ -1,0 +1,10 @@
+<skin name="FishingBoat_Light_Green">
+  <params>
+    <param name="display_name" value="Fishing Boat Light Green Skin" />
+    <param name="description" value="Light Green skin for the Fishing Boat" />
+    <param name="material" value="objects/vehicles/fishing_boat/fishing_boat_light_green" />
+  </params>
+  <items>
+    <item name="fishing_boat" />
+  </items>
+</skin>

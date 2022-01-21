@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?> 
+<item name="small_plane_b_tow" class="BaseBuildingItem" category="any">
+  <params>
+    <param name="selectable" value="0" />
+    <param name="mass" value="-1" />
+    <param name="display_name" value="Small Plane" />
+    <param name="description" value="Small Plane" />
+  </params>
+  <geometry>
+    <thirdperson name="Objects/props/misc/vehicles/small_plane/small_plane_b_tow.cgf" />
+  </geometry>
+</item>

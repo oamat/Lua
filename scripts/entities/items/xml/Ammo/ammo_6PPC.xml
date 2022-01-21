@@ -1,0 +1,67 @@
+<ammo name="ammo_6PPC" class="Bullet">
+	<geometry />
+
+	<flags>
+		<param name="clientonly" value="1" />
+		<param name="reusable" value="1" />
+	</flags>
+
+	<whiz>
+		<param name="sound" value="Play_bullet_whiz" />
+		<param name="distance" value="25.0" />
+	</whiz>
+
+	<ricochet>
+		<param name="sound" value="Play_bullet_ricochet" />
+	</ricochet>
+
+	<sonic_boom>
+		<param name="sound" value="Play_bullet_sonic_boom" />
+		<param name="distance" value="100.0" />
+	</sonic_boom>
+
+	<physics type="particle">
+		<param name="traceable" value="1" />
+		<param name="mass" value="0.0051" /> <!-- 73 grain / 5.1 grams -->
+		<param name="speed" value="1872" /> <!-- 1796J energy -->
+		<param name="radius" value="0.0029" /> <!-- 5.7mm diameter -->
+		<param name="air_resistance" value="1.2133" />
+		<param name="water_resistance" value="10.0" />
+		<param name="gravity" value="0, 0, -9.81" />
+		<param name="water_gravity" value="0, 0, -9.81" />
+		<param name="material" value="mat_metal_thin" />
+		<param name="single_contact" value="1" />
+		<param name="pierceability" value="7" />
+		<pierceabilityLevels> <!-- Percentage of damage to take off. SurfacePierceability > 10 = 0 reduction -->
+			<param name="level3" value="7" /> <!-- SurfacePierceability < 10 -->
+			<param name="level2" value="30" /> <!-- SurfacePierceability < 7  -->
+			<param name="level1" value="40" /> <!-- SurfacePierceability < 4  -->
+			<param name="maxPenetrationThickness" value="0.25" /> <!-- Penetrates valid surface levels up to 25cm thick -->
+		</pierceabilityLevels>
+	</physics>
+
+	<params>
+		<param name="torpidity" value="10" />
+		<param name="stamina" value="10" />
+		<param name="fire_percent" value="10" />
+		<param name="hit_type" value="ammo_6PPC" />
+		<param name="knocks_target" value="0"/>
+		<param name="min_damage_for_knockDown" value="0"/>
+		<param name="min_damage_for_knockDown_leg" value="0"/>
+		<param name="bleed_percent" value="100" />
+		<param name="lifetime" value="3.0" /> <!-- Projectile will be destroyed after this time (in seconds) -->
+		<param name="showtime" value="0.05" /> <!-- Delay (in seconds) before projectile is rendered -->
+		<param name="bulletType" value="2" /> <!-- Bullet Type 2 - Assault rifle bullet -->
+		<param name="hitRecoil" value="Level3_mp" />
+	</params>
+
+	<trail>
+		<param name="effect" value="weapon_fx.arrow.trail_burning"/> <!-- PFX trail only owner can see -->
+		<param name="scale" value="3.5" />
+	</trail>
+
+	<trailUnderWater>
+		<param name="effect" value="water.bubbles.bullets" />
+		<param name="scale" value="3.0" />
+	</trailUnderWater>
+</ammo>

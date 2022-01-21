@@ -1,0 +1,13 @@
+<skin name="towcar_Yellow">
+
+	<params>
+		<param name="display_name" value="Thrulander Yellow Skin"/>
+		<param name="description" value="Thrulander Yellow skin"/>
+		<param name="material" value="Objects/vehicles/4 x 4 VEHICLES/Thrulander/Thrulander_yellow"/>
+	</params>
+
+	<items>
+		<item name="towcar"/>	
+	</items>
+
+</skin>

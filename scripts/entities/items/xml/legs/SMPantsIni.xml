@@ -1,0 +1,64 @@
+<item name="SMPantsIni" class="Item" category="any">
+	<params>
+		<param name="selectable" value="0"/>
+		<param name="auto_wear" value="1"/>
+		<param name="mass" value="1.0"/>
+		<param name="healthMax" value="100.0"/>
+		<param name="damage_scale" value="0.1"/>
+		<param name="display_name" value="LastShot Nooby Pants"/>
+		<param name="description" value="LastShot Nooby Pants"/>
+		<param name="vendor_cost" value="20"/>
+	</params>
+
+	<geometry>
+		<onground name="objects/characters/players/male/legs/long/cargo_pants_new/cargo_pants_onground.cgf" material="Objects/characters/players/male/legs/long/cargo_pants_new/ini_camo_cargo_pants.mtl"/>
+	</geometry>
+	
+    <protection level="1">
+        <environmental>
+            <protection_amount type="cold" percentage="5.0"/>
+            <protection_amount type="heat" percentage="5.0"/>
+        </environmental>
+		<protectBodyPart name="legs">
+			<protection_amount hit_type="default" percentage="5.0"/> <!-- Default damage reduction of 75% unless specified below -->
+		</protectBodyPart>
+    </protection>
+
+	<wearable>
+		<param name="skin" value="objects/characters/players/male/legs/long/cargo_pants_new/cargo_pants.skin"/>
+		<param name="mtl" value="Objects/characters/players/male/legs/long/cargo_pants_new/ini_camo_cargo_pants.mtl"/>
+		<param name="slot" value="legs"/>
+		<param name="length" value="1"/> <!-- 1 is full length -->
+	</wearable>
+
+	<usable>
+		<param name="action" value="craft"/>
+		<param name="param" value="Rags"/>
+		<param name="soundUsed" value="Play_fabric_tear"/>
+	</usable>
+
+	<storage>
+		<locations>
+			<location category="any"/>
+			<location category="legs"/>
+		</locations>
+		<types>
+			<type category="any" capacity="5"/>
+		</types>
+	</storage>
+
+	<steam>
+		<param name="tags" value="Category:Clothing;Slot:Legs"/>
+		<param name="icon_url" value="http://miscreatedgame.com/shots/item_images/CargoPantsTan_200.png?crc=8707B927"/>
+		<param name="store_hidden" value="0"/>
+		<param name="amcoins" value="3"/>
+		<param name="tradable" value="0"/>
+		<param name="name_color" value="FF001E"/>
+		<param name="itemdefid" value="40417"/>
+		<param name="marketable" value="0"/>
+		<param name="store_tags" value="Category:Clothing;Slot:Legs"/>
+		<param name="background_color" value="2A2A2A"/>
+		<param name="hidden" value="0"/>
+		<param name="icon_url_large" value="http://miscreatedgame.com/shots/item_images/CargoPantsTan_2048.png?crc=8707B927"/>
+	</steam>
+</item>

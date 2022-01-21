@@ -1,0 +1,11 @@
+<skin name="placeholder13_black">
+	<params>
+		<param name="display_name" value="black Skin"/>
+		<param name="description" value="black Skin"/>
+		<param name="material" value="Objects/vehicles/ARMY VEHICLES/MRAP_V5/MRAP_V5_black"/>	
+	</params>
+
+	<items>
+		<item name="placeholder13"/>
+	</items>
+</skin>

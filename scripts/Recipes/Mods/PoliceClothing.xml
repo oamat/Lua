@@ -1,0 +1,176 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<recipes>
+	<guide name="guide_police" id="37">
+		<cats>
+			<cat name="Clothing">
+				<subcats>		
+					<subcat name="Police Clothes">
+						<types>
+							<type name="Hats" >
+							    <items>
+								    <item class="flexcap_policefrontback_black" time="1">
+										<materials>
+											<material class="RK_Cloth" count="1" />
+											<material class="Rags" count="2" />
+											<material class="PaintCan_Black" count="1" />
+										</materials>
+									</item>
+									<item class="flexcap_policefrontback_blue" time="1">
+										<materials>
+											<material class="RK_Cloth" count="1" />
+											<material class="Rags" count="2" />
+											<material class="PaintCan_Black" count="1" />
+										</materials>
+									</item>
+									<item class="flexcap_policefrontback_camo1" time="1">
+										<materials>
+											<material class="RK_Cloth" count="1" />
+											<material class="Rags" count="2" />
+											<material class="PaintCan_Black" count="1" />
+										</materials>
+									</item>
+									<item class="flexcap_policefrontback_camo2" time="1">
+										<materials>
+											<material class="RK_Cloth" count="1" />
+											<material class="Rags" count="2" />
+											<material class="PaintCan_Black" count="1" />
+										</materials>
+									</item>
+									<item class="flexcap_policefrontback_camo3" time="1">
+										<materials>
+											<material class="RK_Cloth" count="1" />
+											<material class="Rags" count="2" />
+											<material class="PaintCan_Black" count="1" />
+										</materials>
+									</item>
+									<item class="flexcap_policefrontback_camo4" time="1">
+										<materials>
+											<material class="RK_Cloth" count="1" />
+											<material class="Rags" count="2" />
+											<material class="PaintCan_Black" count="1" />
+										</materials>
+									</item>
+								</items>
+							</type>
+							<type name="Shirts" >
+							    <items>
+								    <item class="TshirtPoliceBlack" time="1">
+										<materials>
+											<material class="RK_Cloth" count="2" />
+											<material class="PaintCan_Black" count="1" />
+										</materials>
+									</item>
+									<item class="TshirtPoliceBlue" time="1">
+										<materials>
+											<material class="RK_Cloth" count="2" />
+											<material class="PaintCan_Blue" count="1" />
+										</materials>
+									</item>
+								</items>
+							</type>
+							<type name="Helmets" >
+							    <items>
+									<item class="SwatHelmet" time="1">
+										<materials>
+											<material class="RK_ClothingHelmetBallistic" count="3" />
+											<material class="SheetMetal" count="2" />
+											<material class="DuctTape" count="1" />
+											<material class="PaintCan_Black" count="1" />
+										</materials>
+									</item>
+								</items>
+							</type>
+							<type name="Helmets (Colored)" >
+							    <items>
+								    <item class="SwatHelmetBlue" time="2">
+							        	<materials>
+							        		<material class="RK_ClothingHelmetBallistic" count="3" />
+											<material class="SheetMetal" count="2" />
+											<material class="DuctTape" count="1" />
+							        		<material class="PaintCan_Blue" count="1" />
+							        	</materials>
+							        </item>
+							        <item class="SwatHelmetGreen" time="2">
+							        	<materials>
+							        		<material class="RK_ClothingHelmetBallistic" count="3" />
+											<material class="SheetMetal" count="2" />
+											<material class="DuctTape" count="1" />
+							        		<material class="PaintCan_Green" count="1" />
+							        	</materials>
+							        </item>
+							        <item class="SwatHelmetLightBlue" time="2">
+							        	<materials>
+							        		<material class="RK_ClothingHelmetBallistic" count="3" />
+											<material class="SheetMetal" count="2" />
+											<material class="DuctTape" count="1" />
+							        		<material class="PaintCan_Aqua" count="1" />
+							        	</materials>
+							        </item>
+							        <item class="SwatHelmetPink" time="2">
+							        	<materials>
+							        		<material class="RK_ClothingHelmetBallistic" count="3" />
+											<material class="SheetMetal" count="2" />
+											<material class="DuctTape" count="1" />
+							        		<material class="PaintCan_Pink" count="1" />
+							        	</materials>
+							        </item>
+							        <item class="SwatHelmetPurple" time="2">
+							        	<materials>
+							        		<material class="RK_ClothingHelmetBallistic" count="3" />
+											<material class="SheetMetal" count="2" />
+											<material class="DuctTape" count="1" />
+							        		<material class="PaintCan_Purple" count="1" />
+							        	</materials>
+							        </item>
+							        <item class="SwatHelmetRed" time="2">
+							        	<materials>
+							        		<material class="RK_ClothingHelmetBallistic" count="3" />
+											<material class="SheetMetal" count="2" />
+											<material class="DuctTape" count="1" />
+							        		<material class="PaintCan_Red" count="1" />
+							        	</materials>
+							        </item>
+							        <item class="SwatHelmetYellow" time="2">
+							        	<materials>
+							        		<material class="RK_ClothingHelmetBallistic" count="3" />
+											<material class="SheetMetal" count="2" />
+											<material class="DuctTape" count="1" />
+							        		<material class="PaintCan_Yellow" count="1" />
+							        	</materials>
+							        </item>
+							        <item class="SwatHelmetWhite" time="2">
+							        	<materials>
+							        		<material class="RK_ClothingHelmetBallistic" count="3" />
+											<material class="SheetMetal" count="2" />
+											<material class="DuctTape" count="1" />
+							        		<material class="PaintCan_White" count="1" />
+							        	</materials>
+							        </item>
+								</items>
+							</type>
+							<type name="Vests" >
+							    <items>
+								    <item class="PoliceVestBlack" time="1">
+										<materials>
+											<material class="RK_Canvas" count="2" />
+											<material class="ScrapMetal" count="2" />
+											<material class="PaintCan_Black" count="1" />
+										</materials>
+									</item>
+									<item class="PoliceVestBlue" time="1">
+										<materials>
+											<material class="RK_Canvas" count="2" />
+											<material class="ScrapMetal" count="2" />
+											<material class="PaintCan_Blue" count="1" />
+										</materials>
+									</item>
+								</items>
+							</type>
+						</types>
+					</subcat>
+				</subcats>
+			</cat>
+		</cats>
+	</guide>
+</recipes>

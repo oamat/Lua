@@ -1,0 +1,10 @@
+<skin name="Quadbike_Light_Green">
+  <params>
+    <param name="display_name" value="Quadbike Light Green Skin" />
+    <param name="description" value="Light Green skin for the Quadbike" />
+    <param name="material" value="Objects/vehicles/quadbike/quadbike_light_green" />
+  </params>
+  <items>
+    <item name="quadbike" />
+  </items>
+</skin>

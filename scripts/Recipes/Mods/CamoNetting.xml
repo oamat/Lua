@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recipes>
+	<guide name="default" id="0">
+		<cats>
+			<cat name="Base Building">
+				<subcats>
+					<subcat name="Components">
+						<items>
+							<item class="CamoNetting" time="0.5">
+								<materials>
+									<material class="RK_Canvas" count="1"/>
+									<material class="Rope" count="2"/>
+									<material class="Rags" count="10"/>
+								</materials>
+							</item>
+						</items>
+					</subcat>
+				
+				</subcats>
+			</cat>
+		</cats>
+	</guide>
+</recipes>

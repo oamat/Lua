@@ -1,0 +1,10 @@
+<skin name="DuneBuggy_Zebra">
+  <params>
+    <param name="display_name" value="Dune Buggy Zebra Skin" />
+    <param name="description" value="Zebra skin for the Dune Buggy" />
+    <param name="material" value="objects/vehicles/dune_buggy/dune_buggy_zebra" />
+  </params>
+  <items>
+    <item name="dune_buggy" />
+  </items>
+</skin>

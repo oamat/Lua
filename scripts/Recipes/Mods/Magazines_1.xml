@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recipes>
+	<guide name="guide_ammo_1" id="33">
+		<cats>
+			<cat name="Weapons">
+				<subcats>
+					<subcat name="Magazines">
+						<items>
+							<item class="22x10_ruger" time="5" amount="0">
+								<materials>
+									<material class="ScrapMetal" count="3"/>
+									<material class="SheetMetal" count="2"/>
+								</materials>
+							</item>
+							<item class="357x14" time="5" amount="0">
+								<materials>
+									<material class="ScrapMetal" count="4"/>
+									<material class="SheetMetal" count="3"/>
+								</materials>
+							</item>
+							<item class="9mmx10" time="5" amount="0">
+								<materials>
+									<material class="ScrapMetal" count="3"/>
+									<material class="SheetMetal" count="2"/>
+								</materials>
+							</item>
+							<item class="9mmx10_makarov" time="5" amount="0">
+								<materials>
+									<material class="ScrapMetal" count="3"/>
+									<material class="SheetMetal" count="2"/>
+								</materials>
+							</item>
+							<item class="9mmx15_m9a1" time="5" amount="0">
+								<materials>
+									<material class="ScrapMetal" count="3"/>
+									<material class="SheetMetal" count="2"/>
+								</materials>
+							</item>
+							<item class="9mmx19" time="5" amount="0">
+								<materials>
+									<material class="ScrapMetal" count="4"/>
+									<material class="SheetMetal" count="3"/>
+								</materials>
+							</item>
+							<item class="9mmx19_ap85" time="5" amount="0">
+								<materials>
+									<material class="ScrapMetal" count="3"/>
+									<material class="SheetMetal" count="2"/>
+								</materials>
+							</item>
+							<item class="9mmx33" time="5" amount="0">
+								<materials>
+									<material class="ScrapMetal" count="6"/>
+									<material class="SheetMetal" count="4"/>
+								</materials>
+							</item>
+							<item class="acp_45x10_hk" time="5" amount="0">
+								<materials>
+									<material class="ScrapMetal" count="3"/>
+									<material class="SheetMetal" count="2"/>
+								</materials>
+							</item>
+							<item class="acp_45x7" time="5" amount="0">
+								<materials>
+									<material class="ScrapMetal" count="3"/>
+									<material class="SheetMetal" count="2"/>
+								</materials>
+							</item>
+					   	</items>
+					</subcat>
+				</subcats>
+			</cat>
+		</cats>
+	</guide>
+</recipes>

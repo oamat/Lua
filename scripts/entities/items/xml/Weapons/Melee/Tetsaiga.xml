@@ -1,0 +1,105 @@
+<item name="Tetsaiga" class="Weapon" category="any" priority="1" weaponParams="1">
+	<!-- Named Weapon -->
+	<params>
+		<param name="display_name" value="Tetsaiga"/>
+		<param name="description" value="He who holds, shall find strength"/>
+		<param name="itemClass" value="1hmelee"/>
+		<param name="droppable" value="0"/>
+		<param name="suffix" value="shoulder"/>
+		<param name="mass" value="1.2"/>
+		<param name="healthMax" value="1025.0"/>
+		<param name="damage_scale" value="0.1"/>
+		<param name="bleed_percent" value="100"/>
+		<param name="select_delayed_grab_3P" value="1"/>
+		<param name="select_override" value="1"/> <!-- Delay after selecting to prevent insta-use -->
+		<param name="attach_to_back" value="1"/>
+		<param name="bone_attachment_01" value="stow_primary1"/>
+		<param name="bone_attachment_02" value="stow_primary2"/>
+		<param name="sprintToFireDelay" value="0.05"/> <!-- Time delay to prevent player from firing after sprinting stopped -->
+		<param name="sprintToZoomDelay" value="0.1"/> <!-- Time delay to prevent player from zoom after sprinting stopped -->
+		<param name="runToSprintBlendTime" value="0.3"/>
+		<param name="sprintToRunBlendTime" value="0.15"/>
+		<param name="relaxedToTacticalBlendTime" value="0.45"/>
+		<param name="vendor_cost" value="40"/>
+		<param name="tag" value="katana"/>
+		<animPrecache name="katana">
+			<precache DBAFile="animations/human/male/weapons/katana/katana.dba" thirdperson="1"/>
+		</animPrecache>
+		<aimAnims/>
+	</params>
+
+	<MovementModifiers speedScaleTactical="5.85" speedScale="5.0" rotationScale="2.0" firingSpeedScale="2.65"/>
+	
+	<protection level="100"> <!-- Only used for the UI tool tip protection amount -->
+		<environmental>
+			<protection_amount type="physical" percentage="100.0"/>
+			<protection_amount type="fire" percentage="75.0"/>
+			<protection_amount type="feet_sharp" percentage="85.0"/>
+			<protection_amount type="feet_blunt" percentage="85.0"/>
+			<protection_amount type="explosion" percentage="30.0"/>
+            <protection_amount type="cold" percentage="75"/>
+            <protection_amount type="heat" percentage="75"/>
+			<protection_amount type="rain_acid" percentage="75"/>
+			<protection_amount type="rain_radiation" percentage="80.0"/>
+		</environmental>
+		<protectBodyPart name="feet"> <!-- Use valid bodyparts defined in Libs/BodyDamage/BodyParts_*.xml -->
+			<protection_amount hit_type="blunt" percentage="100.0"/>
+			<protection_amount hit_type="melee" percentage="100.0"/>
+			<!-- Default damage reduction of 75% unless specified below -->
+			<protection_amount hit_type="ammo_357" percentage="100.0"/> <!-- Takes down to 23% -->
+			<protection_amount hit_type="ammo_9mm" percentage="100.0"/> <!-- Takes down to 39% -->
+			<protection_amount hit_type="ammo_acp_45" percentage="100.0"/> <!-- Takes down to 28% -->
+			<protection_amount hit_type="ammo_308" percentage="100.0"/>
+			<protection_amount hit_type="ammo_7_62x39" percentage="100.0"/>
+			<protection_amount hit_type="ammo_7_62x51" percentage="100.0"/>
+			<protection_amount hit_type="ammo_5_56x45" percentage="100.0"/>
+		</protectBodyPart>
+	</protection>
+	
+	<geometry>
+		<thirdperson name="objects/weapons/katana/katana_black_widow.cgf"/>
+		<onground name="objects/weapons/katana/katana_black_widow_onground.cgf"/>
+	</geometry>
+
+	<usable>
+        <param name="title" value="Salvage to Sheet Metal"/>
+        <param name="action" value="craft"/>
+        <param name="param" value="SheetMetal"/>
+        <param name="soundUsed" value=""/>
+    </usable>
+
+	<firemodes>
+		<firemode name="melee" type="Melee">
+			<melee>
+				<param name="helper" value="collision"/>
+				<param name="hit_type" value="hatchet"/>
+				<param name="range" value="7.0"/>
+				<param name="damage" value="275"/>
+				<param name="impulse" value="25"/>
+				<param name="impulse_actor" value="50"/>
+				<param name="impulse_ai_to_player" value="-1"/> <!-- < -1 uses impulse actor instead -->
+				<param name="impulse_vehicle" value="150"/>
+				<param name="delay" value="0.51"/>
+				<param name="aiDelay" value="0.05"/>
+				<param name="duration" value="1.5"/>
+				<param name="knockdown_chance" value="0.0"/>  <!-- 0 to 100 -->
+				<param name="impulse_up_percentage" value="0.0"/>
+				<param name="use_melee_weapon_delay" value="-1.0"/> <!-- use the hardcoded delay above -->
+				<param name="weapon_restore_delay" value="0.0"/>
+				<param name="trigger_client_reaction" value="1"/> <!-- causes the tag "meleeReaction" from the weapon to be played on the target -->
+				<param name="sound_radius" value="15"/>
+			</melee>
+			<SurfaceBehaviors>		
+				<param name="default" deteriorationFactor="0.5"/> <!-- Loses 1% health per-hit on all surfaces ("default"), will expand later -->
+			</SurfaceBehaviors>
+		</firemode>
+	</firemodes>
+
+	<storage>
+		<locations>
+			<location category="any"/>
+			<location category="secondary"/>
+		</locations>
+	</storage>
+	
+</item>

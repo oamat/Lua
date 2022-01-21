@@ -1,0 +1,47 @@
+<item name="Pile_762x39Venom" class="Magazine" category="any">
+  <params>
+    <param name="selectable" value="0" />
+    <param name="mass" value="0.0" />
+    <param name="display_name" value="GrimReaper Venom Round" />
+    <param name="description" value="Venom Round For The GrimReaper AK" />
+    <param name="is_ammo_pile" value="1" />
+    <param name="hide_as_attachment" value="1" />
+    <param name="vendor_cost" value="120"/>
+  </params>
+  <magazine>
+    <magazine capacity="30" />
+    <ammos>
+      <ammo name="ammo_7_62x39_Venom" amount="1" />
+    </ammos>
+    <param name="sound_split" value="Play_rounds_split" />
+    <param name="sound_combine" value="Play_rounds_split" />
+  </magazine>
+  <geometry>
+    <thirdperson name="Objects/ammo/762Ammo/pile_762x51.cgf" />
+  </geometry>
+  <usable>
+    <param name="title" value="@ConvertToGunpowder" />
+    <param name="action" value="convert" />
+    <param name="param" value="Gunpowder" />
+    <param name="soundUsed" value="" />
+  </usable>
+  <storage>
+    <locations>
+      <location category="any" />
+    </locations>
+  </storage>
+  <steam>
+    <param name="tags" value="Category:AmmoPile" />
+    <param name="icon_url" value="http://miscreatedgame.com/shots/item_images/Pile_762x39_200.png?crc=8D3F880B" />
+    <param name="store_hidden" value="0" />
+    <param name="amcoins" value="3" />
+    <param name="tradable" value="0" />
+    <param name="name_color" value="FF001E" />
+    <param name="itemdefid" value="80051" />
+    <param name="marketable" value="0" />
+    <param name="store_tags" value="Category:AmmoPile" />
+    <param name="background_color" value="2A2A2A" />
+    <param name="hidden" value="0" />
+    <param name="icon_url_large" value="http://miscreatedgame.com/shots/item_images/Pile_762x39_2048.png?crc=8D3F880B" />
+  </steam>
+</item>

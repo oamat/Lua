@@ -1,0 +1,12 @@
+<skin name="placeholder4_default">
+
+	<params>
+		<param name="display_name" value="Default Skin"/>
+		<param name="description" value="Default Skin"/>
+		<param name="material" value="Objects/vehicles/Porsche_Cayenne_Turbo/Porsche_Cayenne_Turbo"/>
+	</params>
+
+	<items>
+		<item name="placeholder4"/>
+	</items>
+</skin>

@@ -1,0 +1,10 @@
+<skin name="placeholder7_satin">
+  <params>
+    <param name="display_name" value="Charger satin Skin" />
+    <param name="description" value="Satin Black skin for the charger" />
+    <param name="material" value="objects/vehicles/Dodge_Charger_SRT8_police/Dodge_Charger_SRT8_police_satin" />
+  </params>
+  <items>
+    <item name="placeholder7" />
+  </items>
+</skin>

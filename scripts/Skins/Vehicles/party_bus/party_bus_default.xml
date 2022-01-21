@@ -1,0 +1,13 @@
+<skin name="party_bus_default">
+
+	<params>
+		<param name="display_name" value="party_bus_default"/>
+		<param name="description" value="party_bus_default"/>
+		<param name="material" value="Objects/endtimestories/vehicles/swatbus"/>
+	</params>
+
+	<items>
+		<item name="party_bus"/>
+	</items>
+
+</skin>

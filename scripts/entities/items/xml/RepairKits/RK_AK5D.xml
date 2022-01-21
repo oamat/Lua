@@ -1,0 +1,55 @@
+<item name="RK_AK5D" class="Item" category="any">
+
+	<params>
+		<param name="selectable" value="0"/>
+		<param name="itemClass" value="RK_AK5D"/>
+		<param name="mass" value="1.0"/>
+		<param name="healthMax" value="100.0"/>
+		<param name="damage_scale" value="0.25"/>
+		<param name="destroyWhenDegraded" value="1"/>		
+		<param name="display_name" value="@RK_AK5D"/>
+		<param name="description" value="@RK_AK5DDescription"/>
+		<param name="vendor_cost" value="20"/>
+	</params>
+
+	<geometry>
+		<thirdperson name="Objects/equipment/repairkits/repair_kits.cgf" Material="Objects/equipment/repairkits/repair_kits_red"/>
+	</geometry>
+
+	<repair>
+		<item name="RK_AK5D" percentage="100"/>
+		<item name="AK5D" percentage="100"/>
+		<item name="AK5C" percentage="100"/>
+		<item name="ak5d_desert_camo" percentage="100"/>
+				<item name="ak5d_urban_camo" percentage="100"/>
+				<item name="ak5d_tile_red" percentage="100"/>
+				<item name="ak5d_tile_orange" percentage="100"/>
+				<item name="ak5d_tile_yellow" percentage="100"/>
+				<item name="ak5d_tile_green" percentage="100"/>
+				<item name="ak5d_hex_grey" percentage="100"/>
+				<item name="ak5d_tile_blue" percentage="100"/>
+				<item name="ak5d_stripes_warning" percentage="100"/>
+				<item name="ak5d_military_tan" percentage="100"/>
+	</repair>
+
+	<storage>
+		<locations>
+			<location category="any"/>
+		</locations>
+	</storage>
+
+	<steam>
+		<param name="tags" value="Category:RepairKit"/>
+		<param name="icon_url" value="http://miscreatedgame.com/shots/item_images/RK_AK5D_200.png?crc=71240500"/>
+		<param name="store_hidden" value="0"/>
+		<param name="amcoins" value="3"/>
+		<param name="tradable" value="0"/>
+		<param name="name_color" value="FF0000"/>
+		<param name="itemdefid" value="130048"/>
+		<param name="marketable" value="0"/>
+		<param name="store_tags" value="Category:RepairKit"/>
+		<param name="background_color" value="2A2A2A"/>
+		<param name="hidden" value="0"/>
+		<param name="icon_url_large" value="http://miscreatedgame.com/shots/item_images/RK_AK5D_2048.png?crc=71240500"/>
+	</steam>
+</item>

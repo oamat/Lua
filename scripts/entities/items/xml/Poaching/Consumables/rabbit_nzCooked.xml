@@ -1,0 +1,32 @@
+<item name="rabbit_nzCooked" class="Consumable" category="any"> 
+
+	<params>
+		<param name="selectable" value="0"/>
+		<param name="mass" value="1.0"/>
+		<param name="stack_size" value="10"/>		
+		<param name="display_name" value="rabbit Cooked"/>
+		<param name="description" value="rabbit cooked, for good stamina and cure torpidity !"/>
+	</params>
+
+	<geometry>
+		<thirdperson name="Objects/NationZ/Consumables/rabbit/rabbit_nzCooked.cgf" material="Objects/NationZ/Consumables/rabbit/rabbit_nzCooked.mtl" />
+	</geometry>
+
+	<consumable>
+		<!-- a cookable item must have cookedItem and cookedTime defined -->
+		<param name="cookable" value="1"/>
+		<param name="cookedItem" value="rabbit_nzBurned"/>
+		<param name="cookedTime" value="60"/>
+		<param name="foodAmount" value="300"/>
+		<param name="staminaAmount" value="100"/>
+		<param name="torpidityAmount" value="-30"/>
+		<param name="soundConsumed" value="Play_food_soft_eat"/>
+	</consumable>
+
+	<storage>
+		<locations>
+			<location category="any"/>
+		</locations>
+	</storage>
+
+</item>

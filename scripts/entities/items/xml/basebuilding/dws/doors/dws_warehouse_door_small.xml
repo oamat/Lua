@@ -1,0 +1,39 @@
+<item name="dws_warehouse_door_small" class="Placeable" category="any">
+
+ 	<params>
+		<param name="mass" value="5"/>	
+		<param name="stack_size" value="10"/>	
+		<param name="selectable" value="0"/>
+		<param name="stack_size" value="5"/>
+		<param name="display_name" value="Warehouse small door"/>
+		<param name="description" value="Warehouse small door"/>
+	</params>
+
+	<explosion>
+		<param name="sound_radius" value="50"/> <!-- max radius the AI will react to the explosion sound -->
+		<param name="hole_size" value="3"/> <!-- radius to remove entities within -->
+		<param name="effect" value="misc.basebuilding.generic_bpart_destroyed"/>
+		<param name="effect_scale" value="1"/>
+	</explosion>
+
+	<base_part class="door" type="241" name="dws_warehouse_door_small" max_health="5000">
+		<door filename="Objects/structures/Industrial/Warehouse1/dws_warehouse_door_small.cgf" rotate_base="0" move_range="4" move_speed="2" move_axis="z" move_axis_dir="+" 
+			sound_open="Play_industrial_garage_door_open" sound_opened="" sound_close="Play_industrial_garage_door_close" sound_closed=""/>
+		<base_actions>
+			<base_action class="toggle_door">
+				<toggle_door sound_knock="Play_door_wood_knock" />
+			</base_action>
+		</base_actions>
+	</base_part>
+
+	<geometry>
+		<thirdperson name="objects/basebuilding/wood/wood_part.cgf"/>
+	</geometry>
+
+	<storage>
+		<locations>
+			<location category="any"/>
+		</locations>
+	</storage>
+
+</item>

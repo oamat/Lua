@@ -1,0 +1,13 @@
+<item name="large_shipping_crate" class="BaseBuildingItem" category="any">
+
+	<params>
+		<param name="selectable" value="0"/>
+		<param name="mass" value="5"/> <!-- infinite mass so can't be moved -->
+		<param name="display_name" value="Large old shipping Crate (no slots)"/>
+		<param name="description" value="A sturdy old shipping crate (no slots)."/>
+	</params>
+
+	<geometry>
+		<thirdperson name="objects/basebuilding/wood/large_shipping_crate/large_shipping_crate.cgf"/>
+	</geometry>
+</item>

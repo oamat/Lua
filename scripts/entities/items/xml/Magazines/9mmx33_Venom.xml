@@ -1,0 +1,26 @@
+<item name="9mmx33_Venom" class="Magazine" category="any">
+  <params>
+    <param name="selectable" value="0" />
+    <param name="mass" value="0.3" />
+    <param name="display_name" value="9mmx33 Venom" />
+    <param name="description" value="A 33 round 9mm Venom magazine." />
+    <param name="tag" value="9mmx33" />
+  </params>
+  <magazine>
+    <magazine capacity="50" />
+    <ammos>
+      <ammo name="ammo_9mm_Venom" amount="50" pile="Pile_9mm_Venom" />
+    </ammos>
+    <param name="sound_load" value="Play_magazine_load" />
+    <param name="sound_unload" value="Play_magazine_unload" />
+  </magazine>
+  <geometry>
+    <onground name="Objects/magazines/9mm/x33.cgf" />
+  </geometry>
+  <storage>
+    <locations>
+      <location category="any" />
+      <location category="9mm_magazine" />
+    </locations>
+  </storage>
+</item>

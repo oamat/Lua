@@ -1,0 +1,13 @@
+<skin name="jetski_default">
+
+	<params>
+		<param name="display_name" value="jetski_default"/>
+		<param name="description" value="jetski_default"/>
+		<param name="material" value="Objects/vehicles/jetski/jetski"/>
+	</params>
+
+	<items>
+		<item name="jetski"/>
+	</items>
+
+</skin>

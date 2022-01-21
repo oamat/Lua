@@ -1,0 +1,38 @@
+<item name="flagpole_pink" class="Placeable" category="any">
+
+    <params>
+        <param name="selectable" value="0"/>
+        <param name="mass" value="5.5"/>
+        <param name="display_name" value="@flagpole_pink"/>
+        <param name="description" value="@flagpole_pinkDescription"/>
+    </params>
+
+    <base_part class="static" type="4867" name="flagpole_pink" max_health="1000" repair_with="ScrapMetal">
+        <static filename="Objects/basebuilding/other/flag/flag_pole_pink.cgf"/>
+    </base_part>
+
+    <geometry>
+        <thirdperson name="objects/basebuilding/wood/wood_part.cgf"/>
+    </geometry>
+
+    <storage>
+        <locations>
+            <location category="any"/>
+        </locations>
+    </storage>
+
+	<steam>
+		<param name="tags" value="Category:BaseBuilding"/>
+		<param name="icon_url" value="http://miscreatedgame.com/shots/item_images/flagpole_pink_200.png?crc=BF6FE0A0"/>
+		<param name="store_hidden" value="0"/>
+		<param name="amcoins" value="3"/>
+		<param name="tradable" value="0"/>
+		<param name="name_color" value="FF001E"/>
+		<param name="itemdefid" value="30299"/>
+		<param name="marketable" value="0"/>
+		<param name="store_tags" value="Category:BaseBuilding"/>
+		<param name="background_color" value="2A2A2A"/>
+		<param name="hidden" value="0"/>
+		<param name="icon_url_large" value="http://miscreatedgame.com/shots/item_images/flagpole_pink_2048.png?crc=BF6FE0A0"/>
+	</steam>
+</item>

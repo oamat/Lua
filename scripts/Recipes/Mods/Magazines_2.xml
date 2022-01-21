@@ -1,0 +1,99 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recipes>
+	<guide name="guide_ammo_2" id="34">
+		<cats>
+			<cat name="Weapons">
+				<subcats>
+					<subcat name="Magazines">
+						<items>
+							<item class="12Gaugex8_Pellet_AA12" time="5" amount="0">
+								<materials>
+									<material class="ScrapMetal" count="4"/>
+									<material class="SheetMetal" count="3"/>
+								</materials>
+							</item>
+							<item class="12Gaugex8_Beanbag_AA12" time="5" amount="0">
+								<materials>
+									<material class="ScrapMetal" count="4"/>
+									<material class="SheetMetal" count="3"/>
+								</materials>
+							</item>
+							<item class="12Gaugex8_Slug_AA12" time="5" amount="0">
+								<materials>
+									<material class="ScrapMetal" count="4"/>
+									<material class="SheetMetal" count="3"/>
+								</materials>
+							</item>
+							<item class="10mmx15" time="5" amount="0">
+								<materials>
+									<material class="ScrapMetal" count="3"/>
+									<material class="SheetMetal" count="2"/>
+								</materials>
+							</item>
+							<item class="10mmx30" time="5" amount="0">
+								<materials>
+									<material class="ScrapMetal" count="5"/>
+									<material class="SheetMetal" count="4"/>
+								</materials>
+							</item>
+							<item class="545x30" time="5" amount="0">
+								<materials>
+									<material class="ScrapMetal" count="5"/>
+									<material class="SheetMetal" count="4"/>
+								</materials>
+							</item>
+							<item class="57x50" time="5" amount="0">
+								<materials>
+									<material class="ScrapMetal" count="5"/>
+									<material class="SheetMetal" count="4"/>
+								</materials>
+							</item>
+							<item class="acp_45x20" time="5" amount="0">
+								<materials>
+									<material class="ScrapMetal" count="3"/>
+									<material class="SheetMetal" count="2"/>
+								</materials>
+							</item>
+							<item class="acp_45x30" time="5" amount="0">
+								<materials>
+									<material class="ScrapMetal" count="4"/>
+									<material class="SheetMetal" count="3"/>
+								</materials>
+							</item>
+							<item class="STANAGx30" time="5" amount="0">
+								<materials>
+									<material class="ScrapMetal" count="5"/>
+								    <material class="SheetMetal" count="4"/>
+								</materials>
+							</item>
+							<item class="mac10_mag" time="5" amount="0">
+								<materials>
+									<material class="ScrapMetal" count="5"/>
+								    <material class="SheetMetal" count="3"/>
+								</materials>
+							</item>
+							<item class="uzi_mag" time="5" amount="0">
+								<materials>
+									<material class="ScrapMetal" count="5"/>
+								    <material class="SheetMetal" count="3"/>
+								</materials>
+							</item>
+							<item class="scorpion_mag" time="5" amount="0">
+								<materials>
+									<material class="ScrapMetal" count="5"/>
+								    <material class="SheetMetal" count="3"/>
+								</materials>
+							</item>
+							<item class="9x19_mac10" time="5" amount="0">
+								<materials>
+									<material class="ScrapMetal" count="5"/>
+								    <material class="SheetMetal" count="3"/>
+								</materials>
+							</item>
+					   	</items>
+					</subcat>
+				</subcats>
+			</cat>
+		</cats>
+	</guide>
+</recipes>

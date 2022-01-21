@@ -1,0 +1,12 @@
+<skin name="sedan_taxi_engoa_default2">
+
+	<params>
+		<param name="display_name" value="Default Skin"/>
+		<param name="description" value="Default Skin"/>
+		<param name="material" value="objects/vehicles/truck_semi/semi_truck_black"/>
+	</params>
+
+	<items>
+		<item name="sedan_taxi_engoa"/>
+	</items>
+</skin>

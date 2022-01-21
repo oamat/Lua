@@ -1,0 +1,33 @@
+<item name="Pile_sticky" class="Magazine" category="any">
+  <params>
+    <param name="selectable" value="0" />
+    <param name="mass" value="0.0" />
+    <param name="display_name" value="M203 Grenade" />
+    <param name="description" value="M203 Grenade mini" />
+    <param name="is_ammo_pile" value="1" />
+    <param name="hide_as_attachment" value="1" />
+    <param name="tag" value="M203" />
+    <param name="vendor_cost" value="80"/>
+  </params>
+
+   <geometry>    
+		<inair name="objects/weapons/grenade/grenade_onground.cgf"/>   
+    <thirdperson name="Objects/ammo/40mm_grenade/40mmgrenade.cgf"/>     
+  </geometry>
+
+  <magazine>
+    <magazine capacity="5" />
+    <ammos>
+      <ammo name="ammo_sticky" amount="5" />
+    </ammos>
+    <param name="sound_split" value="Play_rounds_split" />
+    <param name="sound_combine" value="Play_rounds_split" />
+  </magazine>
+
+  <storage>
+    <locations>
+      <location category="any" />
+      <location category="grenade_mag"/>
+    </locations>
+  </storage> 
+</item>

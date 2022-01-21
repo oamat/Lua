@@ -1,0 +1,12 @@
+<skin name="placeholder20_default">
+
+	<params>
+		<param name="display_name" value="Default Skin"/>
+		<param name="description" value="Default Skin"/>
+		<param name="material" value="Objects/vehicles/CONVERTIBLE VEHICLES/BMW_Z4/bmw_z4"/>
+	</params>
+
+	<items>
+		<item name="placeholder20"/>
+	</items>
+</skin>

@@ -1,0 +1,81 @@
+<ammo name="ammo_sticky" class="Grenade">
+  <geometry>    
+		<!-- inair name="objects/weapons/grenade/grenade_onground.cgf"/ -->   
+    <!-- thirdperson name="Objects/ammo/40mm_grenade/40mmgrenade.cgf"/ -->   
+    <thirdperson name="objects/weapons/grenade/grenade_onground.cgf"/>
+  </geometry>
+
+  <flags>
+    <param name="clientonly" value="1" />
+    <param name="reusable" value="0" />
+  </flags>
+  
+    <physics type="particle">
+    <param name="mass" value="0.4" />
+    <param name="speed" value="40" />
+    <param name="min_bounce_speed" value="31" />
+    <param name="traceable" value="1" />
+    <param name="spin" value="45, 45, 45" />
+    <param name="spin_random" value="720, 720, 720" />
+    <param name="air_resistance" value="0.0026" />
+    <param name="water_resistance" value="10.0" />
+    <param name="gravity" value="0, 0, 0" />
+    <param name="water_gravity" value="0, 0, -9.81" />
+    <param name="material" value="mat_metal_grenade" />
+    <param name="single_contact" value="1" />
+    <param name="pierceability" value="14" />
+  </physics>
+  <whiz>
+    <param name="sound" value="Play_bullet_whiz" />
+    <param name="distance" value="10.0" />
+  </whiz>
+  
+  <ricochet>
+    <param name="sound" value="Play_bullet_ricochet" />
+  </ricochet>
+  
+  <sonic_boom>
+    <param name="sound" value="Play_bullet_sonic_boom" />
+    <param name="distance" value="100.0" />
+  </sonic_boom>
+  
+
+
+  <trail>
+    <param name="effect" value="weapon_fx.grenade.smoke_trail" />
+    <param name="prime" value="false" />
+  </trail>
+  <explosion>
+    <param name="pressure" value="4000" />
+    <param name="torpidity" value="10" />
+    <param name="stamina" value="15" />
+    <param name="min_radius" value="3" />
+    <param name="max_radius" value="15" />
+    <param name="min_phys_radius" value="6" />
+    <param name="max_phys_radius" value="8" />
+    <param name="sound_radius" value="150" />
+    <param name="hole_size" value="2" />
+    <param name="terrain_hole_size" value="3" />
+    <param name="radialblurdist" value="30" />
+    <param name="type" value="frag" />
+    <param name="effect" value="traps.grenadefrag.explosion" />
+  </explosion>
+  <params>
+    <param name="damage" value="35"/> <!-- explosion uses this damage if the damage is set to 0 in the weapon's xml file -->
+    <param name="lifetime" value="3.0" /> <!-- Will detonate in 5s after being thrown -->
+    <param name="showtime" value="0" />  <!-- dont wait before showing the arrow -->
+    <param name="bleed_percent" value="15" />
+		<param name="fire_percent" value="50" />
+		<param name="poison_percent" value="0" />
+		<param name="irradiate_percent" value="0" />
+		<param name="hit_type" value="blunt" />
+    <param name="aitype" value="grenade" />
+    <param name="bulletType" value="1" />
+  </params>
+  <grenade>
+    <param name="onImpactLifetime" value="0" />
+    <param name="detonateOnImpact" value="1" />
+    <param name="detonateOnActorImpact" value="0" />
+    <param name="allowDetonationDelay" value="1" />
+  </grenade>
+</ammo>

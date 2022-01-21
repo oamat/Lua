@@ -1,0 +1,10 @@
+<skin name="beetle_black">
+  <params>
+    <param name="display_name" value="Beetle black skin" />
+    <param name="description" value="Black skin for the Beetle" />
+    <param name="material" value="objects/vehicles/beetle/beetle_black" />
+  </params>
+  <items>
+    <item name="beetle" />
+  </items>
+</skin>

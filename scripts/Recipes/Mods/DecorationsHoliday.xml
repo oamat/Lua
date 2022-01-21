@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<recipes>
+    <guide name="default" id="0">
+        <cats>
+            <cat name="Base Building">
+                <subcats>
+                    <subcat name="Decorations">
+                        <types>
+                            <type name="Christmas items">
+                                <items>                       
+                                    <item class="christmas_candle" time="1"> 
+                                        <materials>
+                                         <material class="Lumber" count="1" />
+                                         <material class="candle_animal_fat_small" count="1" />
+                                         <material class="Rags" count="4" />                                         
+                                        </materials>
+                                    </item>
+                                    <item class="christmas_gift_pile" time="1">
+                                        <materials>
+                                         <material class="Lumber" count="10" />                        
+                                         <material class="Rags" count="4" />  
+                                        </materials>
+                                    </item>
+                                    <item class="christmas_light_string" time="1">
+                                        <materials>
+                                         <material class="Rope" count="2" />
+                                         <material class="camping_lantern_aqua" count="1" />
+                                         <material class="camping_lantern_red" count="1" />
+                                         <material class="camping_lantern_green" count="1" />                                         
+                                        </materials>
+                                    </item>
+                                    <item class="christmas_rug_01" time="1">
+                                        <materials>
+                                         <material class="Rope" count="2" />
+                                         <material class="Rags" count="10" />  
+                                        </materials>
+                                    </item>
+                                    <item class="christmas_rug_02" time="1">
+                                        <materials>
+                                            <material class="Rope" count="2" />
+                                            <material class="Rags" count="10" />
+                                        </materials>
+                                    </item>
+                                    <item class="christmas_rug_03" time="1">
+                                        <materials>
+                                         <material class="Rope" count="2" />
+                                         <material class="Rags" count="10" />
+                                        </materials>
+                                    </item>
+                                    <item class="christmas_snowglobe" time="1">
+                                        <materials>
+                                         <material class="Lumber" count="2" />
+                                         <material class="camping_lantern_aqua" count="1" />
+                                        <material class="Rags" count="4" />
+                                        </materials>
+                                    </item>
+                                    <item class="christmas_stocking" time="1">
+                                        <materials>     
+                                        <material class="Rope" count="1" />
+                                        <material class="PaintCan_Red" count="1" />                                  
+                                        <material class="Rags" count="5" />
+                                        </materials>
+                                    </item>
+                                    <item class="christmas_tree" time="1">
+                                        <materials>
+                                         <material class="Lumber" count="20" />
+                                         <material class="camping_lantern_red" count="1" />
+                                        </materials>
+                                    </item>
+                                    <item class="christmas_wreath" time="1">
+                                        <materials>
+                                         <material class="Lumber" count="2" />
+                                         <material class="PaintCan_Red" count="1" />  
+                                        </materials>
+                                    </item>
+                                    <item class="snowman" time="1">
+                                        <materials>
+                                         <material class="Lumber" count="15" />
+                                         <material class="PaintCan_White" count="1" />
+                                         <material class="Rags" count="5" />
+                                         <material class="Carrots" count="1" />                                         
+                                        </materials>
+                                    </item>
+                                    <item class="snowman_small" time="1">
+                                        <materials>
+                                         <material class="Lumber" count="5" />
+                                         <material class="PaintCan_White" count="1" />
+                                         <material class="Rags" count="3" />
+                                         <material class="Carrots" count="1" /> 
+                                        </materials>
+                                    </item>
+                                </items>
+                            </type>            
+                            <type name="Halloween items">
+                                <items>                       
+                                    <item class="halloween_candle" time="1">
+                                        <materials>
+                                         <material class="Lumber" count="1" />
+                                         <material class="candle_animal_fat_small" count="1" />
+                                         <material class="Rags" count="4" /> 
+                                        </materials>
+                                    </item>
+						            <item class="halloween_creepy_bear" time="1">
+                                        <materials>
+                                        <material class="Lumber" count="1" />
+                                         <material class="PaintCan_Brown" count="1" />
+                                         <material class="Rags" count="10" />
+                                        </materials>
+                                    </item>
+						            <item class="halloween_creepy_bunny" time="1">
+                                        <materials>
+                                         <material class="Lumber" count="1" />
+                                         <material class="PaintCan_Brown" count="1" />
+                                         <material class="Rags" count="10" />
+                                        </materials>
+                                    </item>
+						            <item class="halloween_light_string" time="1">
+                                        <materials>
+                                         <material class="Lumber" count="4" /> 
+                                         <material class="Rope" count="2" />                                         
+                                         <material class="camping_lantern_red" count="1" />
+                                         <material class="camping_lantern_green" count="1" />   
+                                        </materials>
+                                    </item>
+						            <item class="pumpkin_1" time="1">
+                                        <materials>
+                                         <material class="Pumpkin" count="1" />
+                                         <material class="candle_animal_fat_small" count="1" />
+                                        </materials>
+                                    </item>
+						            <item class="pumpkin_2" time="1">
+                                        <materials>
+                                          <material class="Pumpkin" count="1" />
+                                          <material class="candle_animal_fat_small" count="1" />
+                                        </materials>
+                                    </item>
+						            <item class="pumpkin_3" time="1">
+                                        <materials>
+                                         <material class="Pumpkin" count="1" />
+                                          <material class="candle_animal_fat_small" count="1" />
+                                        </materials>
+                                    </item>
+						            <item class="pumpkin_4" time="1">
+                                        <materials>
+                                         <material class="Pumpkin" count="1" />
+                                          <material class="candle_animal_fat_small" count="1" />
+                                        </materials>
+                                    </item>
+						            <item class="pumpkin_5" time="1">
+                                        <materials>
+                                         <material class="Pumpkin" count="1" />
+                                          <material class="candle_animal_fat_small" count="1" />
+                                        </materials>
+                                    </item>
+						            <item class="pumpkin_6" time="1">
+                                        <materials>
+                                         <material class="Pumpkin" count="1" />
+                                          <material class="candle_animal_fat_small" count="1" />
+                                        </materials>
+                                    </item>
+						            <item class="coffin_packed" time="1">
+                                        <materials>
+                                         <material class="Lumber" count="10" />
+                                         <material class="Rope" count="2" /> 
+                                        </materials>
+                                    </item>
+						        </items>
+                            </type>                  
+                            <type name="Valentine's day items">
+                                <items>                       
+                                    <item class="flower_vase" time="1">
+                                        <materials>
+                                         <material class="Lumber" count="2" />
+                                         <material class="Rope" count="1" />                                          
+                                        </materials>
+                                    </item>
+						            <item class="heart_balloon" time="1">
+                                        <materials>
+                                         <material class="Lumber" count="2" />
+                                         <material class="Rope" count="1" />  
+                                        </materials>
+                                    </item>
+						            <item class="heart_candle" time="1">
+                                        <materials>
+                                         <material class="Lumber" count="2" />
+                                         <material class="Rope" count="1" /> 
+                                         <material class="candle_animal_fat_small" count="1" /> 
+                                        </materials>
+                                    </item>
+						        </items>
+                            </type>
+                        </types>
+                    </subcat>
+                </subcats>
+            </cat>
+        </cats>
+    </guide>
+</recipes>

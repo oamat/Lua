@@ -1,0 +1,10 @@
+<skin name="placeholder3_original">
+  <params>
+    <param name="display_name" value="Willya Original Skin" />
+    <param name="description" value="Original skin for the willys" />
+    <param name="material" value="objects/vehicles/willys/willys" />
+  </params>
+  <items>
+    <item name="placeholder3" />
+  </items>
+</skin>

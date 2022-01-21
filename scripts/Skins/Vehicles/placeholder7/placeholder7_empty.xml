@@ -1,0 +1,9 @@
+<skin name="placeholder7_empty">
+  <params>
+    <param name="display_name" value="Charger satin Skin" />
+    <param name="description" value="Satin Black skin for the charger" /> 
+  </params>
+  <items>
+    <item name="placeholder7" />
+  </items>
+</skin>

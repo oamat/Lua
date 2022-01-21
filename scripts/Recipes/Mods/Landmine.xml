@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recipes>
+	<guide name="guide_structures_wood_traps_2" id="12">
+		<cats>
+			<cat name="Weapons">
+				<subcats>
+					<subcat name="Traps">
+						<items>	
+							<item class="TrapLandminePacked" time="10">
+								<materials>
+									<material class="C4TimedPickup" count="1"/>	
+									<material class="ScrapMetal" count="5"/>										
+								</materials>
+							</item>
+						</items>
+					</subcat>				
+				</subcats>
+			</cat>
+		</cats>
+	</guide>
+</recipes>

@@ -1,0 +1,37 @@
+<item name="strawberry_HMS_Rotten" class="Consumable" category="any"> 
+
+	<params>
+		<param name="selectable" value="0"/>
+		<param name="mass" value="0.5"/>
+		<param name="stack_size" value="10"/>
+		<param name="display_name" value="Rotten Strawberry"/>
+		<param name="description" value="Rotten strawberries can be used to fertilize."/>
+	</params>
+
+	<geometry>
+		<thirdperson name="Objects/HotMeatStick/New_crop/strawberry_HMS/strawberry_HMS/strawberry_hms.cgf" material="Objects/HotMeatStick/New_crop/strawberry_HMS/strawberry_HMS/strawberry_HMS_Rotten" scale="2.0"/>
+	</geometry>
+
+	<consumable>
+		<param name="poisonChance" value="75"/>
+		<param name="torpidityAmount" value="30"/>
+		<param name="staminaAmount" value="-30"/>
+		<param name="foodAmount" value="100"/>
+		<param name="drinkAmount" value="110"/>
+		<param name="soundConsumed" value="Play_food_soft_eat"/>
+	</consumable>
+
+	<usable>
+		<param name="title" value="@WatermelonRottenFertilizePlanter"/>
+		<param name="action" value="fertilize"/>
+		<param name="soundUsed" value="Play_apply_fertilizer"/>
+		<param name="targetClassNames" value="planter_box"/>
+	</usable>
+
+	<storage>
+		<locations>
+			<location category="any"/>
+		</locations>
+	</storage>
+
+</item>

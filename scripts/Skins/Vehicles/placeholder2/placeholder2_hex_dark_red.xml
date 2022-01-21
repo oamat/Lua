@@ -1,0 +1,10 @@
+<skin name="placeholder2_hex_dark_red">
+  <params>
+    <param name="display_name" value=" Red Skin" />
+    <param name="description" value="Red skin " />
+    <param name="material" value="Objects/endtimestories/vehicles/ravager_hex_dark_red" />
+  </params>
+  <items>
+    <item name="placeholder2" />
+  </items>
+</skin>

@@ -1,0 +1,12 @@
+<skin name="placeholder14_green">
+
+	<params>
+		<param name="display_name" value="Green Skin"/>
+		<param name="description" value="Green Skin"/>
+		<param name="material" value="Objects/vehicles/ACTION-VEHICLES/US_Army_HMMVV/US_Army_HMMVV_green"/>
+	</params>
+
+	<items>
+		<item name="placeholder14"/>
+	</items>
+</skin>

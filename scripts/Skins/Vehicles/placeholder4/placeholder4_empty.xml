@@ -1,0 +1,12 @@
+<skin name="placeholder4_empty">
+
+	<params>
+		<param name="display_name" value="Sedan Yellow Skin"/>
+		<param name="description" value="Yellow skin for the Sedan"/>
+	</params>
+
+	<items>
+		<item name="placeholder4"/>	
+	</items>
+
+</skin>

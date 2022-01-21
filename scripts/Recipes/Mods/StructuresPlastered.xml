@@ -1,0 +1,431 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<recipes>
+   <guide name="guide_plastered" id="53">
+      <cats>
+        <cat name="Base Building">
+            <subcats>
+               <subcat name="Plastered">
+                  <types>
+                     <type name="Walls"> 
+                        <items>                           
+                           <item class="plastered_wall_3m_2m" time="2">
+                              <materials>
+                                 <material class="Lumber" count="10" />
+                                 <material class="PlasteredBag" count="1" />
+                              </materials>
+                           </item>
+                           <item class="plastered_wall_3m_2m_window" time="2">
+                              <materials>
+                                 <material class="Lumber" count="10" />
+                                 <material class="PlasteredBag" count="1" />
+                              </materials>
+                           </item>
+                           <item class="plastered_wall_3m_4m" time="2">
+                              <materials>
+                                 <material class="Lumber" count="10" />
+                                 <material class="PlasteredBag" count="1" />
+                              </materials>
+                           </item>
+                           <item class="plastered_wall_3m_4m_door" time="2">
+                              <materials>
+                                 <material class="Lumber" count="10" />
+                                 <material class="PlasteredBag" count="1" />
+                              </materials>
+                           </item>
+                           <item class="plastered_wall_3m_4m_window" time="2">
+                              <materials>
+                                 <material class="Lumber" count="10" />
+                                 <material class="PlasteredBag" count="1" />
+                              </materials>
+                           </item>
+                           <item class="plastered_wall_black_3m_2m" time="2">
+                              <materials>
+                                 <material class="Lumber" count="10" />
+                                 <material class="PlasteredBag" count="1" />
+                              </materials>
+                           </item>
+                           <item class="plastered_wall_black_3m_2m_window" time="2">
+                              <materials>
+                                 <material class="Lumber" count="10" />
+                                 <material class="PlasteredBag" count="1" />
+                              </materials>
+                           </item>
+                           <item class="plastered_wall_black_3m_4m" time="2">
+                              <materials>
+                                 <material class="Lumber" count="10" />
+                                 <material class="PlasteredBag" count="1" />
+                              </materials>
+                           </item>
+                           <item class="plastered_wall_black_3m_4m_door" time="2">
+                              <materials>
+                                 <material class="Lumber" count="10" />
+                                 <material class="PlasteredBag" count="1" />
+                              </materials>
+                           </item>
+                           <item class="plastered_wall_black_3m_4m_window" time="2">
+                              <materials>
+                                 <material class="Lumber" count="10" />
+                                 <material class="PlasteredBag" count="1" />
+                              </materials>
+                           </item>
+                           <item class="plastered_wall_blue_3m_2m" time="2">
+                              <materials>
+                                 <material class="Lumber" count="10" />
+                                 <material class="PlasteredBag" count="1" />
+                              </materials>
+                           </item>
+                           <item class="plastered_wall_blue_3m_2m_window" time="2">
+                              <materials>
+                                 <material class="Lumber" count="10" />
+                                 <material class="PlasteredBag" count="1" />
+                              </materials>
+                           </item>
+                           <item class="plastered_wall_blue_3m_4m" time="2">
+                              <materials>
+                                 <material class="Lumber" count="10" />
+                                 <material class="PlasteredBag" count="1" />
+                              </materials>
+                           </item>
+                           <item class="plastered_wall_blue_3m_4m_door" time="2">
+                              <materials>
+                                 <material class="Lumber" count="10" />
+                                 <material class="PlasteredBag" count="1" />
+                              </materials>
+                           </item>
+                           <item class="plastered_wall_blue_3m_4m_window" time="2">
+                              <materials>
+                                 <material class="Lumber" count="10" />
+                                 <material class="PlasteredBag" count="1" />
+                              </materials>
+                           </item>
+                           <item class="plastered_wall_green_3m_2m" time="2">
+                              <materials>
+                                 <material class="Lumber" count="10" />
+                                 <material class="PlasteredBag" count="1" />
+                              </materials>
+                           </item>
+                           <item class="plastered_wall_green_3m_2m_window" time="2">
+                              <materials>
+                                 <material class="Lumber" count="10" />
+                                 <material class="PlasteredBag" count="1" />
+                              </materials>
+                           </item>
+                           <item class="plastered_wall_green_3m_4m" time="2">
+                              <materials>
+                                 <material class="Lumber" count="10" />
+                                 <material class="PlasteredBag" count="1" />
+                              </materials>
+                           </item>
+                           <item class="plastered_wall_green_3m_4m_door" time="2">
+                              <materials>
+                                 <material class="Lumber" count="10" />
+                                 <material class="PlasteredBag" count="1" />
+                              </materials>
+                           </item>
+                           <item class="plastered_wall_green_3m_4m_window" time="2">
+                              <materials>
+                                 <material class="Lumber" count="10" />
+                                 <material class="PlasteredBag" count="1" />
+                              </materials>
+                           </item>
+                           <item class="plastered_wall_purple_3m_2m" time="2">
+                              <materials>
+                                 <material class="Lumber" count="10" />
+                                 <material class="PlasteredBag" count="1" />
+                              </materials>
+                           </item>
+                           <item class="plastered_wall_purple_3m_2m_window" time="2">
+                              <materials>
+                                 <material class="Lumber" count="10" />
+                                 <material class="PlasteredBag" count="1" />
+                              </materials>
+                           </item>
+                           <item class="plastered_wall_purple_3m_4m" time="2">
+                              <materials>
+                                 <material class="Lumber" count="10" />
+                                 <material class="PlasteredBag" count="1" />
+                              </materials>
+                           </item>
+						         <item class="plastered_wall_purple_3m_4m_door" time="2">
+                              <materials>
+                                 <material class="Lumber" count="10" />
+                                 <material class="PlasteredBag" count="1" />
+                              </materials>
+                           </item>
+                           <item class="plastered_wall_purple_3m_4m_window" time="2">
+                              <materials>
+                                 <material class="Lumber" count="10" />
+                                 <material class="PlasteredBag" count="1" />
+                              </materials>
+                           </item>
+                           <item class="plastered_wall_red_3m_2m" time="2">
+                              <materials>
+                                 <material class="Lumber" count="10" />
+                                 <material class="PlasteredBag" count="1" />
+                              </materials>
+                           </item>
+                           <item class="plastered_wall_red_3m_2m_window" time="2">
+                              <materials>
+                                 <material class="Lumber" count="10" />
+                                 <material class="PlasteredBag" count="1" />
+                              </materials>
+                           </item>
+                           <item class="plastered_wall_red_3m_4m" time="2">
+                              <materials>
+                                 <material class="Lumber" count="10" />
+                                 <material class="PlasteredBag" count="1" />
+                              </materials>
+                           </item>
+                           <item class="plastered_wall_red_3m_4m_door" time="2">
+                              <materials>
+                                 <material class="Lumber" count="10" />
+                                 <material class="PlasteredBag" count="1" />
+                              </materials>
+                           </item>
+                           <item class="plastered_wall_red_3m_4m_window" time="2">
+                              <materials>
+                                 <material class="Lumber" count="10" />
+                                 <material class="PlasteredBag" count="1" />
+                              </materials>
+                           </item>                        
+                        </items>
+                     </type>
+                     <type name="Ramps">
+                        <items>                        
+                           <item class="plastered_angled_roof_3x4x4" time="2">
+                              <materials>
+                                 <material class="Lumber" count="10" />
+                                 <material class="PlasteredBag" count="1" />
+                              </materials>
+                           </item>
+						         <item class="plastered_angled_roof_black_3x4x4" time="2">
+                              <materials>
+                                 <material class="Lumber" count="10" />
+                                 <material class="PlasteredBag" count="1" />
+                              </materials>
+                           </item>
+                           <item class="plastered_angled_roof_blue_3x4x4" time="2">
+                              <materials>
+                                 <material class="Lumber" count="10" />
+                                 <material class="PlasteredBag" count="1" />
+                              </materials>
+                           </item>
+                           <item class="plastered_angled_roof_green_3x4x4" time="2">
+                              <materials>
+                                 <material class="Lumber" count="10" />
+                                 <material class="PlasteredBag" count="1" />
+                              </materials>
+                           </item>
+                           <item class="plastered_angled_roof_purple_3x4x4" time="2">
+                              <materials>
+                                 <material class="Lumber" count="10" />
+                                 <material class="PlasteredBag" count="1" />
+                              </materials>
+                           </item>
+                           <item class="plastered_angled_roof_red_3x4x4" time="2">
+                              <materials>
+                                 <material class="Lumber" count="10" />
+                                 <material class="PlasteredBag" count="1" />
+                              </materials>
+                           </item>
+                        </items>
+                     </type>                    
+                     <type name="Platforms">
+                        <items>                          
+                           <item class="plastered_platform_3m_4m_4m" time="2">
+                              <materials>
+                                 <material class="Lumber" count="10" />
+                                 <material class="PlasteredBag" count="1" />
+                              </materials>
+                           </item>
+                           <item class="plastered_platform_3m_4m_4m_stairs" time="2">
+                              <materials>
+                                 <material class="Lumber" count="10" />
+                                 <material class="PlasteredBag" count="1" />
+                              </materials>
+                           </item>
+                           <item class="plastered_platform_black_3m_4m_4m" time="2">
+                              <materials>
+                                 <material class="Lumber" count="10" />
+                                 <material class="PlasteredBag" count="1" />
+                              </materials>
+                           </item>
+                           <item class="plastered_platform_black_3m_4m_4m_stairs" time="2">
+                              <materials>
+                                 <material class="Lumber" count="10" />
+                                 <material class="PlasteredBag" count="1" />
+                              </materials>
+                           </item>
+                           <item class="plastered_platform_blue_3m_4m_4m" time="2">
+                              <materials>
+                                 <material class="Lumber" count="10" />
+                                 <material class="PlasteredBag" count="1" />
+                              </materials>
+                           </item>
+                           <item class="plastered_platform_blue_3m_4m_4m_stairs" time="2">
+                              <materials>
+                                 <material class="Lumber" count="10" />
+                                 <material class="PlasteredBag" count="1" />
+                              </materials>
+                           </item>
+                           <item class="plastered_platform_green_3m_4m_4m" time="2">
+                              <materials>
+                                 <material class="Lumber" count="10" />
+                                 <material class="PlasteredBag" count="1" />
+                              </materials>
+                           </item>
+                           <item class="plastered_platform_green_3m_4m_4m_stairs" time="2">
+                              <materials>
+                                 <material class="Lumber" count="10" />
+                                 <material class="PlasteredBag" count="1" />
+                              </materials>
+                           </item>
+                           <item class="plastered_platform_purple_3m_4m_4m" time="2">
+                              <materials>
+                                 <material class="Lumber" count="10" />
+                                 <material class="PlasteredBag" count="1" />
+                              </materials>
+                           </item>
+                           <item class="plastered_platform_purple_3m_4m_4m_stairs" time="2">
+                              <materials>
+                                 <material class="Lumber" count="10" />
+                                 <material class="PlasteredBag" count="1" />
+                              </materials>
+                           </item>
+                           <item class="plastered_platform_red_3m_4m_4m" time="2">
+                              <materials>
+                                 <material class="Lumber" count="10" />
+                                 <material class="PlasteredBag" count="1" />
+                              </materials>
+                           </item>
+                           <item class="plastered_platform_red_3m_4m_4m_stairs" time="2">
+                              <materials>
+                                 <material class="Lumber" count="10" />
+                                 <material class="PlasteredBag" count="1" />
+                              </materials>
+                           </item>  
+                           <item class="plastered_platform_red_3m_8m_8m" time="2">
+                              <materials>
+                                 <material class="Lumber" count="10" />
+                                 <material class="PlasteredBag" count="2" />
+                              </materials>
+                           </item>  
+                           <item class="plastered_platform_purple_3m_8m_8m" time="2">
+                              <materials>
+                                 <material class="Lumber" count="10" />
+                                 <material class="PlasteredBag" count="2" />
+                              </materials>
+                           </item>  
+                           <item class="plastered_platform_green_3m_8m_8m" time="2">
+                              <materials>
+                                 <material class="Lumber" count="10" />
+                                 <material class="PlasteredBag" count="2" />
+                              </materials>
+                           </item>  
+                           <item class="plastered_platform_blue_3m_8m_8m" time="2">
+                              <materials>
+                                 <material class="Lumber" count="10" />
+                                 <material class="PlasteredBag" count="2" />
+                              </materials>
+                           </item>  
+                           <item class="plastered_platform_black_3m_8m_8m" time="2">
+                              <materials>
+                                 <material class="Lumber" count="10" />
+                                 <material class="PlasteredBag" count="2" />
+                              </materials>
+                           </item>  
+                           <item class="plastered_platform_3m_8m_8m" time="2">
+                              <materials>
+                                 <material class="Lumber" count="10" />
+                                 <material class="PlasteredBag" count="2" />
+                              </materials>
+                           </item>  
+                        </items>
+                     </type> 
+                     <type name="Crenelation">
+                        <items>                          
+                           <item class="plastered_crenelation" time="2">
+                              <materials>
+                                 <material class="Lumber" count="10" />
+                                 <material class="PlasteredBag" count="1" />
+                              </materials>
+                           </item>
+                           <item class="plastered_crenelation_black" time="2">
+                              <materials>
+                                 <material class="Lumber" count="10" />
+                                 <material class="PlasteredBag" count="1" />
+                              </materials>
+                           </item>
+                            <item class="plastered_crenelation_blue" time="2">
+                              <materials>
+                                 <material class="Lumber" count="10" />
+                                 <material class="PlasteredBag" count="1" />
+                              </materials>
+                           </item>
+                           <item class="plastered_crenelation_green" time="2">
+                              <materials>
+                                 <material class="Lumber" count="10" />
+                                 <material class="PlasteredBag" count="1" />
+                              </materials>
+                           </item>
+                           <item class="plastered_crenelation_purple" time="2">
+                              <materials>
+                                 <material class="Lumber" count="10" />
+                                 <material class="PlasteredBag" count="1" />
+                              </materials>
+                           </item>
+                           <item class="plastered_crenelation_red" time="2">
+                              <materials>
+                                 <material class="Lumber" count="10" />
+                                 <material class="PlasteredBag" count="1" />
+                              </materials>
+                           </item>
+                        </items>
+                     </type> 
+                   <type name="Columns">
+                        <items>                          
+                           <item class="plastered_column_3m" time="2">
+                              <materials>
+                                 <material class="Lumber" count="10" />
+                                 <material class="PlasteredBag" count="1" />
+                              </materials>
+                           </item>
+                           <item class="plastered_column_3m_black" time="2">
+                              <materials>
+                                 <material class="Lumber" count="10" />
+                                 <material class="PlasteredBag" count="1" />
+                              </materials>
+                           </item>
+                           <item class="plastered_column_3m_blue" time="2">
+                              <materials>
+                                 <material class="Lumber" count="10" />
+                                 <material class="PlasteredBag" count="1" />
+                              </materials>
+                           </item>
+                           <item class="plastered_column_3m_green" time="2">
+                              <materials>
+                                 <material class="Lumber" count="10" />
+                                 <material class="PlasteredBag" count="1" />
+                              </materials>
+                           </item>
+                           <item class="plastered_column_3m_purple" time="2">
+                              <materials>
+                                 <material class="Lumber" count="10" />
+                                 <material class="PlasteredBag" count="1" />
+                              </materials>
+                           </item>
+                           <item class="plastered_column_3m_red" time="2">
+                              <materials>
+                                 <material class="Lumber" count="10" />
+                                 <material class="PlasteredBag" count="1" />
+                              </materials>
+                           </item>
+                        </items>
+                     </type> 
+                  </types>
+               </subcat>            
+            </subcats>
+        </cat>
+      </cats>
+   </guide>
+</recipes>

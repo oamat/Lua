@@ -1,0 +1,117 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<recipes>
+   <guide name="guide_titanium" id="55">
+      <cats>
+        <cat name="Base Building">
+            <subcats>
+               <subcat name="Titanium">
+                  <types>
+                     <type name="Walls"> 
+                        <items>               
+                           <item class="titanium_wall_3m_2m" time="2">
+                              <materials>
+                                 <material class="SheetMetal" count="10" />
+                                 <material class="ScrapMetal" count="10" />
+                                 <material class="TitaniumBag" count="1" />
+                              </materials>
+                           </item>
+                           <item class="titanium_wall_3m_2m_window" time="2">
+                              <materials>
+                                 <material class="SheetMetal" count="10" />
+                                 <material class="ScrapMetal" count="10" />
+                                 <material class="TitaniumBag" count="1" />
+                              </materials>
+                           </item>
+                           <item class="titanium_wall_3m_4m" time="2">
+                              <materials>                                                                  		
+											<material class="SheetMetal" count="10" />
+                                 <material class="ScrapMetal" count="10" />
+                                 <material class="TitaniumBag" count="1" />
+                              </materials>
+                           </item>
+                           <item class="titanium_wall_3m_4m_door" time="2">
+                              <materials>
+                                 <material class="SheetMetal" count="10" />
+                                 <material class="ScrapMetal" count="10" />
+                                 <material class="TitaniumBag" count="1" />
+                              </materials>
+                           </item>
+                           <item class="titanium_wall_3m_4m_window" time="2">
+                              <materials>
+                                 <material class="SheetMetal" count="10" />
+                                 <material class="ScrapMetal" count="10" />
+                                 <material class="TitaniumBag" count="1" />
+                              </materials>
+                           </item>
+                        </items>
+                     </type>    
+                     <type name="Ramps">
+                        <items>                             
+                        <item class="titanium_angled_roof_3x4x4" time="2">
+                              <materials>
+                                 <material class="SheetMetal" count="10" />
+                                 <material class="ScrapMetal" count="10" />
+                                 <material class="TitaniumBag" count="1" />
+                              </materials>
+                           </item>
+                        </items>
+                     </type>   
+                     <type name="Platforms">
+                        <items>            
+                           <item class="titanium_platform_3m_4m_4m" time="2">
+                              <materials>
+                                 <material class="SheetMetal" count="10" />
+                                 <material class="ScrapMetal" count="10" />
+                                 <material class="TitaniumBag" count="1" />
+                              </materials>
+                           </item>
+                           <item class="titanium_platform_3m_4m_4m_stairs" time="2">
+                              <materials>
+                                 <material class="SheetMetal" count="10" />
+                                 <material class="ScrapMetal" count="10" />
+                                 <material class="TitaniumBag" count="1" />
+                              </materials>
+                           </item>
+                           <item class="titanium_platform_3m_8m_8m" time="2">
+                              <materials>
+                                 <material class="SheetMetal" count="10" />
+                                 <material class="ScrapMetal" count="10" />
+                                 <material class="TitaniumBag" count="2" />
+                              </materials>
+                           </item>
+                        </items>
+                     </type> 
+                     <type name="Doors - Other">
+                        <items>   
+                           <item class="door_titanium" time="5">
+										<materials>
+											<material class="ScrapMetal" count="50" />
+											<material class="SheetMetal" count="50" />
+                                 <material class="Nails" count="50" />
+											<material class="TitaniumBag" count="2" />                                                                  
+                                 <material class="Amalgaduino" count="2"/>
+										</materials>
+                         	</item>
+                           <item class="titanium_crenelation" time="5">
+										<materials>
+										   <material class="SheetMetal" count="10" />
+                                 <material class="ScrapMetal" count="10" />
+                                 <material class="TitaniumBag" count="1" />
+										</materials>
+                         	</item>
+                           <item class="titanium_column_3m" time="5">
+										<materials>
+										   <material class="SheetMetal" count="10" />
+                                 <material class="ScrapMetal" count="10" />
+                                 <material class="TitaniumBag" count="1" />
+										</materials>
+                         	</item>
+                        </items>
+                     </type>                                    
+                  </types>
+               </subcat>            
+            </subcats>
+        </cat>
+      </cats>
+   </guide>
+</recipes>

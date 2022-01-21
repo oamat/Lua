@@ -1,0 +1,12 @@
+<skin name="sedan_police_default">
+
+	<params>
+		<param name="display_name" value="Default Skin"/>
+		<param name="description" value="Default Skin"/>
+		<param name="material" value="Objects/vehicles/SPORT VEHICLES/Porsche_Panamera/Porsche_Panamera"/>
+	</params>
+
+	<items>
+		<item name="sedan_police"/>
+	</items>
+</skin>

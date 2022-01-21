@@ -1,0 +1,10 @@
+<skin name="Quadbike_Camo6">
+  <params>
+    <param name="display_name" value="Quadbike Camo Skin" />
+    <param name="description" value="Camo skin for the Quadbike" />
+    <param name="material" value="Objects/vehicles/quadbike/quadbike_camo6" />
+  </params>
+  <items>
+    <item name="quadbike" />
+  </items>
+</skin>

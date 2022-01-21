@@ -1,0 +1,10 @@
+<skin name="dirtbike_yellow">
+  <params>
+    <param name="display_name" value="Bad Boy Buggy Yellow Skin" />
+    <param name="description" value="Yellow skin for the Bad Boy Buggy" />
+    <param name="material" value="objects/vehicles/Bad boy buggy/bad_boy_buggy_yellow" />
+  </params>
+  <items>
+    <item name="dirtbike" />
+  </items>
+</skin>

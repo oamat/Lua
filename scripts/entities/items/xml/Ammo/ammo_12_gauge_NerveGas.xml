@@ -1,0 +1,79 @@
+<ammo name="ammo_12_gauge_NerveGas" class="SmokeGrenade">
+  <geometry />
+  <flags>
+    <param name="clientonly" value="1" />
+    <param name="reusable" value="1" />
+  </flags>
+  <whiz>
+    <param name="sound" value="Play_bullet_whiz" />
+    <param name="distance" value="10.0" />
+  </whiz>
+  <ricochet>
+    <param name="sound" value="Play_bullet_ricochet" />
+  </ricochet>
+  <physics type="particle">
+    <param name="mass" value="0.1" />
+    <param name="speed" value="148" />
+    <param name="traceable" value="1" />
+    <param name="radius" value="0.0089" />
+    <param name="air_resistance" value="1.4133" />
+    <param name="water_resistance" value="10.0" />
+    <param name="gravity" value="0, 0, -9.81" />
+    <param name="water_gravity" value="0, 0, -9.81" />
+    <param name="material" value="mat_metal_thin" />
+    <param name="single_contact" value="1" />
+    <param name="pierceability" value="4" />
+    <pierceabilityLevels>
+      <param name="level3" value="25" />
+      <param name="level2" value="50" />
+      <param name="level1" value="90" />
+      <param name="maxPenetrationThickness" value="0.15" />
+    </pierceabilityLevels>
+  </physics>
+  <explosion>
+    <param name="pressure" value="100" />
+    <param name="torpidity" value="5" />
+    <param name="stamina" value="5" />
+    <param name="min_radius" value="2" />
+    <param name="max_radius" value="5" />
+    <param name="min_phys_radius" value="2" />
+    <param name="max_phys_radius" value="5" />
+    <param name="sound_radius" value="75" />
+    <param name="hole_size" value="2" />
+    <param name="radialblurdist" value="15" />
+    <param name="type" value="frag" />
+  </explosion>
+  <params>
+    <param name="lifetime" value="50.0" />
+    <param name="showtime" value="0.05" />
+    <param name="quietRemoval" value="1" />
+    <param name="aitype" value="grenade" />
+    <param name="hit_type" value="ammo_12_gauge_slug" />
+    <param name="damage" value="25.0" />
+    <param name="torpidity" value="10.0" />
+    <param name="stamina" value="10.0" />
+    <param name="knocks_target" value="0" />
+    <param name="min_damage_for_knockDown" value="0" />
+    <param name="min_damage_for_knockDown_leg" value="0" />
+    <param name="bleed_percent" value="100" />
+    <param name="hitRecoil" value="Level4_mp" />
+  </params>
+  <grenade>
+    <param name="color" value="5" />
+    <param name="damagePerSecond" value="23" />
+    <param name="torpidityPerSecond" value="10" />
+    <param name="staminaPerSecond" value="5" />
+    <param name="onImpactLifetime" value="0" />
+    <param name="detonateOnImpact" value="1" />
+    <param name="detonateOnActorImpact" value="1" />
+    <param name="allowDetonationDelay" value="0" />
+  </grenade>
+  <trail>
+    <param name="effect" value="weapon_fx.grenade.smoke_trail" />
+    <param name="prime" value="false" />
+  </trail>
+  <trailUnderWater>
+    <param name="effect" value="water.bubbles.bullets" />
+    <param name="scale" value="3.0" />
+  </trailUnderWater>
+</ammo>

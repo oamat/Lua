@@ -1,0 +1,10 @@
+<skin name="placeholder2_skulls_black">
+  <params>
+    <param name="display_name" value="ravager skulls black Skin" />
+    <param name="description" value="ravager skulls black Skin" />
+    <param name="material" value="Objects/endtimestories/vehicles/ravager_skulls_black" />
+  </params>
+  <items>
+    <item name="placeholder2" />
+  </items>
+</skin>

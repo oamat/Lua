@@ -1,0 +1,273 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<recipes>
+   <guide name="default" id="0">
+      <cats>
+         <cat name="Base Building">
+            <subcats>
+               <subcat name="Decorations">
+                  <types>
+                     <type name="Lights">
+                        <items>
+                           <item class="camping_lantern_red" time="4">
+                              <materials>
+                                 <material class="PaintCan_Red" count="1" />
+                                 <material class="camping_lantern" />
+                              </materials>
+                           </item>
+                           <item class="camping_lantern_blue" time="4">
+                              <materials>
+                                 <material class="PaintCan_Blue" count="1" />
+                                 <material class="camping_lantern" />
+                              </materials>
+                           </item>
+                           <item class="camping_lantern_aqua" time="4">
+                              <materials>
+                                 <material class="PaintCan_Aqua" count="1" />
+                                 <material class="camping_lantern" />
+                              </materials>
+                           </item>
+                           <item class="camping_lantern_green" time="4">
+                              <materials>
+                                 <material class="PaintCan_Green" count="1" />
+                                 <material class="camping_lantern" />
+                              </materials>
+                           </item>
+                           <item class="camping_lantern_orange" time="4">
+                              <materials>
+                                 <material class="PaintCan_Orange" count="1" />
+                                 <material class="camping_lantern" />
+                              </materials>
+                           </item>
+                           <item class="camping_lantern_pink" time="4">
+                              <materials>
+                                 <material class="PaintCan_Pink" count="1" />
+                                 <material class="camping_lantern" />
+                              </materials>
+                           </item>
+                           <item class="camping_lantern_purple" time="4">
+                              <materials>
+                                 <material class="PaintCan_Purple" count="1" />
+                                 <material class="camping_lantern" />
+                              </materials>
+                           </item>
+                           <item class="camping_lantern_yellow" time="4">
+                              <materials>
+                                 <material class="PaintCan_Yellow" count="1" />
+                                 <material class="camping_lantern" />
+                              </materials>
+                           </item>
+                           <item class="wall_lantern_red" time="4">
+                              <materials>
+                                 <material class="camping_lantern_red" />
+                                 <material class="Lumber" count="2" />
+                              </materials>
+                           </item>
+                           <item class="wall_lantern_blue" time="4">
+                              <materials>
+                                 <material class="camping_lantern_blue" />
+                                 <material class="Lumber" count="2" />
+                              </materials>
+                           </item>
+                           <item class="wall_lantern_aqua" time="4">
+                              <materials>
+                                 <material class="camping_lantern_aqua" />
+                                 <material class="Lumber" count="2" />
+                              </materials>
+                           </item>
+                           <item class="wall_lantern_green" time="4">
+                              <materials>
+                                 <material class="camping_lantern_green" />
+                                 <material class="Lumber" count="2" />
+                              </materials>
+                           </item>
+                           <item class="wall_lantern_orange" time="4">
+                              <materials>
+                                 <material class="camping_lantern_orange" />
+                                 <material class="Lumber" count="2" />
+                              </materials>
+                           </item>
+                           <item class="wall_lantern_pink" time="4">
+                              <materials>
+                                 <material class="camping_lantern_pink" />
+                                 <material class="Lumber" count="2" />
+                              </materials>
+                           </item>
+                           <item class="wall_lantern_purple" time="4">
+                              <materials>
+                                 <material class="camping_lantern_purple" />
+                                 <material class="Lumber" count="2" />
+                              </materials>
+                           </item>
+                           <item class="wall_lantern_yellow" time="4">
+                              <materials>
+                                 <material class="camping_lantern_yellow" />
+                                 <material class="Lumber" count="2" />
+                              </materials>
+                           </item>
+                        </items>
+                     </type>
+                     <type name="Furniture">
+                        <items>
+                           <item class="large_shipping_crate_packed" time="1">
+										<materials>
+                                 <material class="Lumber" count="5" />
+											<material class="Rope" count="1" />
+											<material class="Nails" count="1" />
+										</materials>
+									</item>
+                           <item class="porkchop_bird_bath" time="2">
+                                  <materials>
+                                       <material class="Rocks" count="32" />
+                                  </materials>
+                           </item>
+                           <item class="porkchop_folding_table_large" time="3">
+                              <materials>
+                                 <material class="Lumber" count="5" />
+                                 <material class="DuctTape" />
+                              </materials>
+                           </item>
+                           <item class="porkchop_coffeetable" time="3">
+                              <materials>
+                                 <material class="Lumber" count="5" />
+                              </materials>
+                           </item>
+                           <item class="porkchop_couch_bunker" time="3">
+                              <materials>
+                                 <material class="Lumber" count="5" />
+                                 <material class="RK_Leather" />
+                              </materials>
+                           </item>
+                           <item class="porkchop_couch" time="3">
+                              <materials>
+                                 <material class="Lumber" count="5" />
+                                 <material class="RK_Leather" />
+                              </materials>
+                           </item>
+                           <item class="porkchop_chair" time="3">
+                              <materials>
+                                 <material class="Lumber" count="5" />
+                              </materials>
+                           </item>
+                           <item class="porkchop_chest_of_drawers_old_crate_packed" time="3">
+                              <materials>
+                                 <material class="Lumber" count="5" />
+                              </materials>
+                           </item>
+                           <item class="porkchop_classic_chair_old" time="3">
+                              <materials>
+                                 <material class="Lumber" count="5" />
+                              </materials>
+                           </item>
+                           <item class="porkchop_classic_table_old" time="3">
+                              <materials>
+                                 <material class="Lumber" count="5" />
+                              </materials>
+                           </item>
+                           <item class="porkchop_elegant_chair_2_old" time="3">
+                              <materials>
+                                 <material class="Lumber" count="5" />
+                                 <material class="RK_Leather" />
+                              </materials>
+                           </item>
+                           <item class="porkchop_elegant_chair_2_ottoman_old" time="3">
+                              <materials>
+                                 <material class="Lumber" count="5" />
+                                 <material class="RK_Leather" />
+                              </materials>
+                           </item>
+                           <item class="porkchop_elegant_chair_old" time="3">
+                              <materials>
+                                 <material class="Lumber" count="5" />
+                                 <material class="RK_Leather" />
+                              </materials>
+                           </item>
+                           <item class="porkchop_elegant_chair_ottoman_old" time="3">
+                              <materials>
+                                 <material class="Lumber" count="5" />
+                                 <material class="RK_Leather" />
+                              </materials>
+                           </item>
+                           <item class="porkchop_leather_armchair_old" time="3">
+                              <materials>
+                                 <material class="Lumber" count="5" />
+                                 <material class="RK_Leather" />
+                              </materials>
+                           </item>
+                           <item class="porkchop_leather_chair_old" time="3">
+                              <materials>
+                                 <material class="Lumber" count="5" />
+                                 <material class="RK_Leather" />
+                              </materials>
+                           </item>
+                           <item class="porkchop_leather_sofa_2_old" time="3">
+                              <materials>
+                                 <material class="Lumber" count="5" />
+                                 <material class="RK_Leather" />
+                              </materials>
+                           </item>
+                           <item class="porkchop_leather_sofa_old" time="3">
+                              <materials>
+                                 <material class="Lumber" count="5" />
+                                 <material class="RK_Leather" />
+                              </materials>
+                           </item>
+                           <item class="porkchop_modern_armchair_old" time="3">
+                              <materials>
+                                 <material class="Lumber" count="5" />
+                                 <material class="RK_Cloth" />
+                              </materials>
+                           </item>
+                           <item class="porkchop_modern_sofa_old" time="3">
+                              <materials>
+                                 <material class="Lumber" count="5" />
+                                 <material class="RK_Cloth" />
+                              </materials>
+                           </item>
+                           <item class="porkchop_office_leather_chair_old" time="3">
+                              <materials>
+                                 <material class="Lumber" count="5" />
+                                 <material class="RK_Leather" />
+                              </materials>
+                           </item>
+                           <item class="porkchop_round_table_old" time="3">
+                              <materials>
+                                 <material class="Lumber" count="5" />
+                              </materials>
+                           </item>
+                           <item class="porkchop_smallcouch" time="3">
+                              <materials>
+                                 <material class="Lumber" count="5" />
+                                 <material class="RK_Leather" />
+                              </materials>
+                           </item>
+                           <item class="porkchop_wood_table_a" time="3">
+                              <materials>
+                                 <material class="Lumber" count="5" />
+                              </materials>
+                           </item>
+                           <item class="porkchop_guestchair" time="3">
+                              <materials>
+                                 <material class="Lumber" count="5" />
+                                 <material class="RK_Leather" />
+                              </materials>
+                           </item>
+                           <item class="porkchop_armchair" time="3">
+                              <materials>
+                                 <material class="Lumber" count="5" />
+                                 <material class="RK_Leather" />
+                              </materials>
+                           </item>
+                           <item class="porkchop_table_2" time="3">
+                              <materials>
+                                 <material class="Lumber" count="5" />
+                              </materials>
+                           </item>
+                        </items>
+                     </type>
+                  </types>
+               </subcat>              
+            </subcats>
+         </cat>
+      </cats>
+   </guide>
+</recipes>

@@ -1,0 +1,12 @@
+<skin name="towcar_empty">
+
+	<params>
+		<param name="display_name" value="Thrulander White Skin"/>
+		<param name="description" value="Thrulander White skin"/>
+	</params>
+
+	<items>
+		<item name="towcar"/>	
+	</items>
+
+</skin>

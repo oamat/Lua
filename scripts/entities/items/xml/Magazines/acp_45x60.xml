@@ -1,0 +1,49 @@
+<item name="acp_45x60" class="Magazine" category="any">
+
+	<params>
+		<param name="selectable" value="0"/>
+		<param name="mass" value="0.325"/> <!-- 15 grams per bullet /2 + 100 grams for magazine -->
+		<param name="display_name" value="LastShoot .45 AUM-90"/>
+		<param name="description" value="90 Round .45 AUM"/>
+		<param name="tag" value="acp_45x60"/>
+		<param name="vendor_cost" value="100"/>
+	</params>
+
+	<magazine>
+		<!-- must only be one magazine element in this section-->
+		<magazine capacity="90"/> <!-- max number of rounds this magazine can hold -->
+
+		<!-- Ammo block -->
+		<!-- A magazine can support one or more types of ammo. For every ammo type, we add a <ammo ... /> line -->
+		<!-- We have to specify at least the ammo name (must be a registered projectile in the weapon system)  -->
+		<!-- amount indicates that the magazine will give the player that many rounds when initially spawned -->
+		<ammos>
+			<ammo name="ammo_acp_45" amount="90" pile="Pile_45ACP"/>
+			<!-- ** right now only the first ammo item is used ** -->
+			<!-- rounds in the magazine when you first pick it up by default -->
+			<!-- insert other ammo types that can be used in this magazine as well -->
+		</ammos>
+		<param name="sound_load" value="Play_magazine_load"/>
+		<param name="sound_unload" value="Play_magazine_unload"/>
+	</magazine>
+
+	<geometry>
+		<onground name="Objects/magazines/acp_45_UMP/acp_45_ump.cgf"/> <!-- We only display onground model. TP model controlled in Mannequin -->
+	</geometry>
+
+	<usable>
+        <param name="title" value="Salvage to Sheet Metal"/>
+        <param name="action" value="craft"/>
+        <param name="param" value="SheetMetal"/>
+        <param name="soundUsed" value=""/>
+    </usable>
+
+	<storage>
+		<locations>
+			<location category="any"/>
+			<location category="acp_45x30_mag"/>
+		</locations>
+	</storage>
+
+	
+</item>

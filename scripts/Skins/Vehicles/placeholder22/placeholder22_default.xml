@@ -1,0 +1,12 @@
+<skin name="placeholder22_default">
+
+	<params>
+		<param name="display_name" value="Default Skin"/>
+		<param name="description" value="Default Skin"/>
+		<param name="material" value="Objects/vehicles/A_R_M_440/a_r_m_440"/>
+	</params>
+
+	<items>
+		<item name="placeholder22"/>
+	</items>
+</skin>

@@ -1,0 +1,34 @@
+<item name="Pile_44M" class="Magazine" category="any">
+  <params>
+    <param name="selectable" value="0" />
+    <param name="mass" value="0.0" />
+    <param name="display_name" value=".44 Rounds" />
+    <param name="description" value=".44 Magnum Ammo. Looks Painful." />
+    <param name="is_ammo_pile" value="1" />
+    <param name="hide_as_attachment" value="1" />
+    <param name="vendor_cost" value="80"/>
+  </params>
+  <magazine>
+    <magazine capacity="30" />
+    <ammos>
+      <ammo name="ammo_44M" amount="1" />
+    </ammos>
+    <param name="sound_split" value="Play_rounds_split" />
+    <param name="sound_combine" value="Play_rounds_split" />
+  </magazine>
+  <geometry>
+    <thirdperson name="Objects/ammo/357_Colt/pile_357.cgf" />
+  </geometry>
+  <usable>
+    <param name="title" value="@ConvertToGunpowder" />
+    <param name="action" value="convert" />
+    <param name="param" value="Gunpowder" />
+    <param name="soundUsed" value="" />
+  </usable>
+  <storage>
+    <locations>
+      <location category="any" />
+      <location category="44M_mag" />
+    </locations>
+  </storage>
+</item>

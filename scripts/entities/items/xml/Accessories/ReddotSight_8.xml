@@ -1,0 +1,31 @@
+<item name="ReddotSight_8" class="Item" category="any">
+	<params>
+		<param name="display_name" value="Camo Reddot Sight"/>
+		<param name="description" value="@ReddotSightDescription"/>
+		<param name="selectable" value="0"/>
+		<param name="mass" value="0.25"/>
+		<param name="stack_size" value="5" />
+		<param name="hide_as_attachment" value="0"/>
+		<param name="dontRotateOnSpawn" value="1"/>
+		<param name="scopeAttachment" value="0"/>
+		<param name="vendor_cost" value="130"/>
+	</params>
+
+	<geometry>
+		<thirdperson name="objects/weapons/attachments/reddot_sight/reddot_sight.cgf" material="objects/weapons/attachments/last_scopes/reddot_sight_8.mtl"/>
+	</geometry>
+
+	<usable>
+        <param name="title" value="Salvage to Sheet Metal"/>
+        <param name="action" value="craft"/>
+        <param name="param" value="SheetMetal"/>
+        <param name="soundUsed" value=""/>
+    </usable>
+
+	<storage>
+		<locations>
+			<location category="any"/>
+			<location category="scope_rifle"/>
+		</locations>
+	</storage>
+</item>

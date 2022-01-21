@@ -1,0 +1,13 @@
+﻿<item name="ufo_tow" class="BaseBuildingItem" category="any"> 
+  <params>
+    <param name="selectable" value="0" />
+    <param name="mass" value="-1" />   
+    <param name="display_name" value="Mini UFO" />
+    <param name="description" value="Mini UFO" />    
+  </params>
+  
+  <geometry>
+    <thirdperson name="Objects/endtimestories/misc/ufo_tow.cgf" Material="Objects/props/ufo_mini/ufo.mtl" scale="0.3" />
+  </geometry>
+
+</item>

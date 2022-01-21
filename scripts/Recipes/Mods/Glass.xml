@@ -1,0 +1,235 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<recipes>
+	<guide name="default" id="0">
+		<cats>
+			<cat name="Base Building">
+				<subcats>
+					<subcat name="Glass Explosives">
+						<types>
+							<type name="Walls">
+								<items>
+									<item class="glass_doorway_3m_2m" time="3">
+										<materials>
+											<material class="ScrapMetal" count="10" />
+											<material class="SheetMetal" count="10" />
+											<material class="Nails" count="10" />
+											<material class="Gunpowder" count="10" />
+											<material class="sandbag_crafted_single" count="1" />											
+										</materials>
+									</item>
+									<item class="glass_doorway_3m_4m" time="3">
+										<materials>
+											<material class="ScrapMetal" count="10" />
+											<material class="SheetMetal" count="15" />
+											<material class="Nails" count="10" />
+											<material class="Gunpowder" count="10" />
+											<material class="sandbag_crafted_single" count="1" />	
+										</materials>
+									</item>	
+									<item class="glass_doorway_3m_4m_side" time="3">
+										<materials>
+											<material class="ScrapMetal" count="10" />
+											<material class="SheetMetal" count="15" />
+											<material class="Nails" count="10" />
+											<material class="Gunpowder" count="10" />
+											<material class="sandbag_crafted_single" count="1" />	
+										</materials>
+									</item>	
+									<item class="glass_doorway_3m_4m_v2" time="3">
+										<materials>
+											<material class="ScrapMetal" count="10" />
+											<material class="SheetMetal" count="15" />
+											<material class="Nails" count="10" />
+											<material class="Gunpowder" count="10" />
+											<material class="sandbag_crafted_single" count="1" />	
+										</materials>
+									</item>	
+									<item class="glass_doorway_3m_8m" time="3">
+										<materials>
+											<material class="ScrapMetal" count="10" />
+											<material class="SheetMetal" count="18" />
+											<material class="Nails" count="10" />
+											<material class="Gunpowder" count="10" />
+											<material class="sandbag_crafted_single" count="1" />	
+										</materials>
+									</item>	
+									<item class="glass_wall_1_3m_2m" time="3">
+										<materials>
+											<material class="ScrapMetal" count="10" />
+											<material class="SheetMetal" count="10" />
+											<material class="Nails" count="10" />
+											<material class="Gunpowder" count="10" />
+											<material class="sandbag_crafted_single" count="1" />	
+										</materials>
+									</item>	
+									<item class="glass_wall_1_3m_4m" time="3">
+										<materials>
+											<material class="ScrapMetal" count="10" />
+											<material class="SheetMetal" count="15" />
+											<material class="Nails" count="10" />
+											<material class="Gunpowder" count="10" />
+											<material class="sandbag_crafted_single" count="1" />	
+										</materials>
+									</item>	
+									<item class="glass_wall_1_3m_8m" time="3">
+										<materials>
+											<material class="ScrapMetal" count="10" />
+											<material class="SheetMetal" count="18" />
+											<material class="Nails" count="10" />
+											<material class="Gunpowder" count="10" />
+											<material class="sandbag_crafted_single" count="1" />	
+										</materials>
+									</item>	
+									<item class="glass_wall_1_3m_12m" time="3">
+										<materials>
+											<material class="ScrapMetal" count="18" />
+											<material class="SheetMetal" count="18" />
+											<material class="Nails" count="18" />
+											<material class="Gunpowder" count="18" />
+											<material class="sandbag_crafted_single" count="2" />	
+										</materials>
+									</item>	
+									<item class="glass_wall_1_3m_16m" time="3">
+										<materials>
+											<material class="ScrapMetal" count="20" />
+											<material class="SheetMetal" count="20" />
+											<material class="Nails" count="20" />
+											<material class="Gunpowder" count="20" />
+											<material class="sandbag_crafted_single" count="2" />		
+										</materials>
+									</item>	
+									<item class="glass_wall_2m_2m" time="3">
+										<materials>
+											<material class="ScrapMetal" count="10" />
+											<material class="SheetMetal" count="10" />
+											<material class="Nails" count="10" />
+											<material class="Gunpowder" count="10" />
+											<material class="sandbag_crafted_single" count="1" />	
+										</materials>
+									</item>	
+									<item class="glass_wall_2m_4m" time="3">
+										<materials>
+											<material class="ScrapMetal" count="10" />
+											<material class="SheetMetal" count="15" />
+											<material class="Nails" count="10" />
+											<material class="Gunpowder" count="10" />
+											<material class="sandbag_crafted_single" count="1" />	
+										</materials>
+									</item>	
+									<item class="glass_wall_2m_8m" time="3">
+										<materials>
+											<material class="ScrapMetal" count="10" />
+											<material class="SheetMetal" count="18" />
+											<material class="Nails" count="10" />
+											<material class="Gunpowder" count="10" />
+											<material class="sandbag_crafted_single" count="1" />	
+										</materials>
+									</item>	
+									<item class="glass_wall_2m_12m" time="3">
+										<materials>
+											<material class="ScrapMetal" count="10" />
+											<material class="SheetMetal" count="12" />
+											<material class="Nails" count="10" />
+											<material class="Gunpowder" count="10" />
+											<material class="sandbag_crafted_single" count="1" />	
+										</materials>
+									</item>	
+									<item class="glass_wall_2m_16m" time="3">
+										<materials>
+											<material class="ScrapMetal" count="10" />
+											<material class="SheetMetal" count="16" />
+											<material class="Nails" count="10" />
+											<material class="Gunpowder" count="10" />
+											<material class="sandbag_crafted_single" count="1" />	
+										</materials>
+									</item>	
+									<item class="glass_wall_3m_2m" time="3">
+										<materials>
+											<material class="ScrapMetal" count="10" />
+											<material class="SheetMetal" count="10" />
+											<material class="Nails" count="10" />
+											<material class="Gunpowder" count="10" />
+											<material class="sandbag_crafted_single" count="1" />	
+										</materials>
+									</item>	
+									<item class="glass_wall_3m_4m" time="3">
+										<materials>
+											<material class="ScrapMetal" count="10" />
+											<material class="SheetMetal" count="15" />
+											<material class="Nails" count="10" />
+											<material class="Gunpowder" count="10" />
+											<material class="sandbag_crafted_single" count="1" />	
+										</materials>
+									</item>	
+									<item class="glass_wall_3m_8m" time="3">
+										<materials>
+											<material class="ScrapMetal" count="18" />
+											<material class="SheetMetal" count="18" />
+											<material class="Nails" count="18" />
+											<material class="Gunpowder" count="10" />
+											<material class="sandbag_crafted_single" count="1" />	
+										</materials>
+									</item>	
+									<item class="glass_wall_3m_12m" time="3">
+										<materials>
+											<material class="ScrapMetal" count="18" />
+											<material class="SheetMetal" count="18" />
+											<material class="Nails" count="18" />
+											<material class="Gunpowder" count="18" />
+											<material class="sandbag_crafted_single" count="2" />	
+										</materials>
+									</item>	
+									<item class="glass_wall_3m_16m" time="3">
+										<materials>
+											<material class="ScrapMetal" count="20" />
+											<material class="SheetMetal" count="20" />
+											<material class="Nails" count="20" />
+											<material class="Gunpowder" count="20" />
+											<material class="sandbag_crafted_single" count="2" />	
+										</materials>
+									</item>
+								</items>
+							</type>
+							<type name="Doors">
+								<items>	
+									<item class="glass_door_2m_1m" time="3">
+										<materials>
+											<material class="ScrapMetal" count="6" />
+											<material class="SheetMetal" count="10" />
+											<material class="Nails" count="10" />
+											<material class="Gunpowder" count="10" />
+											<material class="sandbag_crafted_single" count="1" />	
+										</materials>
+									</item>	
+									<item class="glass_door_3m_2m" time="3">
+										<materials>
+											<material class="ScrapMetal" count="10" />
+											<material class="SheetMetal" count="10" />
+											<material class="Nails" count="10" />
+											<material class="Gunpowder" count="10" />
+											<material class="sandbag_crafted_single" count="1" />	
+										</materials>
+									</item>
+								</items>
+							</type>
+							<type name="Windows">
+								<items>	
+									<item class="window" time="1">
+										<materials>
+											<material class="Lumber" count="18" />
+											<material class="ScrapMetal" count="1" />
+											<material class="SheetMetal" count="18" />
+											<material class="Gunpowder" count="10" />
+											<material class="sandbag_crafted_single" count="1" />	
+										</materials>
+									</item>
+							    </items>							
+							</type>
+						</types>
+					</subcat>
+			    </subcats>
+			</cat>
+		</cats>
+	</guide>
+</recipes>

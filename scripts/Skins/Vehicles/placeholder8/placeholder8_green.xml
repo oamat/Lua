@@ -1,0 +1,10 @@
+<skin name="placeholder8_green">
+  <params>
+    <param name="display_name" value="BMW Green Skin" />
+    <param name="description" value="Green skin for the BMW" />
+    <param name="material" value="objects/vehicles/BMW_M4_X/bmw_m4_green" />
+  </params>
+  <items>
+    <item name="placeholder8" />
+  </items>
+</skin>

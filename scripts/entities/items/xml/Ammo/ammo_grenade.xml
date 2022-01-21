@@ -1,0 +1,81 @@
+<ammo name="ammo_grenade" class="Grenade">
+	<geometry>
+		<firstperson name="objects/ammo/tranquilizer_dart/tranquilizer_dart.cgf" />
+	</geometry>
+
+	<flags>
+		<param name="clientonly" value="1" />
+		<param name="reusable" value="1" />
+	</flags>
+
+	<whiz>
+		<param name="sound" value="Play_bullet_whiz" />
+		<param name="distance" value="10.0" />
+	</whiz>
+
+	<ricochet>
+		<param name="sound" value="Play_bullet_ricochet" />
+	</ricochet>
+
+	<!-- No sonic boom - subsonic round -->
+
+	<physics type="particle">
+		<param name="mass" value="0.40" /> <!-- 40 gram lead weight + 20 for others -->
+		<param name="speed" value="80" /> <!-- 70 to 90m/s standard -->
+		<param name="radius" value="0.013" />
+		<param name="air_resistance" value="1.5" />
+		<param name="water_resistance" value="10.0" />
+		<param name="gravity" value="0, 0, -9.81" />
+		<param name="water_gravity" value="0, 0, -9.81" />
+		<param name="material" value="mat_metal_thin" />
+		<param name="single_contact" value="1" />
+		<param name="pierceability" value="7" /> <!-- No penetration -->
+		<pierceabilityLevels> <!-- Percentage of damage to take off. SurfacePierceability > 10 = 0 reduction -->
+			<param name="level3" value="25" />  <!-- SurfacePierceability < 10 -->
+			<param name="level2" value="50" />  <!-- SurfacePierceability < 7  -->
+			<param name="level1" value="75" /> <!-- SurfacePierceability < 4  -->
+			<param name="maxPenetrationThickness" value="0.05" /> <!-- Penetrates valid surface levels up to 1cm thick -->
+		</pierceabilityLevels>
+	</physics>
+	
+<explosion>
+		<param name="pressure" value="1000" />
+		<param name="torpidity" value="10" />
+		<param name="stamina" value="15" />
+		<param name="min_radius" value="3" />
+		<param name="max_radius" value="15" />
+		<param name="min_phys_radius" value="3" />
+		<param name="max_phys_radius" value="8" />
+		<param name="sound_radius" value="150" />
+		<param name="hole_size" value="5" />
+		<param name="terrain_hole_size" value="5" />
+		<param name="radialblurdist" value="35" />
+		<param name="type" value="frag" />
+	</explosion>
+
+	<params>
+		<param name="hit_type" value="C4Timed" />
+		<param name="torpidity" value="100.0" />
+		<param name="stamina" value="10.0" />
+		<param name="knocks_target" value="1"/>
+		<param name="min_damage_for_knockDown" value="50"/>
+		<param name="min_damage_for_knockDown_leg" value="90"/>
+		<param name="bleed_percent" value="1" />
+		<param name="lifetime" value="5.0" />
+		<param name="showtime" value="0.05" /> <!-- Time delay before projectile is rendered (so it doesn't clip through camera when shot). Decreased from 0.15 for slow moving visible projectile  -->
+		<param name="bulletType" value="1" />
+		<param name="hitRecoil" value="Level4_mp"/> <!-- Not used -->
+	</params>
+	
+	<grenade>
+		<param name="onImpactLifetime" value="0" /> <!-- Don't decrease time to detonate just because it hit a surface -->
+		<param name="detonateOnImpact" value="1" />
+		<param name="detonateOnActorImpact" value="1" />
+		<param name="allowDetonationDelay" value="0" />
+	</grenade>
+
+	<trailUnderWater>
+		<param name="effect" value="water.bubbles.bullets" />
+		<param name="scale" value="3.0" />
+	</trailUnderWater>
+</ammo>

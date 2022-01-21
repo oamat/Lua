@@ -1,0 +1,10 @@
+<skin name="DuneBuggy_Camo5">
+  <params>
+    <param name="display_name" value="Dune Buggy Camo Skin" />
+    <param name="description" value="Camo skin for the Dune Buggy" />
+    <param name="material" value="objects/vehicles/dune_buggy/dune_buggy_camo5" />
+  </params>
+  <items>
+    <item name="dune_buggy" />
+  </items>
+</skin>

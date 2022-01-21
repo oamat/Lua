@@ -1,0 +1,29 @@
+<item name="T1MicroLekka" class="Item" category="any">
+  <params>
+    <param name="display_name" value="G18C Red Dot Scope" />
+    <param name="description" value="Exclusive T1Micro Sight for Glock18C" />
+    <param name="selectable" value="0" />
+	  <param name="stack_size" value="5"/>
+    <param name="mass" value="0.25" />
+    <param name="hide_as_attachment" value="0" />
+    <param name="dontRotateOnSpawn" value="1" />
+    <param name="scopeAttachment" value="0" />
+  </params>
+  <geometry>
+    <thirdperson name="objects/weapons/attachments/reddot_scope/t1_micro.cgf" material="objects/lekkaG18/t1_microlekka" />
+  </geometry>
+  
+  	<usable>
+        <param name="title" value="Salvage to Sheet Metal"/>
+        <param name="action" value="convert"/>
+        <param name="param" value="SheetMetal"/>
+        <param name="soundUsed" value=""/>
+    </usable>
+  
+  <storage>
+    <locations>
+      <location category="any" />
+      <location category="scope_pistol" />
+    </locations>
+  </storage>
+</item>

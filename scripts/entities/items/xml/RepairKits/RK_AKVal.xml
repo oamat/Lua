@@ -1,0 +1,56 @@
+<item name="RK_AKVal" class="Item" category="any">
+
+	<params>
+		<param name="selectable" value="0"/>
+		<param name="itemClass" value="RK_AKVal"/>
+		<param name="mass" value="1.0"/>
+		<param name="healthMax" value="100.0"/>
+		<param name="damage_scale" value="0.25"/>
+		<param name="destroyWhenDegraded" value="1"/>		
+		<param name="display_name" value="@RK_AKVal"/>
+		<param name="description" value="@RK_AKValDescription"/>
+		<param name="vendor_cost" value="20"/>
+	</params>
+
+	<geometry>
+		<thirdperson name="Objects/equipment/repairkits/repair_kits.cgf" Material="Objects/equipment/repairkits/repair_kits_red"/>
+	</geometry>
+
+	<repair>
+		<item name="RK_AKVal" percentage="100"/>
+		<item name="AKVal" percentage="100"/>
+		<item name="VSS" percentage="100"/>
+		<item name="asval_camo_desert" percentage="100"/>
+				<item name="asval_camo_urban" percentage="100"/>
+				<item name="asval_camo_woodland" percentage="100"/>
+				<item name="asval_military_green" percentage="100"/>
+				<item name="asval_military_tan" percentage="100"/>
+				<item name="asval_painted_orange" percentage="100"/>
+				<item name="asval_painted_red" percentage="100"/>
+				<item name="asval_stripes_blue" percentage="100"/>
+				<item name="asval_tile_blue" percentage="100"/>
+				<item name="asval_zebra_green" percentage="100"/>
+				<item name="asval_zebra_red" percentage="100"/>
+	</repair>
+
+	<storage>
+		<locations>
+			<location category="any"/>
+		</locations>
+	</storage>
+
+	<steam>
+		<param name="tags" value="Category:RepairKit"/>
+		<param name="icon_url" value="http://miscreatedgame.com/shots/item_images/RK_AKVal_200.png?crc=71240500"/>
+		<param name="store_hidden" value="0"/>
+		<param name="amcoins" value="3"/>
+		<param name="tradable" value="0"/>
+		<param name="name_color" value="FF0000"/>
+		<param name="itemdefid" value="130049"/>
+		<param name="marketable" value="0"/>
+		<param name="store_tags" value="Category:RepairKit"/>
+		<param name="background_color" value="2A2A2A"/>
+		<param name="hidden" value="0"/>
+		<param name="icon_url_large" value="http://miscreatedgame.com/shots/item_images/RK_AKVal_2048.png?crc=71240500"/>
+	</steam>
+</item>

@@ -1,0 +1,12 @@
+<skin name="placeholder6_default">
+
+	<params>
+		<param name="display_name" value="Default Skin"/>
+		<param name="description" value="Default Skin"/>
+		<param name="material" value="objects/lekka/romeo/romeo"/>
+	</params>
+
+	<items>
+		<item name="placeholder6"/>
+	</items>
+</skin>

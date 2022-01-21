@@ -1,0 +1,12 @@
+<skin name="armored_truck_army_stealth">
+
+	<params>
+		<param name="display_name" value="Default Skin"/>
+		<param name="description" value="Default Skin"/>
+		<param name="material" value="objects/vehicles/abrams/m1a1_stealth"/>
+	</params>
+
+	<items>
+		<item name="armored_truck_army"/>
+	</items>
+</skin>

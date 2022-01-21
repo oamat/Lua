@@ -1,0 +1,123 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<recipes>
+   <guide name="default" id="0">
+      <cats>
+         <cat name="Base Building">
+            <subcats>            
+               <subcat name="Metal">
+                  <types>
+                     <type name="Gates">
+                        <items>
+                           <item class="metal_gate_lockable_6m_5_4m" time="5">
+                              <materials>
+                                 <material class="SheetMetal" count="8" />
+                                 <material class="ScrapMetal" count="24" />
+                              </materials>
+                           </item>
+                           <item class="metal_gatehouse_8m_8m" time="5">
+                              <materials>
+                                 <material class="SheetMetal" count="8" />
+                                 <material class="ScrapMetal" count="32" />
+                              </materials>
+                           </item>                         
+                           <item class="metal_door_lockable_1m_2m" time="5">
+                              <materials>
+                               	<material class="ScrapMetal" count="15" />
+											<material class="SheetMetal" count="15" />
+                              </materials>
+                           </item>
+                           <item class="metal_gatehouse_4m_8m" time="5">
+                              <materials>
+                                 <material class="SheetMetal" count="4" />
+                                 <material class="ScrapMetal" count="16" />
+                              </materials>
+                           </item>                                                      
+                           <item class="metal_gate_lockable_3m_5_4m" time="5">
+                              <materials>
+                                 <material class="SheetMetal" count="4" />
+                                 <material class="ScrapMetal" count="12" />
+                              </materials>
+                           </item>
+                        </items>
+                     </type>
+                     <type name="Walls">
+                        <items>
+                           <item class="metal_aframe_3m_4m" time="5">
+                              <materials>
+                                 <material class="SheetMetal" count="4" />
+                                 <material class="ScrapMetal" count="12" />
+                              </materials>
+                           </item>
+                             <item class="metal_wall_1_3m_2m" time="5">
+                              <materials>
+                                 <material class="SheetMetal" count="1" />
+                                 <material class="ScrapMetal" count="6" />
+                              </materials>
+                           </item>
+                           <item class="metal_wall_1_3m_4m" time="5">
+                              <materials>
+                                 <material class="SheetMetal" count="2" />
+                                 <material class="ScrapMetal" count="12" />
+                              </materials>
+                           </item>
+                           <item class="metal_wall_2m_2m" time="5">
+                              <materials>
+                                 <material class="SheetMetal" count="2" />
+                                 <material class="ScrapMetal" count="8" />
+                              </materials>
+                           </item>
+                           <item class="metal_wall_2m_4m" time="5">
+                              <materials>
+                                 <material class="SheetMetal" count="3" />
+                                 <material class="ScrapMetal" count="10" />
+                              </materials>
+                           </item>
+                           <item class="metal_wall_3m_2m" time="5">
+                              <materials>
+                                 <material class="SheetMetal" count="2" />
+                                 <material class="ScrapMetal" count="6" />
+                              </materials>
+                           </item>
+                           <item class="metal_wall_3m_4m" time="5">
+                              <materials>
+                                 <material class="SheetMetal" count="4" />
+                                 <material class="ScrapMetal" count="12" />
+                              </materials>
+                           </item>
+                           <item class="metal_wall_door_3m_4m" time="5">
+                              <materials>
+                                 <material class="SheetMetal" count="4" />
+                                 <material class="ScrapMetal" count="10" />
+                              </materials>
+                           </item>
+                           <item class="metal_wall_window_3m_2m" time="5">
+                              <materials>
+                                 <material class="SheetMetal" count="2" />
+                                 <material class="ScrapMetal" count="5" />
+                              </materials>
+                           </item>
+                           <item class="metal_wall_window_3m_4m" time="5">
+                              <materials>
+                                 <material class="SheetMetal" count="4" />
+                                 <material class="ScrapMetal" count="10" />
+                              </materials>
+                           </item>                                                
+                        </items>
+                     </type>
+                     <type name="Platforms">
+                        <items>
+                           <item class="metal_platform_3m_4m_4m" time="5">
+                              <materials>
+                                 <material class="SheetMetal" count="5" />
+                                 <material class="ScrapMetal" count="15" />
+                              </materials>
+                           </item>    
+                        </items>
+                     </type>                    
+                  </types>
+               </subcat>
+            </subcats>
+         </cat>
+      </cats>
+   </guide>
+</recipes>

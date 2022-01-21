@@ -1,0 +1,10 @@
+<skin name="FishingBoat_Camo5">
+  <params>
+    <param name="display_name" value="Fishing Boat Camo Skin" />
+    <param name="description" value="Camo skin for the Fishing Boat" />
+    <param name="material" value="objects/vehicles/fishing_boat/fishing_boat_camo5" />
+  </params>
+  <items>
+    <item name="fishing_boat" />
+  </items>
+</skin>

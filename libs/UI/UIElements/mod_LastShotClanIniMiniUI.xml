@@ -1,0 +1,14 @@
+<UIElements name="mod_LastShotClanIniMiniUI">
+  <UIElement name="mod_LastShotClanIniMiniUI" mouseevents="0" keyevents="0" cursor="0" controller_input="0" render_lockless="1">
+    <GFx file="LastShotGFX/LastShotClanIniMini.gfx" layer="1">
+      <Constraints>
+        <Align mode="dynamic" halign="bottom" valign="right" scale="0" max="0" />
+      </Constraints>
+    </GFx>
+    <functions />
+    <events />
+    <variables />
+    <Arrays />
+    <movieclips />
+  </UIElement>
+</UIElements>

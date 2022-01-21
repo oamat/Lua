@@ -1,0 +1,30 @@
+<item name="RK_Sledgehammer" class="Item" category="any">
+
+	<params>
+		<param name="selectable" value="0"/>
+		<param name="itemClass" value="RK_Sledgehammer"/>
+		<param name="mass" value="6.0"/>
+		<param name="healthMax" value="100.0"/>
+		<param name="damage_scale" value="0.25"/>
+		<param name="destroyWhenDegraded" value="1"/>		
+		<param name="display_name" value="@RK_Sledgehammer"/>
+		<param name="description" value="@RK_SledgehammerDescription"/>
+		<param name="vendor_cost" value="3500"/>
+	</params>
+
+	<geometry>
+		<thirdperson name="Objects/equipment/repairkits/repair_kits.cgf" Material="Objects/equipment/repairkits/repair_kits_green"/>
+	</geometry>
+
+	<repair>
+		<item name="RK_Sledgehammer" percentage="100"/>
+		<item name="Sledgehammer" percentage="100"/>
+	</repair>
+
+	<storage>
+		<locations>
+			<location category="any"/>
+		</locations>
+	</storage>
+
+</item>

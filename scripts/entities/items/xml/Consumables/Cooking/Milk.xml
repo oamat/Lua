@@ -1,0 +1,28 @@
+<item name="Milk" class="Consumable" category="any">
+
+	<params>
+		<param name="selectable" value="0"/>
+		<param name="mass" value="1.3"/>
+		<param name="display_name" value="@Milk"/>
+		<param name="description" value="@MilkDescription"/>
+	</params>
+
+	<geometry>
+		<thirdperson name="Objects/consumables/milk_carton/milk.cgf"/>
+	</geometry>
+
+	<consumable>
+	    <param name="type" value="2"/>
+	    <param name="consumePartial" value="1"/>
+		<param name="foodAmount" value="200"/> <!-- Calories -->
+		<param name="drinkAmount" value="1000"/>
+		<param name="soundConsumed" value="Play_container_drink"/>
+	</consumable>
+
+	<storage>
+		<locations>
+			<location category="any"/>
+		</locations>
+	</storage>
+
+</item>

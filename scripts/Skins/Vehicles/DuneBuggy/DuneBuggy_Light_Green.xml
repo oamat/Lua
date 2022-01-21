@@ -1,0 +1,10 @@
+<skin name="DuneBuggy_Light_Green">
+  <params>
+    <param name="display_name" value="Dune Buggy Light Green Skin" />
+    <param name="description" value="Light Green skin for the Dune Buggy" />
+    <param name="material" value="objects/vehicles/dune_buggy/dune_buggy_light_green" />
+  </params>
+  <items>
+    <item name="dune_buggy" />
+  </items>
+</skin>

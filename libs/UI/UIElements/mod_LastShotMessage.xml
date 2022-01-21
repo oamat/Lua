@@ -1,0 +1,18 @@
+<UIElements name="mod_LastShotMessageUI">
+  <UIElement name="mod_LastShotMessageUI" mouseevents="0" keyevents="0" cursor="0" controller_input="0" render_lockless="1">
+    <GFx file="LastShotGFX/LastShotMessage.gfx" layer="2">
+      <Constraints>
+        <Align mode="dynamic" valign="center" halign="center" scale="1" max="0" />
+      </Constraints>
+    </GFx>
+    <functions>      
+      <function name="ActionScriptFunction" funcname="ActionScriptFunction">  
+        <param name="msg" desc="" type="String" />
+      </function>
+    </functions>
+    <events />
+    <variables />
+    <Arrays />
+    <movieclips />
+  </UIElement>
+</UIElements>

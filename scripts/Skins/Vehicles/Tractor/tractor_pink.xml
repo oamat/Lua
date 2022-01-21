@@ -1,0 +1,10 @@
+<skin name="tractor_pink">
+  <params>
+    <param name="display_name" value="Jacked up Ram pink skin" />
+    <param name="description" value="Pink skin for the Jacked up Ram" />
+    <param name="material" value="objects/vehicles/jacked_up_ram/jackeduprampink" />
+  </params>
+  <items>
+    <item name="tractor" />
+  </items>
+</skin>

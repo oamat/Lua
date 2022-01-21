@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recipes>
+	<guide name="guide_ammo_2" id="34">
+		<cats>
+			<cat name="Weapons">
+				<subcats>
+					<subcat name="Ammunition"> 
+						<types>
+							<type name="Ammo">
+								<items>
+									<item class="Pile_223" time="0.5" amount="10">
+										<materials>
+											<material class="Gunpowder" count="20"/>
+											<material class="SheetMetal" count="2"/>							
+										</materials>
+									</item>
+									<item class="Pile_357" time="0.5" amount="10">
+										<materials>
+											<material class="Gunpowder" count="20"/>
+											<material class="SheetMetal" count="2"/>									
+										</materials>
+									</item>
+									<item class="Pile_545x39" time="0.5" amount="10">
+										<materials>
+											<material class="Gunpowder" count="20"/>
+											<material class="SheetMetal" count="2"/>							
+										</materials>
+									</item>
+									<item class="Pile_556x45" time="0.5" amount="10">
+										<materials>
+											<material class="Gunpowder" count="20"/>
+											<material class="SheetMetal" count="2"/>							
+										</materials>
+									</item>
+									<item class="Pile_57x28" time="0.5" amount="10">
+										<materials>
+											<material class="Gunpowder" count="20"/>
+											<material class="SheetMetal" count="2"/>							
+										</materials>
+									</item>
+								</items>
+							</type>
+						</types>
+					</subcat>				
+				</subcats>
+			</cat>
+		</cats>
+	</guide>
+
+		<guide name="workbench">
+		<cats>
+			<cat name="Weapons">
+				<subcats>
+					<subcat name="Ammunition"> 
+						<types>
+							<type name="Ammo">
+								<items>
+									<item class="Pile_223" time="0.5" amount="10">
+										<materials>
+											<material class="Gunpowder" count="20"/>
+											<material class="SheetMetal" count="2"/>							
+										</materials>
+									</item>
+									<item class="Pile_357" time="0.5" amount="10">
+										<materials>
+											<material class="Gunpowder" count="20"/>
+											<material class="SheetMetal" count="2"/>									
+										</materials>
+									</item>
+									<item class="Pile_545x39" time="0.5" amount="10">
+										<materials>
+											<material class="Gunpowder" count="20"/>
+											<material class="SheetMetal" count="2"/>							
+										</materials>
+									</item>
+									<item class="Pile_556x45" time="0.5" amount="10">
+										<materials>
+											<material class="Gunpowder" count="20"/>
+											<material class="SheetMetal" count="2"/>							
+										</materials>
+									</item>
+									<item class="Pile_57x28" time="0.5" amount="10">
+										<materials>
+											<material class="Gunpowder" count="20"/>
+											<material class="SheetMetal" count="2"/>							
+										</materials>
+									</item>
+								</items>
+							</type>
+						</types>
+					</subcat>				
+				</subcats>
+			</cat>
+		</cats>
+	</guide>
+</recipes>

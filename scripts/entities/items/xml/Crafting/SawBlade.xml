@@ -1,0 +1,22 @@
+<item name="SawBlade" class="Item" category="any">
+
+	<params>
+		<param name="selectable" value="0" />
+		<param name="mass" value="0.8" />
+		<param name="stack_size" value="50" />
+		<param name="display_name" value="Saw Blade" />
+		<param name="description" value="An old rusty circular saw blade." />
+		<param name="vendor_cost" value="100"/>
+	</params>
+
+	<geometry>
+		<thirdperson name="objects\craftingMats\saw_blade\saw_blade.cgf"/>
+	</geometry>
+
+	<storage>
+		<locations>
+			<location category="any"/>
+		</locations>
+	</storage>
+
+</item>

@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<item name="water_dispenser_tow" class="BaseBuildingItem" category="any">
+  <params>
+    <param name="selectable" value="0" />
+    <param name="mass" value="-1" />
+    <param name="display_name" value="Water Cooler" />
+    <param name="description" value="Water Cooler" />
+  </params>
+  <geometry>
+    <thirdperson name="objects/props/hospital/hospital_water_dispenser_with_bottle_tow.cgf" />
+  </geometry>
+</item>

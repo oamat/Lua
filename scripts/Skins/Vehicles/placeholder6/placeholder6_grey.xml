@@ -1,0 +1,12 @@
+<skin name="placeholder6_grey">
+
+	<params>
+		<param name="display_name" value="grey Skin"/>
+		<param name="description" value="grey Skin"/>
+		<param name="material" value="objects/lekka/romeo/romeo_grey"/>
+	</params>
+
+	<items>
+		<item name="placeholder6"/>
+	</items>
+</skin>

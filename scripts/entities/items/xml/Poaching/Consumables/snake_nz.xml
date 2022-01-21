@@ -1,0 +1,78 @@
+ <item name="snake_nz" class="Consumable" category="any">
+
+	<params>
+		<param name="selectable" value="0"/>
+		<param name="mass" value="1.0"/>
+		<param name="stack_size" value="10"/>		
+		<param name="display_name" value="snake"/>
+		<param name="description" value="A good snake, for the grill !"/>
+	</params>
+
+	<geometry>
+		<thirdperson name="Objects/NationZ/Consumables/RattleSnake/RattleSnake.cgf" material="Objects/NationZ/Consumables/RattleSnake/rattlesnake.mtl" />
+	</geometry>
+
+	<consumable>
+		<!-- a cookable item must have cookedItem and cookedTime defined -->
+		<param name="cookable" value="1"/>
+		<param name="cookedItem" value="snake_nzCooked"/>
+		<param name="cookedTime" value="180"/>
+		<param name="rottenItem" value="snake_nzRotten"/>
+		<param name="rottenTime" value="600"/>
+		<param name="curable" value="1"/>
+		<param name="curedItem" value="snake_nzCured"/>
+		<param name="curedTime" value="300"/>
+		<param name="foodAmount" value="600"/>
+		<param name="drinkAmount" value="100"/>
+		<param name="poisonChance" value="40"/>
+		<param name="soundConsumed" value="Play_food_soft_eat"/>
+	</consumable>
+
+	<usable>
+		<uses>
+			<use>
+				<param name="title" value="snake Cook In Oven"/>
+				<param name="action" value="food_item"/>
+				<param name="soundUsed" value="Play_food_in_oven"/>
+				<param name="targetClassNames" value="powered_oven"/>
+			</use>
+			<use>
+				<param name="title" value="snake Cook In Microwave"/>
+				<param name="action" value="food_item"/>
+				<param name="soundUsed" value="Play_food_in_microwave"/>
+				<param name="targetClassNames" value="powered_microwave"/>
+			</use>
+			<use>
+				<param name="title" value="snake Cook On Grill"/>
+				<param name="action" value="food_item"/>
+				<param name="soundUsed" value="Play_food_in_grill"/>
+				<param name="targetClassNames" value="dws_grill_base;dws_grill2"/>
+			</use>
+			<use>
+				<param name="title" value="snake Cook On Stove"/>
+				<param name="action" value="food_item"/>
+				<param name="soundUsed" value="Play_food_in_grill"/>
+				<param name="targetClassNames" value="dws_cabinStove"/>
+			</use>
+			<use>
+				<param name="title" value="snake Cook On Firepit"/>
+				<param name="action" value="food_item"/>
+				<param name="soundUsed" value="Play_food_in_grill"/>
+				<param name="targetClassNames" value="dws_firepit_outdoors_1;dws_firepit_outdoors_2"/>
+			</use>
+			<use>
+				<param name="title" value="snake Cook On Campfire"/>
+				<param name="action" value="food_item"/>
+				<param name="soundUsed" value="Play_food_in_grill"/>
+				<param name="targetClassNames" value="Campfire"/>
+			</use>
+		</uses>
+	</usable>
+
+	<storage>
+		<locations>
+			<location category="any"/>
+		</locations>
+	</storage>
+
+</item>

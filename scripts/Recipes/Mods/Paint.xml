@@ -1,0 +1,216 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<recipes>
+	<guide name="default" id="0">
+		<cats>
+			<cat name="Base Building">
+				<subcats>
+					<subcat name="Decorations">
+						<types>
+							<type name="Paints" >
+								<items>
+									<item class="PaintCan_Aqua" time="0.5">
+										<materials>
+											<material class="Berries" count="20" />
+											<material class="Oil" count="1" />
+										</materials>
+									</item>
+									<item class="PaintCan_Black" time="0.5">
+										<materials>
+											<material class="Charcoal" count="10" />
+											<material class="Oil" count="1" />
+										</materials>
+									</item>
+									<item class="PaintCan_Blue" time="0.5">
+										<materials>
+											<material class="Beets" count="20" />
+											<material class="Oil" count="1" />
+										</materials>
+									</item>
+									<item class="PaintCan_Brown" time="0.5">
+										<materials>
+											<material class="Pumpkin" count="10" />
+											<material class="Charcoal" count="5" />
+											<material class="Oil" count="1" />
+										</materials>
+									</item>
+									<item class="PaintCan_Gold" time="0.5">
+										<materials>
+											<material class="Pumpkin" count="10" />
+											<material class="IronOre" count="5" />
+											<material class="Oil" count="1" />
+										</materials>
+									</item>
+									<item class="PaintCan_Green" time="0.5">
+										<materials>
+											<material class="SnapPeas" count="20" />
+											<material class="Oil" count="1" />
+										</materials>
+									</item>
+									<item class="PaintCan_Orange" time="0.5">
+										<materials>
+											<material class="Carrots" count="20" />
+											<material class="Oil" count="1" />
+										</materials>
+									</item>
+									<item class="PaintCan_Pink" time="0.5">
+										<materials>
+											<material class="Watermelon" count="20" />
+											<material class="Oil" count="1" />
+										</materials>
+									</item>
+									<item class="PaintCan_Purple" time="0.5">
+										<materials>
+											<material class="Radishes" count="10" />
+											<material class="Beets" count="10" />
+											<material class="Oil" count="1" />
+										</materials>
+									</item>
+									<item class="PaintCan_Red" time="0.5">
+										<materials>
+											<material class="Beets" count="10" />
+											<material class="Watermelon" count="10" />
+											<material class="Oil" count="1" />
+										</materials>
+									</item>
+									<item class="PaintCan_Silver" time="0.5">
+										<materials>
+											<material class="IronOre" count="10" />
+											<material class="Oil" count="1" />
+										</materials>
+									</item>
+									<item class="PaintCan_White" time="0.5">
+										<materials>
+											<material class="Pyrite" count="10" />
+											<material class="Oil" count="1" />
+										</materials>
+									</item>
+									<item class="PaintCan_Yellow" time="0.5">
+										<materials>
+											<material class="BrushPeas" count="10" />
+											<material class="SnapPeas" count="10" />
+											<material class="Oil" count="1" />
+										</materials>
+									</item>
+								</items>
+							</type>
+							<type name="Mix Paint" >
+								<items>
+									<item class="PaintCan_Aqua" time="2">
+										<materials>
+											<material class="PaintCan_Blue" count="1" />
+											<material class="PaintCan_White" count="1" />
+										</materials>
+									</item>
+									<item class="PaintCan_Aqua" time="2">
+										<materials>
+											<material class="PaintCan_Green" count="1" />
+											<material class="PaintCan_Blue" count="1" />
+										</materials>
+									</item>
+									<item class="PaintCan_Blue" time="2">
+										<materials>
+											<material class="PaintCan_Purple" count="1" />
+											<material class="PaintCan_Aqua" count="1" />
+										</materials>
+									</item>
+									<item class="PaintCan_Blue" time="2">
+										<materials>
+											<material class="PaintCan_Aqua" count="1" />
+											<material class="PaintCan_Black" count="1" />
+										</materials>
+									</item>
+									<item class="PaintCan_Brown" time="2">
+										<materials>
+											<material class="PaintCan_Orange" count="1" />
+											<material class="PaintCan_Black" count="1" />
+										</materials>
+									</item>
+									<item class="PaintCan_Green" time="2">
+										<materials>
+											<material class="PaintCan_Yellow" count="1" />
+											<material class="PaintCan_Blue" count="1" />
+										</materials>
+									</item>
+									<item class="PaintCan_Orange" time="2">
+										<materials>
+											<material class="PaintCan_Yellow" count="1" />
+											<material class="PaintCan_Black" count="1" />
+										</materials>
+									</item>
+									<item class="PaintCan_Orange" time="2">
+										<materials>
+											<material class="PaintCan_Yellow" count="1" />
+											<material class="PaintCan_Red" count="1" />
+										</materials>
+									</item>
+									<item class="PaintCan_Pink" time="2">
+										<materials>
+											<material class="PaintCan_Purple" count="1" />
+											<material class="PaintCan_White" count="1" />
+										</materials>
+									</item>
+									<item class="PaintCan_Pink" time="2">
+										<materials>
+											<material class="PaintCan_Blue" count="1" />
+											<material class="PaintCan_Red" count="1" />
+										</materials>
+									</item>
+									<item class="PaintCan_Purple" time="2">
+										<materials>
+											<material class="PaintCan_Pink" count="1" />
+											<material class="PaintCan_Black" count="1" />
+										</materials>
+									</item>
+									<item class="PaintCan_Purple" time="2">
+										<materials>
+											<material class="PaintCan_Pink" count="1" />
+											<material class="PaintCan_Blue" count="1" />
+										</materials>
+									</item>
+									<item class="PaintCan_Red" time="2">
+										<materials>
+											<material class="PaintCan_Pink" count="1" />
+											<material class="PaintCan_Yellow" count="1" />
+										</materials>
+									</item>
+									<item class="PaintCan_Yellow" time="2">
+										<materials>
+											<material class="PaintCan_Green" count="1" />
+											<material class="PaintCan_Red" count="1" />
+										</materials>
+									</item>
+									<item class="PaintCan_White" time="2">
+										<materials>
+											<material class="PaintCan_Green" count="1" />
+											<material class="PaintCan_Red" count="1" />
+											<material class="PaintCan_Blue" count="1" />
+										</materials>
+									</item>
+									<item class="PaintCan_Black" time="2">
+										<materials>
+											<material class="PaintCan_Yellow" count="1" />
+											<material class="PaintCan_Red" count="1" />
+											<material class="PaintCan_Blue" count="1" />
+										</materials>
+									</item>
+									<item class="PaintCan_Silver" time="2">
+										<materials>
+											<material class="PaintCan_Gold" count="1" />
+											<material class="PaintCan_White" count="1" />
+										</materials>
+									</item>
+									<item class="PaintCan_Gold" time="2">
+										<materials>
+											<material class="PaintCan_Silver" count="1" />
+											<material class="PaintCan_Yellow" count="1" />
+										</materials>
+									</item>
+								</items>
+							</type>
+						</types>
+					</subcat>
+				</subcats>
+			</cat>
+		</cats>
+	</guide>
+</recipes>

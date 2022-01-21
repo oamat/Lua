@@ -1,0 +1,13 @@
+<skin name="sedan_taxi_blix_default">
+
+	<params>
+		<param name="display_name" value="Audi RS5  Skin"/>
+		<param name="description" value="Audi RS5 Skin"/>
+		<param name="material" value="Objects/vehicles/Audi_RS5_Coupe_polizei/Audi_RS5_Coupe_polizei"/>
+	</params>
+
+	<items>
+		<item name="sedan_taxi_blix"/>	
+	</items>
+
+</skin>

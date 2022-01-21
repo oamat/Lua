@@ -1,0 +1,82 @@
+<item name="HockeyMaskOhOd11" class="Item" category="any">
+	<params>
+		<param name="colorable" value="0"/>
+		<param name="droppable" value="1"/>
+		<param name="selectable" value="0"/>
+		<param name="auto_wear" value="1"/>
+		<param name="mass" value="0.1"/>
+		<param name="healthMax" value="50.0"/>
+		<param name="damage_scale" value="0.5"/>
+		<param name="destroyWhenDegraded" value="1"/>
+		<param name="vendor_cost" value="180"/>
+		<param name="display_name" value="Red/White Patterned Protection Mask"/>
+		<param name="description" value="Red/White Patterned Protection Mask"/>
+	</params>
+
+	<wearable>
+		<param name="skin" value="Objects/characters/players/male/face/hockey_mask/hockey_mask.skin"/>
+		<param name="mtl" value="Objects/characters/players/male/face/hockey_mask/hockey_mask_OhOd_11.mtl"/> <!-- not currently used in code -->
+		<param name="slot" value="face"/>
+	</wearable>
+
+	<geometry>
+		<thirdperson name="Objects/characters/players/male/face/hockey_mask/hockey_mask_tp.cgf" material="Objects/characters/players/male/face/hockey_mask/hockey_mask_OhOd_11"/>
+	</geometry>
+	<usable>
+		<param name="action" value="craft"/>
+		<param name="param" value="Rags"/>
+		<param name="soundUsed" value="Play_fabric_tear"/>
+	</usable>
+
+ <protection level="4"> <!-- Only used for the UI tool tip protection amount -->
+		<environmental>
+			<protection_amount type="explosion" percentage="25"/>
+			<protection_amount type="rain_acid" percentage="50"/>
+            <protection_amount type="cold" percentage="40"/>
+			<protection_amount type="rain_radiation" percentage="75"/>
+			<protection_amount type="gas_smoke" percentage="100"/>
+			<protection_amount type="gas_radiation" percentage="100"/>
+			<protection_amount type="ray_radiation" percentage="50"/>
+		</environmental>
+		<protectBodyPart name="head">
+			<protection_amount hit_type="default" percentage="20.0" />
+			<!-- SURVIVE 3+ HEADSHOTS -->
+			<protection_amount hit_type="blunt" percentage="75.0"/>
+			<protection_amount hit_type="melee" percentage="75.0"/>
+			<!-- SURVIVE 2 HEADSHOTS -->
+			<protection_amount hit_type="ammo_22" percentage="40.0"/> <!-- Takes down to 57/59% -->
+			<!-- SURVIVE 1 HEADSHOTS -->
+			<protection_amount hit_type="ammo_10mm" percentage="35.0"/> <!-- Takes down to 26% -->
+			<protection_amount hit_type="ammo_357" percentage="35.0"/> <!-- Takes down to 23% -->
+			<protection_amount hit_type="ammo_9mm" percentage="35.0"/> <!-- Takes down to 39% -->
+			<protection_amount hit_type="ammo_acp_45" percentage="25.0"/> <!-- Takes down to 28% -->
+			<protection_amount hit_type="ammo_5_56x45" percentage="25.0"/> 
+			<protection_amount hit_type="ammo_7_62x39" percentage="25.0"/>
+			<protection_amount hit_type="ammo_7_62x51" percentage="25.0"/>
+			<protection_amount hit_type="ammo_308" percentage="35.0"/>
+			<protection_amount hit_type="ammo_223" percentage="35.0"/>
+		</protectBodyPart>
+	</protection>
+
+	<storage>
+		<locations>
+			<location category="any"/>
+			<location category="face"/>
+		</locations>
+	</storage>
+
+	<steam>
+		<param name="tags" value="Category:Clothing;Slot:Face"/>
+		<param name="icon_url" value="http://miscreatedgame.com/shots/item_images/HockeyMask_200.png?crc=897AC1F6"/>
+		<param name="store_hidden" value="0"/>
+		<param name="amcoins" value="1"/>
+		<param name="tradable" value="0"/>
+		<param name="name_color" value="FF001E"/>
+		<param name="itemdefid" value="40070"/>
+		<param name="marketable" value="0"/>
+		<param name="store_tags" value="Category:Clothing;Slot:Face"/>
+		<param name="background_color" value="2A2A2A"/>
+		<param name="hidden" value="0"/>
+		<param name="icon_url_large" value="http://miscreatedgame.com/shots/item_images/HockeyMask_2048.png?crc=897AC1F6"/>
+	</steam>
+</item>

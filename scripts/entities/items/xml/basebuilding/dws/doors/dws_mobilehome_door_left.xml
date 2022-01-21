@@ -1,0 +1,39 @@
+<item name="dws_mobilehome_door_left" class="Placeable" category="any">
+
+    <params>
+		<param name="mass" value="5"/>	
+		<param name="stack_size" value="10"/>	
+		<param name="selectable" value="0"/>
+		<param name="stack_size" value="5"/>
+		<param name="display_name" value="Mobile Home leftdoor"/>
+		<param name="description" value="Mobile Home leftdoor"/>
+	</params>
+
+	<explosion>
+		<param name="sound_radius" value="50"/> <!-- max radius the AI will react to the explosion sound -->
+		<param name="hole_size" value="3"/> <!-- radius to remove entities within -->
+		<param name="effect" value="misc.basebuilding.generic_bpart_destroyed"/>
+		<param name="effect_scale" value="1"/>
+	</explosion>
+
+	<base_part class="door" type="225" name="dws_mobilehome_door_left" max_health="1000">
+		<door filename="Objects/structures/Residential/mobileHome/doorway/dws_mobilehome_door_left.cgf" rotate_base="-180" rotate_range="90" rotate_speed="180" rotate_axis="z" rotate_dir="" 
+			sound_open="Play_door_wood_open" sound_opened="Play_door_wood_opened" sound_close="Play_door_wood_close" sound_closed="Play_door_wood_closed"/>
+		<base_actions>
+			<base_action class="toggle_door">
+				<toggle_door sound_knock="Play_door_wood_knock" />
+			</base_action>
+		</base_actions>
+	</base_part>
+
+	<geometry>
+		<thirdperson name="objects/basebuilding/wood/wood_part.cgf"/>
+	</geometry>
+
+	<storage>
+		<locations>
+			<location category="any"/>
+		</locations>
+	</storage>
+
+</item>

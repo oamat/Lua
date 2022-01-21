@@ -1,0 +1,12 @@
+<skin name="sedan_taxi_engoa_default">
+
+	<params>
+		<param name="display_name" value="Default Skin"/>
+		<param name="description" value="Default Skin"/>
+		<param name="material" value="Objects/vehicles/Audi_RS5_Coupe/Audi_RS5_Coupe_polizei"/>
+	</params>
+
+	<items>
+		<item name="sedan_taxi_engoa"/>
+	</items>
+</skin>

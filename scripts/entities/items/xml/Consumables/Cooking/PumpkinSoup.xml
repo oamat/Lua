@@ -1,0 +1,27 @@
+<item name="PumpkinSoup" class="Consumable" category="any">
+
+	<params>
+		<param name="selectable" value="0" />
+		<param name="mass" value="1.0" />
+		<param name="display_name" value="Pumpkin Soup" />
+		<param name="description" value="A freshly made soup." />
+	</params>
+
+	<geometry>
+		<thirdperson name="Objects/LordSnave/LSLunchbox/lunch_box.cgf" />
+	</geometry>
+
+	<consumable>
+		<param name="consumePartial" value="3" />
+		<param name="foodAmount" value="300" />
+		<param name="drinkAmount" value="400" />
+		<param name="soundConsumed" value="Play_container_drink" />
+	</consumable>
+
+	<storage>
+		<locations>
+			<location category="any"/>
+		</locations>
+	</storage>
+
+</item>

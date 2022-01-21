@@ -1,0 +1,130 @@
+<item name="AdminDuffelBag" class="Item" category="any">
+	<params>
+		<param name="debug" value="1"/>
+		<param name="colorable" value="0"/>
+		<param name="droppable" value="1"/>
+		<param name="selectable" value="0"/>
+		<param name="auto_wear" value="1"/>
+		<param name="mass" value="0"/>
+		<param name="healthMax" value="9000.0"/>
+		<param name="damage_scale" value="0.01"/>
+		<param name="display_name" value="DuffelBag TEST, DROP OR YOU COULD BE BANNED"/>
+		<param name="description" value="DuffelBag TEST, DROP OR YOU COULD BE BANNED"/>
+	</params>
+
+	<wearable>
+		<param name="skin" value="objects/characters/players/male/back/backpack/duffel_bag/duffel_bag.skin"/>
+		<param name="mtl" value="objects/D34DsHighTecSuits/Activecamo/Activecamo_duffel_bag.mtl"/>
+		<param name="slot" value="back"/>
+	</wearable>
+
+	<geometry>
+		<thirdperson name="objects/characters/players/male/back/backpack/duffel_bag/duffel_bag_ground.cgf" material="objects/D34DsHighTecSuits/Activecamo/Activecamo_duffel_bag.mtl"/>
+		<onground name="objects/characters/players/male/back/backpack/duffel_bag/duffel_bag_ground.cgf" material="objects/D34DsHighTecSuits/Activecamo/Activecamo_duffel_bag.mtl"/>
+	</geometry>
+	
+ <protection level="11">
+
+        <environmental>
+          <protection_amount type="explosion" percentage="7500.0" />
+          <protection_amount type="rain_acid" percentage="7500.0" />
+          <protection_amount type="cold" percentage="7500.0" />
+          <protection_amount type="physical" percentage="7500.0" />
+          <protection_amount type="heat" percentage="7500.0" />
+          <protection_amount type="fire" percentage="7500.0" />
+          <protection_amount type="rain" percentage="7500.0" />
+          <protection_amount type="humidity" percentage="7500.0" />
+          <protection_amount type="pool_acid" percentage="7500.0" />
+          <protection_amount type="rain_radiation" percentage="7500.0" />
+          <protection_amount type="feet_sharp" percentage="7500.0" />
+          <protection_amount type="feet_blunt" percentage="7500.0" />
+          <protection_amount type="electricity" percentage="7500.0" />
+          <protection_amount type="gas_smoke" percentage="7500.0" />
+          <protection_amount type="gas_radiation" percentage="7500.0" />
+          <protection_amount type="ray_radiation" percentage="7500.0" />
+        </environmental>
+        
+		<protectBodyPart name="default">
+          <protection_amount hit_type="default" percentage="7500.0" />
+          <protection_amount hit_type="melee" percentage="7500.0" />
+          <protection_amount hit_type="fall" percentage="7500.0" />
+          <protection_amount hit_type="punish" percentage="7500.0" />
+          <protection_amount hit_type="acid" percentage="7500.0" />
+          <protection_amount hit_type="bleed" percentage="7500.0" />
+          <protection_amount hit_type="poison" percentage="7500.0" />
+        </protectBodyPart>
+
+               <protectBodyPart name="torso">
+          <protection_amount hit_type="default" percentage="7500.0" />
+        </protectBodyPart>
+
+        <protectBodyPart name="pelvis">
+          <protection_amount hit_type="default" percentage="7500.0" />
+        </protectBodyPart>
+
+        <protectBodyPart name="head">
+          <protection_amount hit_type="default" percentage="7500.0" />
+        </protectBodyPart>
+
+        <protectBodyPart name="armLeft">
+          <protection_amount hit_type="default" percentage="7500.0" />
+        </protectBodyPart>
+
+        <protectBodyPart name="armRight">
+          <protection_amount hit_type="default" percentage="7500.0" />
+        </protectBodyPart>
+
+        <protectBodyPart name="handLeft">
+          <protection_amount hit_type="default" percentage="7500.0" />
+        </protectBodyPart>
+
+        <protectBodyPart name="handRight">
+          <protection_amount hit_type="default" percentage="7500.0" />
+        </protectBodyPart>
+
+        <protectBodyPart name="footLeft">
+          <protection_amount hit_type="default" percentage="7500.0" />
+        </protectBodyPart>
+
+        <protectBodyPart name="footRight">
+          <protection_amount hit_type="default" percentage="7500.0" />
+        </protectBodyPart>
+
+        <protectBodyPart name="legLeft">
+          <protection_amount hit_type="default" percentage="7500.0" />
+        </protectBodyPart>
+
+        <protectBodyPart name="legRight">
+          <protection_amount hit_type="default" percentage="7500.0" />
+        </protectBodyPart>
+
+        <protectBodyPart name="shoulderLeft">
+          <protection_amount hit_type="default" percentage="7500.0" />
+        </protectBodyPart>
+
+        <protectBodyPart name="shoulderRight">
+          <protection_amount hit_type="default" percentage="7500.0" />
+        </protectBodyPart>
+		
+    </protection>
+	
+
+
+	<usable>
+		<param name="title" value="Convert To Rags"/>
+		<param name="action" value="craft" />
+		<param name="param" value="Rags" />
+		<param name="soundUsed" value="Play_fabric_tear" />
+	</usable>
+  
+	<storage>
+		<locations>
+			<location category="any"/>
+			<location category="backpack"/>
+		</locations>
+		<types>
+			<type category="any" capacity="100"/>
+		</types>
+	</storage>
+
+</item>

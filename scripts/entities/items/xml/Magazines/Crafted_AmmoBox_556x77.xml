@@ -1,0 +1,30 @@
+<item name="Crafted_AmmoBox_556x77" class="Magazine" category="any">
+  <params>
+    <param name="selectable" value="0" />
+    <param name="mass" value="2.5" />
+    <param name="display_name" value="5.56x77 for Kripton Ammo Box" />
+    <param name="description" value="7.62x77 for Kripton Ammo Box" />
+  </params>
+  <magazine>
+    <magazine capacity="200" />
+    <ammos>
+      <ammo name="ammo_5_56x77" amount="1" pile="Pile_556x77" />
+    </ammos>
+    <param name="sound_load" value="Play_magazine_load" />
+    <param name="sound_unload" value="Play_magazine_unload" />
+  </magazine>
+  <geometry>
+    <onground name="Objects/equipment/crafted_ammo_box/crafted_ammo_box.cgf" />
+  </geometry>
+  <usable>
+        <param name="title" value="Salvage to Sheet Metal"/>
+        <param name="action" value="craft"/>
+        <param name="param" value="SheetMetal"/>
+        <param name="soundUsed" value=""/>
+    </usable>
+  <storage>
+    <locations>
+      <location category="any" />
+    </locations>
+  </storage>
+</item>

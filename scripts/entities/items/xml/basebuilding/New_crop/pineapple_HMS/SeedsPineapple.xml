@@ -1,0 +1,42 @@
+<item name="SeedsPineapple" class="Item" category="any"> 
+
+	<params>
+		<param name="selectable" value="1"/>
+		<param name="mass" value="0.1"/>
+		<param name="stack_size" value="25"/>
+		<param name="display_name" value="Pineapple Seeds"/>
+		<param name="description" value="A package of excellent pineapple seeds can be used for planting."/>
+		<param name="vendor_cost" value="5"/>
+	</params>
+
+	<geometry>
+		<thirdperson name="Objects/consumables/seedbags/seedbag.cgf" material="Objects/HotMeatStick/New_crop/pineapple_HMS/SeedsPineapple/SeedsPineapple.mtl"/>
+	</geometry>
+
+	<usable>
+		<param name="title" value="@SeedsWatermelonsSowInPlanter"/>
+		<param name="action" value="plant"/>
+		<param name="soundUsed" value="Play_plant_seeds"/>
+		<param name="targetClassNames" value="planter_box"/>
+	</usable>
+
+	<plantable>
+		<param name="crop_good" value="pineapple_HMS"/>
+		<param name="crop_rotten" value="pineapple_HMS_Rotten"/>
+		<param name="grow_time_minutes" value="30"/>
+		<param name="model_dirt" value="Objects/HotMeatStick/New_crop/pineapple_HMS/pineapple_HMS_small_X/pineapple_hms_small_x.cgf"/>
+		<param name="model_small" value="Objects/HotMeatStick/New_crop/pineapple_HMS/pineapple_HMS_small/pineapple_hms_small.cgf"/>
+		<param name="model_medium" value="Objects/HotMeatStick/New_crop/pineapple_HMS/pineapple_HMS_medium/pineapple_hms_medium.cgf"/>
+		<param name="model_big" value="Objects/HotMeatStick/New_crop/pineapple_HMS/pineapple_HMS_big/pineapple_hms_big.cgf"/>
+		<param name="material_good" value="Objects/HotMeatStick/New_crop/pineapple_HMS/crop_pineapple_HMS_good.mtl"/>
+		<param name="material_dead" value="Objects/HotMeatStick/New_crop/pineapple_HMS/crop_pineapple_HMS_dead.mtl"/>
+		<param name="material_rotten" value="Objects/HotMeatStick/New_crop/pineapple_HMS/crop_pineapple_HMS_rotten.mtl"/>
+	</plantable>
+
+	<storage>
+		<locations>
+			<location category="any"/>
+		</locations>
+	</storage>
+
+</item>

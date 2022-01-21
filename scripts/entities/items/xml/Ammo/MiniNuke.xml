@@ -1,0 +1,53 @@
+<ammo name="MiniNuke" class="C4Projectile">
+	<geometry>
+		<firstperson name="objects/MiniNuke/Weapons/c4_and_clacker/c4_and_detonator_onground.cgf" />
+	</geometry>
+
+	<flags>
+		<param name="serverspawn" value="1" />
+		<param name="predictspawn" value="0" />
+	</flags>
+
+	<physics type="rigid">
+		<param name="mass" value="10" />
+		<param name="speed" value="15" />
+		<param name="max_logged_collisions" value="1" />
+		<param name="traceable" value="1" />
+		<param name="spin" value="45, 45, 45" />
+		<param name="spin_random" value="720, 720, 720" />
+		<param name="material" value="mat_stickybomb" />
+	</physics>
+
+	<explosion>
+		<param name="pressure" value="10000" />
+		<param name="torpidity" value="100" />
+		<param name="stamina" value="100" />
+		<param name="min_radius" value="100" />
+		<param name="max_radius" value="100" />
+		<param name="min_phys_radius" value="100" />
+		<param name="max_phys_radius" value="100" />
+		<param name="sound_radius" value="600" />
+		<param name="hole_size" value="45" />
+		<param name="terrain_hole_size" value="45" />
+		<param name="radialblurdist" value="100" />
+		<param name="type" value="explosion" />
+	</explosion>
+
+	<trail>
+		<param name="effect" value="" />
+		<param name="prime" value="false" />
+	</trail>
+
+	<params>
+		<param name="lifetime" value="5.0" /> <!-- Time taken to explode, in seconds, after being thrown -->
+		<param name="showtime" value="0.05" />
+		<param name="aitype" value="grenade" />
+	</params>
+
+	<grenade>
+		<param name="onImpactLifetime" value="0" /> <!-- Don't decrease time to detonate just because it hit a surface -->
+		<param name="detonateOnImpact" value="0" />
+		<param name="detonateOnActorImpact" value="0" />
+		<param name="allowDetonationDelay" value="1" />
+	</grenade>
+</ammo>

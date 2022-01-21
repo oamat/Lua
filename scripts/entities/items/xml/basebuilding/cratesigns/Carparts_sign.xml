@@ -1,0 +1,26 @@
+<item name="carparts_Blade" class="Placeable" category="any">
+
+	<params>
+		<param name="selectable" value="0"/>
+		<param name="mass" value="1"/>
+		<param name="display_name" value="Vehicle Part Sign"/>
+		<param name="description" value="Sign for boxes"/>
+		<param name="stack_size" value="5"/>	
+		<param name="place_restrict_snap" value="sticky"/>
+	</params>
+
+	<base_part class="static" type="7064" name="carparts_Blade" max_health="1000" repair_with="SheetMetal">
+		<static filename="objects/props/speedsign/speedsign4.cgf" material="objects/Blade/Black-Pussy/carparts_Blade.mtl"/>
+	</base_part>
+
+	<geometry>
+		<thirdperson name="objects/props/speedsign/speedsign4.cgf" material="objects/Blade/Black-Pussy/carparts_Blade.mtl"/>
+	</geometry>
+
+	<storage>
+		<locations>
+			<location category="any"/>
+		</locations>
+	</storage>
+
+</item>

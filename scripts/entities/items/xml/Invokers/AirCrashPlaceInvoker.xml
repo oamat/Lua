@@ -1,0 +1,22 @@
+<item name="AirCrashPlaceInvoker" class="Item" category="any">
+
+	<params>
+		<param name="selectable" value="0"/>
+		<param name="mass" value="0.1"/>
+		<param name="stack_size" value="1" />
+		<param name="display_name" value="Spell to mark an AirCrash Place"/>
+		<param name="description" value="You will see the last AirCrash place mark for 60s, have fun!"/>
+		<param name="vendor_cost" value="500"/>
+	</params>
+
+	<geometry>
+		<thirdperson name="Objects/props/crafting_guides/guide_basic.cgf"/>
+	</geometry>
+
+	<storage>
+		<locations>
+			<location category="any"/>
+		</locations>
+	</storage>
+	
+</item>

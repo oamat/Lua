@@ -1,0 +1,12 @@
+<skin name="SUVBasic_Empty">
+
+	<params>
+		<param name="display_name" value="SUV Default Skin"/>
+		<param name="description" value="Default skin for the SUV"/>
+	</params>
+
+	<items>
+		<item name="suv_basic"/>
+	</items>
+	
+</skin>

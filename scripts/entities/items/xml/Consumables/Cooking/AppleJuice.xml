@@ -1,0 +1,26 @@
+<item name="AppleJuice" class="Consumable" category="any">
+
+	<params>
+		<param name="selectable" value="0" />
+		<param name="mass" value="1.0" />
+		<param name="display_name" value="Apples Juice" />
+		<param name="description" value="A fresh apple juice." />
+	</params>
+
+	<geometry>
+		<thirdperson name="Objects/LordSnave/LSLunchbox/lunch_box.cgf" />
+	</geometry>
+
+	<consumable>
+		<param name="consumePartial" value="2" />
+		<param name="drinkAmount" value="700" />
+		<param name="soundConsumed" value="Play_container_drink" />
+	</consumable>
+
+	<storage>
+		<locations>
+			<location category="any"/>
+		</locations>
+	</storage>
+
+</item>

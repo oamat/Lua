@@ -1,0 +1,35 @@
+<item name="BeefStew" class="Consumable" category="any">
+
+	<params>
+		<param name="selectable" value="0"/>
+		<param name="mass" value="0.75"/>
+		<param name="display_name" value="@BeefStew"/>
+		<param name="description" value="@BeefStewDescription"/>
+		<param name="vendor_cost" value="60"/>
+	</params>
+
+	<geometry>
+		<thirdperson name="Objects/consumables/beefStew/beefStew.cgf"/>
+	</geometry>
+
+	<consumable>
+		<param name="consumePartial" value="1"/>
+		<param name="foodAmount" value="250"/>
+		<param name="drinkAmount" value="150"/>
+		<param name="soundConsumed" value="Play_food_soft_eat"/>
+	</consumable>
+	
+	<usable>
+		<param name="title" value="Convert to scrap metal"/>
+		<param name="action" value="convert"/>
+		<param name="param" value="ScrapMetal"/>
+		<param name="soundUsed" value=""/>
+	</usable>
+
+	<storage>
+		<locations>
+			<location category="any"/>
+		</locations>
+	</storage>
+
+</item>

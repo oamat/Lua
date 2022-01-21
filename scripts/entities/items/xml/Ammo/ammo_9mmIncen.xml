@@ -1,0 +1,81 @@
+<ammo name="ammo_9mmIncen" class="Bullet">
+	<geometry />
+
+	<flags>
+		<param name="clientonly" value="1" />
+		<param name="reusable" value="1" />
+	</flags>
+
+	<whiz>
+		<param name="sound" value="Play_bullet_whiz" />
+		<param name="distance" value="10.0" />
+	</whiz>
+
+	<ricochet>
+		<param name="sound" value="Play_bullet_ricochet" />
+	</ricochet>
+
+	<sonic_boom>
+		<param name="sound" value="Play_bullet_sonic_boom" />
+		<param name="distance" value="100.0" />
+	</sonic_boom>
+
+	<!-- https://en.wikipedia.org/wiki/9%C3%9719mm_Parabellum -->
+	<physics type="particle">
+		<param name="mass" value="0.00802" /> <!-- 124 grain / 8.04 grams -->
+		<param name="speed" value="550" /> <!-- J energy -->
+		<param name="radius" value="0.0045" /> <!-- 9mm diameter -->
+		<param name="air_resistance" value="1.1000" />
+		<param name="water_resistance" value="10.0" />
+		<param name="gravity" value="0, 0, -9.81" />
+		<param name="water_gravity" value="0, 0, -9.81" />
+		<param name="material" value="mat_metal_thin" />
+		<param name="single_contact" value="1" />
+		<param name="pierceability" value="9" />
+		<pierceabilityLevels> <!-- Percentage of damage to take off. SurfacePierceability > 10 = 0 reduction -->
+			<param name="level3" value="0" /> <!-- SurfacePierceability < 10 -->
+			<param name="level2" value="5" /> <!-- SurfacePierceability < 7  -->
+			<param name="level1" value="15" /> <!-- SurfacePierceability < 4  -->
+			<param name="maxPenetrationThickness" value="0.17" /> <!-- Penetrates valid surface levels up to 7cm thick -->
+		</pierceabilityLevels>
+	</physics>
+	
+	<damage_area>
+		<param name="ground_particle_path" value="weapon_fx.molotov3.dummy"/>
+		<param name="ground_particle_duration" value="28"/>
+		<param name="ground_particle_effect_slot" value="5"/>
+		<param name="area_id" value="1"/>
+		<param name="radius" value="25"/>
+		<param name="body_particle_duration" value="25.0"/>
+		<param name="dmg_taken_by_player" value="13.0"/>
+		<param name="incremental_duration" value="1.0"/>
+		<param name="body_fire_start_time" value="1.0"/>
+	</damage_area>
+
+	<params>
+		<param name="hit_type" value="ammo_9mm" />
+		<param name="knocks_target" value="0"/>
+		<param name="min_damage_for_knockDown" value="0"/>
+		<param name="min_damage_for_knockDown_leg" value="0"/>
+		<param name="bleed_percent" value="100" />
+		<param name="fire_percent" value="100" />
+		<param name="fire_duration" value="15.0" />
+		<param name="fire_damage" value="17.0" />
+		<param name="fire_incremental_duration" value="0.2" />
+		<param name="fire_start_time" value="0.1" />
+		<param name="lifetime" value="7.0" /> <!-- Projectile will be destroyed after this time (in seconds) -->
+		<param name="showtime" value="0.01" /> <!-- Delay (in seconds) before projectile is rendered -->
+		<param name="bulletType" value="2" /> <!-- Bullet Type 2 - Assault rifle bullet -->
+		<param name="hitRecoil" value="Level1_mp" />
+	</params>
+
+	<trail>
+		<param name="effect" value="weapon_fx.arrow.trail_burning" scale="0.3"  />
+		<param name="prime" value="false" />
+	</trail>
+
+	<trailUnderWater>
+		<param name="effect" value="water.bubbles.bullets" />
+		<param name="scale" value="3.0" />
+	</trailUnderWater>
+</ammo>

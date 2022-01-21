@@ -1,0 +1,10 @@
+<skin name="F100Truck_Camo6">
+  <params>
+    <param name="display_name" value="Pickup Truck Camo Skin" />
+    <param name="description" value="Camo skin for the Pickup Truck" />
+    <param name="material" value="objects/vehicles/F100Truck/f100truck_camo6" />
+  </params>
+  <items>
+    <item name="f100truck" />
+  </items>
+</skin>

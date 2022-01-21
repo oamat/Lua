@@ -1,0 +1,1683 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recipes>
+	<guide name="guide_civilian" id="36">
+		<cats>
+			<cat name="Clothing">
+				<subcats>	
+					<subcat name="Civilian Clothes">
+						<types>
+							<type name="Masks" >
+								<items>
+									<item class="HockeyMask" time="3">
+										<materials>
+											<material class="Rags" count="3" />
+										</materials>
+									</item>
+									<item class="HockeyMaskDp" time="3">
+										<materials>
+											<material class="Rags" count="3" />
+											<material class="PaintCan_Orange" count="1" />
+							        		<material class="PaintCan_Black" count="1" />
+										</materials>
+									</item>
+									<item class="HockeyMaskBlue" time="3">
+							        	<materials>
+							        		<material class="Rags" count="3" />
+							        		<material class="PaintCan_Blue" count="1" />
+							        	</materials>
+							        </item>
+							        <item class="HockeyMaskBluePink" time="3">
+							        	<materials>
+							        		<material class="Rags" count="3" />
+							        		<material class="PaintCan_Blue" count="1" />
+							        		<material class="PaintCan_Pink" count="1" />
+							        	</materials>
+							        </item>
+							        <item class="HockeyMaskGold" time="3">
+							        	<materials>
+							        		<material class="Rags" count="3" />
+							        		<material class="PaintCan_Gold" count="1" />
+							        	</materials>
+							        </item>
+							        <item class="HockeyMaskGreen" time="3">
+							        	<materials>
+							        		<material class="Rags" count="3" />
+							        		<material class="PaintCan_Green" count="1" />
+							        	</materials>
+							        </item>
+							        <item class="HockeyMaskPurplePink" time="3">
+							        	<materials>
+							        		<material class="Rags" count="3" />
+							        		<material class="PaintCan_Purple" count="1" />
+							        		<material class="PaintCan_Pink" count="1" />
+							        	</materials>
+							        </item>
+							        <item class="HockeyMaskSilver" time="3">
+							        	<materials>
+							        		<material class="Rags" count="3" />
+							        		<material class="PaintCan_Silver" count="1" />
+							        	</materials>
+							        </item>
+									 <item class="HockeyMaskOhOd03" time="3">
+								        <materials>
+							        		<material class="Rags" count="3" />
+											<material class="PaintCan_Red" count="1" />
+											<material class="SheetMetal" count="1" />
+											<material class="ScrapMetal" count="1" />
+								        </materials>
+							        </item>
+							        <item class="HockeyMaskOhOd04" time="3">
+								        <materials>
+							        		<material class="Rags" count="3" />
+											<material class="PaintCan_Black" count="1" />											
+											<material class="SheetMetal" count="1" />
+											<material class="ScrapMetal" count="1" />
+								        </materials>
+							        </item>
+							        <item class="HockeyMaskOhOd05" time="3">
+								        <materials>
+							        		<material class="Rags" count="3" />
+											<material class="PaintCan_Black" count="1" />
+											<material class="SheetMetal" count="1" />
+											<material class="ScrapMetal" count="1" />
+								        </materials>
+							        </item>
+							        <item class="HockeyMaskOhOd06" time="3">
+								        <materials>
+							        		<material class="Rags" count="3" />
+											<material class="PaintCan_Orange" count="1" />
+											<material class="SheetMetal" count="1" />
+											<material class="ScrapMetal" count="1" />
+								        </materials>
+							        </item>
+							        <item class="HockeyMaskOhOd07" time="3">
+								        <materials>
+							        		<material class="Rags" count="3" />
+											<material class="PaintCan_Gold" count="1" />
+											<material class="SheetMetal" count="1" />
+											<material class="ScrapMetal" count="1" />
+								        </materials>
+							        </item>
+							        <item class="HockeyMaskOhOd08" time="3">
+								        <materials>
+							        		<material class="Rags" count="3" />
+											<material class="PaintCan_Black" count="1" />
+											<material class="SheetMetal" count="1" />
+											<material class="ScrapMetal" count="1" />
+								        </materials>
+							        </item>
+							        <item class="HockeyMaskOhOd09" time="3">
+								        <materials>
+							        		<material class="Rags" count="3" />
+											<material class="PaintCan_White" count="1" />
+											<material class="SheetMetal" count="1" />
+											<material class="ScrapMetal" count="1" />
+								        </materials>
+							        </item>
+							        <item class="HockeyMaskOhOd10" time="3">
+								        <materials>
+							        		<material class="Rags" count="3" />
+											<material class="PaintCan_Black" count="1" />
+											<material class="SheetMetal" count="1" />
+											<material class="ScrapMetal" count="1" />
+								        </materials>
+							        </item>
+							        <item class="HockeyMaskOhOd11" time="3">
+								        <materials>
+							        		<material class="Rags" count="3" />
+											<material class="PaintCan_Red" count="1" />
+											<material class="SheetMetal" count="1" />
+											<material class="ScrapMetal" count="1" />
+								        </materials>
+							        </item>
+							        <item class="HockeyMaskOhOd12" time="3">
+								        <materials>
+							        		<material class="Rags" count="3" />
+											<material class="PaintCan_Brown" count="1" />
+											<material class="SheetMetal" count="1" />
+											<material class="ScrapMetal" count="1" />
+								        </materials>
+							        </item>
+							        <item class="HockeyMaskOhOd13" time="3">
+								        <materials>
+							        		<material class="Rags" count="3" />
+											<material class="PaintCan_Black" count="1" />
+											<material class="SheetMetal" count="1" />
+											<material class="ScrapMetal" count="1" />
+								        </materials>
+							        </item>
+							        <item class="HockeyMaskOhOd14" time="3">
+								        <materials>
+							        		<material class="Rags" count="3" />
+											<material class="PaintCan_Red" count="1" />
+											<material class="SheetMetal" count="1" />
+											<material class="ScrapMetal" count="1" />
+								        </materials>
+							        </item>
+							        <item class="HockeyMaskOhOd15" time="3">
+								        <materials>
+							        		<material class="Rags" count="3" />
+											<material class="PaintCan_Black" count="1" />
+											<material class="SheetMetal" count="1" />
+											<material class="ScrapMetal" count="1" />
+								        </materials>
+							        </item>
+							        <item class="HockeyMaskOhOd16" time="3">
+								        <materials>
+							        		<material class="Rags" count="3" />
+											<material class="PaintCan_Yellow" count="1" />
+											<material class="PaintCan_Green" count="1" />
+											<material class="SheetMetal" count="1" />
+											<material class="ScrapMetal" count="1" />
+								        </materials>
+							        </item>
+							        <item class="HockeyMaskOhOd17" time="3">
+								        <materials>
+							        		<material class="Rags" count="3" />
+											<material class="PaintCan_Black" count="1" />
+											<material class="SheetMetal" count="1" />
+											<material class="ScrapMetal" count="1" />
+								        </materials>
+							        </item>
+							        <item class="HockeyMaskOhOd18" time="3">
+								        <materials>
+							        		<material class="Rags" count="3" />
+											<material class="PaintCan_Black" count="1" />
+											<material class="SheetMetal" count="1" />
+											<material class="ScrapMetal" count="1" />
+								        </materials>
+							        </item>
+							        <item class="HockeyMaskOhOd19" time="3">
+								        <materials>
+							        		<material class="Rags" count="3" />
+											<material class="PaintCan_Brown" count="1" />
+											<material class="SheetMetal" count="1" />
+											<material class="ScrapMetal" count="1" />
+								        </materials>
+							        </item>
+							        <item class="HockeyMaskOhOd20" time="3">
+								        <materials>
+							        		<material class="Rags" count="3" />
+											<material class="PaintCan_Red" count="1" />
+											<material class="SheetMetal" count="1" />
+											<material class="ScrapMetal" count="1" />
+								        </materials>
+							        </item>
+									<item class="JackOLanternHelmet" time="3">
+										<materials>
+											<material class="Pumpkin" />										
+										</materials>
+									</item>
+								</items>
+							</type>
+							<type name="Vests" >
+								<items>
+									<item class="NoSleevesVestBlack" time="3">
+										<materials>
+											<material class="Rags" count="4" />
+											<material class="RK_Leather" count="2" />
+											<material class="PaintCan_Black" />
+										</materials>
+									</item>
+									<item class="NoSleevesVestBlue" time="3">
+										<materials>
+											<material class="Rags" count="4" />
+											<material class="RK_Leather" count="2" />
+											<material class="PaintCan_Blue" />
+										</materials>
+									</item>
+									<item class="NoSleevesVestBrown" time="3">
+										<materials>
+											<material class="Rags" count="4" />
+											<material class="RK_Leather" count="2" />
+											<material class="PaintCan_Brown" />
+										</materials>
+									</item>
+									<item class="NoSleevesVestGreen" time="3">
+										<materials>
+											<material class="Rags" count="4" />
+											<material class="RK_Leather" count="2" />
+											<material class="PaintCan_Green" />
+										</materials>
+									</item>
+									<item class="NoSleevesVestRed" time="3">
+										<materials>
+											<material class="Rags" count="4" />
+											<material class="RK_Leather" count="2" />
+											<material class="PaintCan_Red" />
+										</materials>
+									</item>
+									<item class="NoSleevesVestTan" time="3">
+										<materials>
+											<material class="Rags" count="4" />
+											<material class="RK_Leather" count="2" />
+											<material class="PaintCan_Brown" />
+										</materials>
+									</item>
+									<item class="FootballPads" time="3">
+										<materials>
+											<material class="Rags" count="6" />
+											<material class="RK_Leather" count="2" />	
+										</materials>
+									</item>
+									<item class="FootballPadsSpiked" time="3">
+										<materials>
+											<material class="Rags" count="6" />
+											<material class="RK_Leather" count="3" />											
+										</materials>
+									</item>
+								</items>
+							</type>
+							<type name="Headbands" >
+								<items>
+									<item class="HeadbandAqua" time="3">
+										<materials>
+											<material class="Rags" count="4" />
+											<material class="PaintCan_Aqua" />
+										</materials>
+									</item>
+									<item class="HeadbandBlack" time="3">
+										<materials>
+											<material class="Rags" count="4" />
+											<material class="PaintCan_Black" />
+										</materials>
+									</item>
+									<item class="HeadbandBlue" time="3">
+										<materials>
+											<material class="Rags" count="4" />
+											<material class="PaintCan_Blue" />
+										</materials>
+									</item>
+									<item class="HeadbandBrown" time="3">
+										<materials>
+											<material class="Rags" count="4" />
+											<material class="PaintCan_Brown" />
+										</materials>
+									</item>
+									<item class="HeadbandCamoA" time="3">
+										<materials>
+											<material class="Rags" count="4" />
+											<material class="PaintCan_Brown" />
+											<material class="PaintCan_Green" />
+										</materials>
+									</item>
+									<item class="HeadbandCamoB" time="3">
+										<materials>
+											<material class="Rags" count="4" />
+											<material class="PaintCan_Green" count="2" />
+										</materials>
+									</item>
+									<item class="HeadbandCamoC" time="3">
+										<materials>
+											<material class="Rags" count="4" />
+											<material class="PaintCan_Green" count="2" />
+										</materials>
+									</item>
+									<item class="HeadbandCamoD" time="3">
+										<materials>
+											<material class="Rags" count="4" />
+											<material class="PaintCan_Brown" />
+											<material class="PaintCan_White" />
+										</materials>
+									</item>
+									<item class="HeadbandGold" time="3">
+										<materials>
+											<material class="Rags" count="4" />
+											<material class="PaintCan_Gold" />
+										</materials>
+									</item>
+									<item class="HeadbandGreen" time="3">
+										<materials>
+											<material class="Rags" count="4" />
+											<material class="PaintCan_Green" />
+										</materials>
+									</item>
+									<item class="HeadbandOrange" time="3">
+										<materials>
+											<material class="Rags" count="4" />
+											<material class="PaintCan_Orange" />
+										</materials>
+									</item>
+									<item class="HeadbandPatternA" time="3">
+										<materials>
+											<material class="Rags" count="4" />
+											<material class="PaintCan_Brown" count="2" />
+										</materials>
+									</item>
+									<item class="HeadbandPatternB" time="3">
+										<materials>
+											<material class="Rags" count="4" />
+											<material class="PaintCan_Black" />
+											<material class="PaintCan_White" />
+										</materials>
+									</item>
+									<item class="HeadbandPatternC" time="3">
+										<materials>
+											<material class="Rags" count="4" />
+											<material class="PaintCan_Yellow" />
+											<material class="PaintCan_Green" />
+											<material class="PaintCan_Orange" />
+										</materials>
+									</item>
+									<item class="HeadbandPatternD" time="3">
+										<materials>
+											<material class="Rags" count="4" />
+											<material class="PaintCan_Green" count="2" />
+										</materials>
+									</item>
+									<item class="HeadbandPatternE" time="3">
+										<materials>
+											<material class="Rags" count="4" />
+											<material class="PaintCan_Pink" />
+											<material class="PaintCan_Purple" />
+										</materials>
+									</item>
+									<item class="HeadbandPink" time="3">
+										<materials>
+											<material class="Rags" count="4" />
+											<material class="PaintCan_Pink" />
+										</materials>
+									</item>
+									<item class="HeadbandPurple" time="3">
+										<materials>
+											<material class="Rags" count="4" />
+											<material class="PaintCan_Purple" />
+										</materials>
+									</item>
+									<item class="HeadbandRainbow" time="3">
+										<materials>
+											<material class="Rags" count="4" />
+											<material class="PaintCan_Red" />
+											<material class="PaintCan_Pink" />
+											<material class="PaintCan_Blue" />
+											<material class="PaintCan_Aqua" />
+											<material class="PaintCan_Green" />
+											<material class="PaintCan_Yellow" />
+										</materials>
+									</item>
+									<item class="HeadbandRed" time="3">
+										<materials>
+											<material class="Rags" count="4" />
+											<material class="PaintCan_Red" />
+										</materials>
+									</item>
+									<item class="HeadbandSilver" time="3">
+										<materials>
+											<material class="Rags" count="4" />
+											<material class="PaintCan_Silver" />
+										</materials>
+									</item>
+									<item class="HeadbandWhite" time="3">
+										<materials>
+											<material class="Rags" count="4" />
+										</materials>
+									</item>
+									<item class="HeadbandYellow" time="3">
+										<materials>
+											<material class="Rags" count="4" />
+											<material class="PaintCan_Yellow" />
+										</materials>
+									</item>
+								</items>
+							</type>
+							<type name="Scarves" >
+								<items>
+									<item class="ScarfAqua" time="3">
+										<materials>
+											<material class="Rags" count="4" />
+											<material class="PaintCan_Aqua" />
+										</materials>
+									</item>
+									<item class="ScarfBlack" time="3">
+										<materials>
+											<material class="Rags" count="4" />
+											<material class="PaintCan_Black" />
+										</materials>
+									</item>
+									<item class="ScarfBlue" time="3">
+										<materials>
+											<material class="Rags" count="4" />
+											<material class="PaintCan_Blue" />
+										</materials>
+									</item>
+									<item class="ScarfBrown" time="3">
+										<materials>
+											<material class="Rags" count="4" />
+											<material class="PaintCan_Brown" />
+										</materials>
+									</item>
+									<item class="ScarfCamo1" time="3">
+										<materials>
+											<material class="Rags" count="4" />
+											<material class="PaintCan_Brown" />
+											<material class="PaintCan_Green" />
+										</materials>
+									</item>
+									<item class="ScarfCamo2" time="3">
+										<materials>
+											<material class="Rags" count="4" />
+											<material class="PaintCan_Green" count="2" />
+										</materials>
+									</item>
+									<item class="ScarfCamo3" time="3">
+										<materials>
+											<material class="Rags" count="4" />
+											<material class="PaintCan_Green" count="2" />
+										</materials>
+									</item>
+									<item class="ScarfCamo4" time="3">
+										<materials>
+											<material class="Rags" count="4" />
+											<material class="PaintCan_Brown" />
+											<material class="PaintCan_White" />
+										</materials>
+									</item>
+									<item class="ScarfGold" time="3">
+										<materials>
+											<material class="Rags" count="4" />
+											<material class="PaintCan_Gold" />
+										</materials>
+									</item>
+									<item class="ScarfGreen" time="3">
+										<materials>
+											<material class="Rags" count="4" />
+											<material class="PaintCan_Green" />
+										</materials>
+									</item>
+									<item class="ScarfOrange" time="3">
+										<materials>
+											<material class="Rags" count="4" />
+											<material class="PaintCan_Orange" />
+										</materials>
+									</item>
+									<item class="ScarfPatternA" time="3">
+										<materials>
+											<material class="Rags" count="4" />
+											<material class="PaintCan_Brown" count="2" />
+										</materials>
+									</item>
+									<item class="ScarfPatternB" time="3">
+										<materials>
+											<material class="Rags" count="4" />
+											<material class="PaintCan_Black" />
+											<material class="PaintCan_White" />
+										</materials>
+									</item>
+									<item class="ScarfPatternC" time="3">
+										<materials>
+											<material class="Rags" count="4" />
+											<material class="PaintCan_Yellow" />
+											<material class="PaintCan_Green" />
+											<material class="PaintCan_Orange" />
+										</materials>
+									</item>
+									<item class="ScarfPatternD" time="3">
+										<materials>
+											<material class="Rags" count="4" />
+											<material class="PaintCan_Green" count="2" />
+										</materials>
+									</item>
+									<item class="ScarfPatternE" time="3">
+										<materials>
+											<material class="Rags" count="4" />
+											<material class="PaintCan_Pink" />
+											<material class="PaintCan_Purple" />
+										</materials>
+									</item>
+									<item class="ScarfPink" time="3">
+										<materials>
+											<material class="Rags" count="4" />
+											<material class="PaintCan_Pink" />
+										</materials>
+									</item>
+									<item class="ScarfPurple" time="3">
+										<materials>
+											<material class="Rags" count="4" />
+											<material class="PaintCan_Purple" />
+										</materials>
+									</item>
+									<item class="ScarfRainbow" time="3">
+										<materials>
+											<material class="Rags" count="4" />
+											<material class="PaintCan_Red" />
+											<material class="PaintCan_Pink" />
+											<material class="PaintCan_Blue" />
+											<material class="PaintCan_Aqua" />
+											<material class="PaintCan_Green" />
+											<material class="PaintCan_Yellow" />
+										</materials>
+									</item>
+									<item class="ScarfRed" time="3">
+										<materials>
+											<material class="Rags" count="4" />
+											<material class="PaintCan_Red" />
+										</materials>
+									</item>
+									<item class="ScarfSilver" time="3">
+										<materials>
+											<material class="Rags" count="4" />
+											<material class="PaintCan_Silver" />
+										</materials>
+									</item>
+									<item class="ScarfWhite" time="3">
+										<materials>
+											<material class="Rags" count="4" />
+										</materials>
+									</item>
+									<item class="ScarfYellow" time="3">
+										<materials>
+											<material class="Rags" count="4" />
+											<material class="PaintCan_Yellow" />
+										</materials>
+									</item>
+								</items>
+							</type>
+							<type name="Bandanas" >
+								<items>
+									<item class="BandanaHat" time="3">
+										<materials>
+											<material class="Rags" count="4" />
+											<material class="PaintCan_Brown" count="1" />
+										</materials>
+									</item>
+									<item class="BandanaHatCamo1" time="3">
+										<materials>
+											<material class="Rags" count="4" />
+											<material class="PaintCan_Brown" count="1" />
+											<material class="PaintCan_White" count="1" />
+										</materials>
+									</item>
+									<item class="BandanaHatCamo2" time="3">
+										<materials>
+											<material class="Rags" count="4" />
+											<material class="PaintCan_Brown" count="1" />
+											<material class="PaintCan_Black" count="1" />
+										</materials>
+									</item>
+									<item class="BandanaHatCamo3" time="3">
+										<materials>
+											<material class="Rags" count="4" />
+											<material class="PaintCan_Brown" count="1" />
+											<material class="PaintCan_Green" count="1" />
+										</materials>
+									</item>
+									<item class="BandanaHatCamo4" time="3">
+										<materials>
+											<material class="Rags" count="4" />
+											<material class="PaintCan_Brown" count="1" />
+											<material class="PaintCan_Yellow" count="1" />
+										</materials>
+									</item>
+									<item class="Bandana" time="3">
+										<materials>
+											<material class="Rags" count="4" />
+										</materials>
+									</item>
+									<item class="BandanaCamo1" time="3">
+										<materials>
+											<material class="Rags" count="4" />
+											<material class="PaintCan_Brown" count="1" />
+											<material class="PaintCan_White" count="1" />
+										</materials>
+									</item>
+									<item class="BandanaCamo2" time="3">
+										<materials>
+											<material class="Rags" count="4" />
+											<material class="PaintCan_Black" count="1" />
+											<material class="PaintCan_White" count="1" />
+										</materials>
+									</item>
+									<item class="BandanaCamo3" time="3">
+										<materials>
+											<material class="Rags" count="4" />
+											<material class="PaintCan_Brown" count="1" />
+											<material class="PaintCan_Yellow" count="1" />
+										</materials>
+									</item>
+									<item class="BandanaCamo4" time="3">
+										<materials>
+											<material class="Rags" count="4" />
+											<material class="PaintCan_Brown" count="1" />
+											<material class="PaintCan_Yellow" count="1" />
+										</materials>
+									</item>
+									<item class="BandanaKhaki" time="3">
+										<materials>
+											<material class="Rags" count="4" />
+											<material class="PaintCan_Brown" count="1" />
+										</materials>
+									</item>
+									<item class="BandanaBrown" time="3">
+										<materials>
+											<material class="Rags" count="4" />
+											<material class="PaintCan_Brown" count="1" />
+										</materials>
+									</item>
+									<item class="BandanaBlack" time="3">
+										<materials>
+											<material class="Rags" count="4" />
+											<material class="PaintCan_Black" count="1" />
+										</materials>
+									</item>
+									<item class="BandanaOrange" time="3">
+										<materials>
+											<material class="Rags" count="4" />
+											<material class="PaintCan_Orange" count="1" />
+										</materials>
+									</item>
+									<item class="BandanaBlue" time="3">
+										<materials>
+											<material class="Rags" count="4" />
+											<material class="PaintCan_Blue" count="1" />
+										</materials>
+									</item>
+									<item class="BandanaGray" time="3">
+										<materials>
+											<material class="Rags" count="4" />
+											<material class="PaintCan_White" count="1" />
+											<material class="PaintCan_Black" count="1" />
+										</materials>
+									</item>
+									<item class="BandanaRed" time="3">
+										<materials>
+											<material class="Rags" count="4" />
+											<material class="PaintCan_Red" count="1" />
+										</materials>
+									</item>
+									<item class="BandanaPink" time="3">
+										<materials>
+											<material class="Rags" count="4" />
+											<material class="PaintCan_Pink" count="1" />
+										</materials>
+									</item>
+									<item class="BandanaGreen" time="3">
+										<materials>
+											<material class="Rags" count="4" />
+											<material class="PaintCan_Green" count="1" />
+										</materials>
+									</item>
+									<item class="BandanaPurple" time="3">
+										<materials>
+											<material class="Rags" count="4" />
+											<material class="PaintCan_Purple" count="1" />
+										</materials>
+									</item>
+									<item class="BandanaYellow" time="3">
+										<materials>
+											<material class="Rags" count="4" />
+											<material class="PaintCan_Yellow" count="1" />
+										</materials>
+									</item>
+									<item class="flexcap_firefrontback_black" time="1">
+										<materials>
+											<material class="RK_Cloth" count="1" />
+											<material class="Rags" count="2" />
+											<material class="PaintCan_Black" count="1" />
+										</materials>
+									</item>
+									<item class="flexcap_firefrontback_blue" time="1">
+										<materials>
+											<material class="RK_Cloth" count="1" />
+											<material class="Rags" count="2" />
+											<material class="PaintCan_Blue" count="1" />
+										</materials>
+									</item>
+								</items>
+							</type>
+							<type name="Torso Wear" >
+								<items>
+									<item class="SweaterBlack" time="3">
+										<materials>
+											<material class="RK_Cloth" count="2" />
+											<material class="PaintCan_Black" />
+										</materials>
+									</item>
+									<item class="SweaterBlue" time="3">
+										<materials>
+											<material class="RK_Cloth" count="2" />
+											<material class="PaintCan_Blue" />
+										</materials>
+									</item>
+									<item class="SweaterGreen" time="3">
+										<materials>
+											<material class="RK_Cloth" count="2" />
+											<material class="PaintCan_Green" />
+										</materials>
+									</item>
+									<item class="SweaterOrange" time="3">
+										<materials>
+											<material class="RK_Cloth" count="2" />
+											<material class="PaintCan_Orange" />
+										</materials>
+									</item>
+									<item class="SweaterPink" time="3">
+										<materials>
+											<material class="RK_Cloth" count="2" />
+											<material class="PaintCan_Pink" />
+										</materials>
+									</item>
+									<item class="SweaterRed" time="3">
+										<materials>
+											<material class="RK_Cloth" count="2" />
+											<material class="PaintCan_Red" />
+										</materials>
+									</item>
+									<item class="HoodiePinkDesign2" time="3">
+										<materials>
+											<material class="RK_Cloth" count="2" />
+											<material class="PaintCan_Pink" />
+										</materials>
+									</item>
+									<item class="HoodiePixelGreenBlackDesign5" time="3">
+										<materials>
+											<material class="RK_Cloth" count="2" />
+											<material class="PaintCan_Green" />
+										</materials>
+									</item>
+									<item class="HoodiePixelOrangeBlackDesign5" time="3">
+										<materials>
+											<material class="RK_Cloth" count="2" />
+											<material class="PaintCan_Orange" />
+											<material class="PaintCan_Black" />
+										</materials>
+									</item>
+									<item class="HoodieSerk" time="3">
+										<materials>
+											<material class="RK_Cloth" count="2" />
+											<material class="PaintCan_Green" />
+										</materials>
+									</item>
+									<item class="Hoodie" time="3">
+										<materials>
+											<material class="RK_Cloth" count="2" />
+											<material class="PaintCan_Black" />
+										</materials>
+									</item>
+									<item class="HoodieBlueBlackDesign4" time="3">
+										<materials>
+											<material class="RK_Cloth" count="2" />
+											<material class="PaintCan_Black" />
+											<material class="PaintCan_Blue" />
+										</materials>
+									</item>
+									<item class="HoodieOrangeBlackDesign4" time="3">
+										<materials>
+											<material class="RK_Cloth" count="2" />
+											<material class="PaintCan_Orange" />
+											<material class="PaintCan_Black" />
+										</materials>
+									</item>
+									<item class="HoodieRedWhiteDesign4" time="3">
+										<materials>
+											<material class="RK_Cloth" count="2" />
+											<material class="PaintCan_Red" />
+											<material class="PaintCan_White" />
+										</materials>
+									</item>
+									<item class="LeatherJacketRed" time="3">
+										<materials>
+											<material class="RK_Leather" count="2" />
+											<material class="PaintCan_Red" />
+										</materials>
+									</item>
+									<item class="LeatherJacketYellow" time="3">
+										<materials>
+											<material class="RK_Leather" count="2" />
+											<material class="PaintCan_Yellow" />
+										</materials>
+									</item>
+									<item class="LeatherJacketBlack" time="3">
+										<materials>
+											<material class="RK_Leather" count="2" />
+											<material class="PaintCan_Black" />
+										</materials>
+									</item>
+									
+									
+									<item class="TshirtNoImageBlack" time="3">
+										<materials>
+											<material class="RK_Cloth" count="2" />
+											<material class="PaintCan_Black" />
+										</materials>
+									</item>
+									<item class="TshirtNoImageBlue" time="3">
+										<materials>
+											<material class="RK_Cloth" count="2" />
+											<material class="PaintCan_Blue" />
+										</materials>
+									</item>
+									<item class="TshirtNoImageGreen" time="3">
+										<materials>
+											<material class="RK_Cloth" count="2" />
+											<material class="PaintCan_Green" />
+										</materials>
+									</item>
+									<item class="TshirtNoImageGrey" time="3">
+										<materials>
+											<material class="RK_Cloth" count="2" />
+											<material class="PaintCan_Black" />
+											<material class="PaintCan_White" />
+										</materials>
+									</item>
+									<item class="TshirtNoImagePink" time="3">
+										<materials>
+											<material class="RK_Cloth" count="2" />
+											<material class="PaintCan_Pink" />
+										</materials>
+									</item>
+									<item class="TshirtNoImageRed" time="3">
+										<materials>
+											<material class="RK_Cloth" count="2" />
+											<material class="PaintCan_Red" />
+										</materials>
+									</item>
+									<item class="TshirtSecurityBlack" time="3">
+										<materials>
+											<material class="RK_Cloth" count="2" />
+											<material class="PaintCan_Black" />
+										</materials>
+									</item>
+									<item class="TshirtSecurityBlue" time="3">
+										<materials>
+											<material class="RK_Cloth" count="2" />
+											<material class="PaintCan_Blue" />
+										</materials>
+									</item>
+									<item class="TshirtFirefighterBlack" time="3">
+										<materials>
+											<material class="RK_Cloth" count="2" />
+											<material class="PaintCan_Black" />
+										</materials>
+									</item>
+									<item class="TshirtFirefighterBlue" time="3">
+										<materials>
+											<material class="RK_Cloth" count="2" />
+											<material class="PaintCan_Blue" />
+										</materials>
+									</item>
+									<item class="TshirtTargetBlack" time="3">
+										<materials>
+											<material class="RK_Cloth" count="2" />
+											<material class="PaintCan_Black" />
+										</materials>
+									</item>
+									<item class="TshirtTargetBlue" time="3">
+										<materials>
+											<material class="RK_Cloth" count="2" />
+											<material class="PaintCan_Blue" />
+										</materials>
+									</item>
+									<item class="TshirtTargetGreen" time="3">
+										<materials>
+											<material class="RK_Cloth" count="2" />
+											<material class="PaintCan_Green" />
+										</materials>
+									</item>
+									<item class="TshirtTargetGrey" time="3">
+										<materials>
+											<material class="RK_Cloth" count="2" />
+											<material class="PaintCan_Black" />
+										</materials>
+									</item>
+									<item class="TshirtTargetPink" time="3">
+										<materials>
+											<material class="RK_Cloth" count="2" />
+											<material class="PaintCan_Pink" />
+										</materials>
+									</item>
+									<item class="TshirtTargetRed" time="3">
+										<materials>
+											<material class="RK_Cloth" count="2" />
+											<material class="PaintCan_Red" />
+										</materials>
+									</item>
+									<item class="ButtonUpShirtPinkChekered" time="3">
+										<materials>
+											<material class="RK_Cloth" count="2" />
+											<material class="PaintCan_Pink" />
+										</materials>
+									</item>
+									<item class="ButtonUpShirtPurpleHawaiian" time="3">
+										<materials>
+											<material class="RK_Cloth" count="2" />
+											<material class="PaintCan_Purple" />
+										</materials>
+									</item>
+									<item class="ButtonUpShirtRedHawaiian" time="3">
+										<materials>
+											<material class="RK_Cloth" count="2" />
+											<material class="PaintCan_Red" />
+										</materials>
+									</item>
+								</items>
+							</type>
+							<type name="PuffyJackets">
+								<items>
+									<item class="PuffyJacketBlack" time="3">
+										<materials>
+											<material class="RK_Cloth" count="3" />
+											<material class="PaintCan_Black" />
+										</materials>
+									</item>
+									<item class="PuffyJacketBlueWhite" time="3">
+										<materials>
+											<material class="RK_Cloth" count="3" />
+											<material class="PaintCan_Blue" />
+											<material class="PaintCan_White" />
+										</materials>
+									</item>
+									<item class="PuffyJacketCamo1" time="3">
+										<materials>
+											<material class="RK_Cloth" count="3" />
+											<material class="PaintCan_Green" />
+										</materials>
+									</item>
+									<item class="PuffyJacketCamo2" time="3">
+										<materials>
+											<material class="RK_Cloth" count="3" />
+											<material class="PaintCan_Brown" />
+										</materials>
+									</item>
+									<item class="PuffyJacketCamo3" time="3">
+										<materials>
+											<material class="RK_Cloth" count="3" />
+											<material class="PaintCan_Green" />
+											<material class="PaintCan_Brown" />
+										</materials>
+									</item>
+									<item class="PuffyJacketAmerica" time="3">
+										<materials>
+											<material class="RK_Cloth" count="3" />
+											<material class="PaintCan_Red" />
+											<material class="PaintCan_Blue" />
+											<material class="PaintCan_White" />
+										</materials>
+									</item>
+									<item class="PuffyJacketCanada" time="3">
+										<materials>
+											<material class="RK_Cloth" count="3" />
+											<material class="PaintCan_Red" />
+											<material class="PaintCan_White" />
+										</materials>
+									</item>
+									<item class="PuffyJacketGreenWhite" time="3">
+										<materials>
+											<material class="RK_Cloth" count="3" />
+											<material class="PaintCan_Green" />
+											<material class="PaintCan_White" />
+										</materials>
+									</item>
+									<item class="PuffyJacketGrey" time="3">
+										<materials>
+											<material class="RK_Cloth" count="3" />
+											<material class="PaintCan_White" />
+										</materials>
+									</item>
+									<item class="PuffyJacketGreyBlack" time="3">
+										<materials>
+											<material class="RK_Cloth" count="3" />
+											<material class="PaintCan_Black" />
+											<material class="PaintCan_White" />
+										</materials>
+									</item>
+									<item class="PuffyJacketGreyBlack2" time="3">
+										<materials>
+											<material class="RK_Cloth" count="3" />
+											<material class="PaintCan_Black" />
+											<material class="PaintCan_White" />
+										</materials>
+									</item>
+									<item class="PuffyJacketPinkWhite" time="3">
+										<materials>
+											<material class="RK_Cloth" count="3" />
+											<material class="PaintCan_Pink" />
+											<material class="PaintCan_White" />
+										</materials>
+									</item>
+									<item class="PuffyJacketPurpleFushia" time="3">
+										<materials>
+											<material class="RK_Cloth" count="3" />
+											<material class="PaintCan_Pink" />
+										</materials>
+									</item>
+									<item class="PuffyJacketRedBlue" time="3">
+										<materials>
+											<material class="RK_Cloth" count="3" />
+											<material class="PaintCan_Red" />
+											<material class="PaintCan_Blue" />
+										</materials>
+									</item>
+									<item class="PuffyJacketRedWhite" time="3">
+										<materials>
+											<material class="RK_Cloth" count="3" />
+											<material class="PaintCan_Red" />
+											<material class="PaintCan_White" />
+										</materials>
+									</item>
+									<item class="PuffyJacketSilver" time="3">
+										<materials>
+											<material class="RK_Cloth" count="3" />
+											<material class="PaintCan_Silver" />
+										</materials>
+									</item>
+									<item class="PuffyJacketGold" time="3">
+										<materials>
+											<material class="RK_Cloth" count="3" />
+											<material class="PaintCan_Gold" />
+										</materials>
+									</item>
+									<item class="PuffyJacketWhite" time="3">
+										<materials>
+											<material class="RK_Cloth" count="3" />
+											<material class="PaintCan_White" />
+										</materials>
+									</item>
+									<item class="PuffyJacketWhiteCamo1" time="3">
+										<materials>
+											<material class="RK_Cloth" count="3" />
+											<material class="PaintCan_Black" />
+											<material class="PaintCan_White" />
+										</materials>
+									</item>
+								</items>
+							</type>
+							<type name="Leg Wear" >
+								<items>
+									<item class="TrackPantsBlack" time="3">
+										<materials>
+											<material class="RK_Cloth" count="2" />
+											<material class="PaintCan_Black" />
+											<material class="PaintCan_White" />
+										</materials>
+									</item>
+									<item class="TrackPantsBlue" time="3">
+										<materials>
+											<material class="RK_Cloth" count="2" />
+											<material class="PaintCan_Aqua" />
+											<material class="PaintCan_White" />
+										</materials>
+									</item>
+									<item class="TrackPantsGreen" time="3">
+										<materials>
+											<material class="RK_Cloth" count="2" />
+											<material class="PaintCan_Green" />
+											<material class="PaintCan_White" />
+										</materials>
+									</item>
+									<item class="TrackPantsOrange" time="3">
+										<materials>
+											<material class="RK_Cloth" count="2" />
+											<material class="PaintCan_Orange" />
+											<material class="PaintCan_White" />
+										</materials>
+									</item>	
+									<item class="TrackPantsPink" time="3">
+										<materials>
+											<material class="RK_Cloth" count="2" />
+											<material class="PaintCan_Pink" />
+											<material class="PaintCan_White" />
+										</materials>
+									</item>	
+									<item class="TrackPantsYellow" time="3">
+										<materials>
+											<material class="RK_Cloth" count="2" />
+											<material class="PaintCan_Yellow" />
+											<material class="PaintCan_White" />
+										</materials>
+									</item>
+									<item class="WandererPantsBlack" time="3">
+										<materials>
+											<material class="RK_Cloth" count="2" />
+											<material class="PaintCan_Black" />
+										</materials>
+									</item>	
+									<item class="WandererPantsBlue" time="3">
+										<materials>
+											<material class="RK_Cloth" count="2" />
+											<material class="PaintCan_Blue" />
+										</materials>
+									</item>
+									<item class="WandererPantsBrown" time="3">
+										<materials>
+											<material class="RK_Cloth" count="2" />
+											<material class="PaintCan_Brown" />
+										</materials>
+									</item>
+									<item class="WandererPantsGreen" time="3">
+										<materials>
+											<material class="RK_Cloth" count="2" />
+											<material class="PaintCan_Green" />
+										</materials>
+									</item>	
+									<item class="WandererPantsRed" time="3">
+										<materials>
+											<material class="RK_Cloth" count="2" />
+											<material class="PaintCan_Red" />
+										</materials>
+									</item>	
+									<item class="WandererPantsTan" time="3">
+										<materials>
+											<material class="RK_Cloth" count="2" />
+											<material class="PaintCan_Brown" />
+										</materials>
+									</item>
+								</items>
+							</type>
+							<type name="Shoes" >
+								<items>
+									<item class="Sneakers" time="1">
+										<materials>
+											<material class="RK_Cloth" count="2" />
+										</materials>
+									</item>
+									<item class="SneakersBlack" time="1">
+										<materials>
+											<material class="RK_Cloth" count="2" />
+											<material class="PaintCan_Black" />
+										</materials>
+									</item>
+									<item class="SneakersBlackBlue" time="1">
+										<materials>
+											<material class="RK_Cloth" count="2" />
+											<material class="PaintCan_Black" />
+											<material class="PaintCan_Blue" />
+										</materials>
+									</item>
+									<item class="SneakersBlackGreen" time="1">
+										<materials>
+											<material class="RK_Cloth" count="2" />
+											<material class="PaintCan_Black" />
+											<material class="PaintCan_Green" />
+										</materials>
+									</item>
+									<item class="SneakersBlackPink" time="1">
+										<materials>
+											<material class="RK_Cloth" count="2" />
+											<material class="PaintCan_Black" />
+											<material class="PaintCan_Pink" />
+										</materials>
+									</item>
+									<item class="SneakersBlackRed" time="1">
+										<materials>
+											<material class="RK_Cloth" count="2" />
+											<material class="PaintCan_Black" />
+											<material class="PaintCan_Red" />
+										</materials>
+									</item>
+									<item class="SneakersBlueBlack" time="1">
+										<materials>
+											<material class="RK_Cloth" count="2" />
+											<material class="PaintCan_Blue" />
+											<material class="PaintCan_Black" />
+										</materials>
+									</item>
+									<item class="SneakersBrown" time="1">
+										<materials>
+											<material class="RK_Cloth" count="2" />
+											<material class="PaintCan_Brown" />
+										</materials>
+									</item>
+									<item class="SneakersGreenBlack" time="1">
+										<materials>
+											<material class="RK_Cloth" count="2" />
+											<material class="PaintCan_Green" />
+											<material class="PaintCan_Black" />
+										</materials>
+									</item>
+									<item class="SneakersPinkBlack" time="1">
+										<materials>
+											<material class="RK_Cloth" count="2" />
+											<material class="PaintCan_Pink" />
+											<material class="PaintCan_Black" />
+										</materials>
+									</item>
+									<item class="SneakersRedBlack" time="1">
+										<materials>
+											<material class="RK_Cloth" count="2" />
+											<material class="PaintCan_Red" />
+											<material class="PaintCan_Black" />
+										</materials>
+									</item>
+									<item class="SneakersSilver" time="1">
+										<materials>
+											<material class="RK_Cloth" count="2" />
+											<material class="PaintCan_Silver" />
+										</materials>
+									</item>
+									<item class="SneakersWhite" time="1">
+										<materials>
+											<material class="RK_Cloth" count="2" />
+											<material class="PaintCan_White" />
+										</materials>
+									</item>
+									<item class="SneakersWhiteBlue" time="1">
+										<materials>
+											<material class="RK_Cloth" count="2" />
+											<material class="PaintCan_White" />
+											<material class="PaintCan_Blue" />
+										</materials>
+									</item>
+									<item class="SneakersWhiteGreen" time="1">
+										<materials>
+											<material class="RK_Cloth" count="2" />
+											<material class="PaintCan_White" />
+											<material class="PaintCan_Green" />
+										</materials>
+									</item>
+									<item class="SneakersWhitePink" time="1">
+										<materials>
+											<material class="RK_Cloth" count="2" />
+											<material class="PaintCan_White" />
+											<material class="PaintCan_Pink" />
+										</materials>
+									</item>
+									<item class="TennisShoes" time="1">
+										<materials>
+											<material class="RK_Cloth" count="2" />
+										</materials>
+									</item>
+								</items>
+							</type>
+							<type name="Fanny Packs" >
+								<items>
+									<item class="FannyPackBlack" time="1">
+										<materials>
+											<material class="RK_Cloth" count="2" />
+											<material class="PaintCan_Black" />
+										</materials>
+									</item>
+									<item class="FannyPackBlueOrange" time="1">
+										<materials>
+											<material class="RK_Cloth" count="2" />
+											<material class="PaintCan_Blue" />
+											<material class="PaintCan_Orange" />
+										</materials>
+									</item>
+									<item class="FannyPackCamo1" time="1">
+										<materials>
+											<material class="RK_Cloth" count="2" />
+											<material class="PaintCan_Green" />
+											<material class="PaintCan_White" />
+										</materials>
+									</item>
+									<item class="FannyPackCamo2" time="1">
+										<materials>
+											<material class="RK_Cloth" count="2" />
+											<material class="PaintCan_Green" />
+											<material class="PaintCan_Black" />
+										</materials>
+									</item>
+									<item class="FannyPackCamo3" time="1">
+										<materials>
+											<material class="RK_Cloth" count="2" />
+											<material class="PaintCan_Brown" />
+											<material class="PaintCan_Black" />
+										</materials>
+									</item>
+									<item class="FannyPackGray" time="1">
+										<materials>
+											<material class="RK_Cloth" count="2" />
+											<material class="PaintCan_Black" />
+											<material class="PaintCan_White" />
+										</materials>
+									</item>
+									<item class="FannyPackGreenGray" time="1">
+										<materials>
+											<material class="RK_Cloth" count="2" />
+											<material class="PaintCan_Green" />
+											<material class="PaintCan_Black" />
+											<material class="PaintCan_White" />
+										</materials>
+									</item>
+									<item class="FannyPackMaroonGray" time="1">
+										<materials>
+											<material class="RK_Cloth" count="2" />
+											<material class="PaintCan_Red" />
+											<material class="PaintCan_Black" />
+											<material class="PaintCan_White" />
+										</materials>
+									</item>
+									<item class="FannyPackPurplePink" time="1">
+										<materials>
+											<material class="RK_Cloth" count="2" />
+											<material class="PaintCan_Pink" />
+										</materials>
+									</item>
+									<item class="FannyPackRed" time="1">
+										<materials>
+											<material class="RK_Cloth" count="2" />
+											<material class="PaintCan_Red" />
+										</materials>
+									</item>
+									<item class="FannyPackRedBlue" time="1">
+										<materials>
+											<material class="RK_Cloth" count="2" />
+											<material class="PaintCan_Red" />
+											<material class="PaintCan_Blue" />
+										</materials>
+									</item>
+									<item class="FannyPackYellow" time="1">
+										<materials>
+											<material class="RK_Cloth" count="2" />
+											<material class="PaintCan_Yellow" />
+										</materials>
+									</item>
+								</items>
+							</type>
+							<type name="Rain Coats" >
+								<items>
+									<item class="RainJacketBlack" time="1">
+										<materials>
+											<material class="RK_Teflon" count="2" />
+											<material class="PaintCan_Black" />
+										</materials>
+									</item>
+									<item class="RainJacketBlue" time="1">
+										<materials>
+											<material class="RK_Teflon" count="2" />
+											<material class="PaintCan_Blue" />
+										</materials>
+									</item>
+									<item class="RainJacketBlueGrey" time="1">
+										<materials>
+											<material class="RK_Teflon" count="2" />
+											<material class="PaintCan_Red" />
+											<material class="PaintCan_Black" />
+											<material class="PaintCan_White" />
+										</materials>
+									</item>
+									<item class="RainJacketCamo1" time="1">
+										<materials>
+											<material class="RK_Teflon" count="2" />
+											<material class="PaintCan_Green" />
+											<material class="PaintCan_Brown" />
+										</materials>
+									</item>
+									<item class="RainJacketCamo2" time="1">
+										<materials>
+											<material class="RK_Teflon" count="2" />
+											<material class="PaintCan_Green" />
+											<material class="PaintCan_Brown" />
+										</materials>
+									</item>
+									<item class="RainJacketCamo3" time="1">
+										<materials>
+											<material class="RK_Teflon" count="2" />
+											<material class="PaintCan_Green" />
+											<material class="PaintCan_Brown" />
+										</materials>
+									</item>
+									<item class="RainJacketDarkGrey" time="1">
+										<materials>
+											<material class="RK_Teflon" count="2" />
+											<material class="PaintCan_White" />
+											<material class="PaintCan_Black" />
+										</materials>
+									</item>
+									<item class="RainJacketGreen" time="1">
+										<materials>
+											<material class="RK_Teflon" count="2" />
+											<material class="PaintCan_Green" />
+										</materials>
+									</item>
+									<item class="RainJacketGreenGrey" time="1">
+										<materials>
+											<material class="RK_Teflon" count="2" />
+											<material class="PaintCan_Green" />
+											<material class="PaintCan_Black" />
+											<material class="PaintCan_White" />
+										</materials>
+									</item>
+									<item class="RainJacketGrey" time="1">
+										<materials>
+											<material class="RK_Teflon" count="2" />
+											<material class="PaintCan_White" />
+											<material class="PaintCan_Black" />
+										</materials>
+									</item>
+									<item class="RainJacketGreyBlack" time="1">
+										<materials>
+											<material class="RK_Teflon" count="2" />
+											<material class="PaintCan_White" />
+											<material class="PaintCan_Black" />
+										</materials>
+									</item>
+									<item class="RainJacketKaki" time="1">
+										<materials>
+											<material class="RK_Teflon" count="2" />
+											<material class="PaintCan_Brown" />
+										</materials>
+									</item>
+									<item class="RainJacketLightDarkGrey" time="1">
+										<materials>
+											<material class="RK_Teflon" count="2" />
+											<material class="PaintCan_White" />
+											<material class="PaintCan_Black" />
+										</materials>
+									</item>
+									<item class="RainJacketMarine" time="1">
+										<materials>
+											<material class="RK_Teflon" count="2" />
+											<material class="PaintCan_Aqua" />
+										</materials>
+									</item>
+									<item class="RainJacketOrangeBlue" time="1">
+										<materials>
+											<material class="RK_Teflon" count="2" />
+											<material class="PaintCan_Orange" />
+											<material class="PaintCan_Blue" />
+										</materials>
+									</item>
+									<item class="RainJacketPinkPurple" time="1">
+										<materials>
+											<material class="RK_Teflon" count="2" />
+											<material class="PaintCan_Pink" />
+											<material class="PaintCan_Purple" />
+										</materials>
+									</item>
+									<item class="RainJacketRed" time="1">
+										<materials>
+											<material class="RK_Teflon" count="2" />
+											<material class="PaintCan_Red" />
+										</materials>
+									</item>
+									<item class="RainJacketRedBlue" time="1">
+										<materials>
+											<material class="RK_Teflon" count="2" />
+											<material class="PaintCan_Blue" />
+										</materials>
+									</item>
+									<item class="RainJacketRedGrey" time="1">
+										<materials>
+											<material class="RK_Teflon" count="2" />
+											<material class="PaintCan_Red" />
+											<material class="PaintCan_White" />
+											<material class="PaintCan_Black" />
+										</materials>
+									</item>
+									<item class="RainJacketYellow" time="1">
+										<materials>
+											<material class="RK_Teflon" count="2" />
+											<material class="PaintCan_Yellow" />
+										</materials>
+									</item>
+							    </items>
+                            </type>
+							<type name="Rain Coats (Hooded)">
+							    <items>
+									<item class="RainJacketBlackUp" time="2">
+						 	        	<materials>
+						 	        		<material class="RainJacketBlack" count="1" />
+						 	        	</materials>
+						 	        </item>
+						 	        <item class="RainJacketBlueUp" time="2">
+						 	        	<materials>
+						 	        		<material class="RainJacketBlue" count="1" />
+						 	        	</materials>
+						 	        </item>
+						 	        <item class="RainJacketBlueGreyUp" time="2">
+						 	        	<materials>
+						 	        		<material class="RainJacketBlueGrey" count="1" />
+						 	        	</materials>
+						 	        </item>
+						 	        <item class="RainJacketCamo1Up" time="2">
+						 	        	<materials>
+						 	        		<material class="RainJacketCamo1" count="1" />
+						 	        	</materials>
+						 	        </item>
+						 	        <item class="RainJacketCamo2Up" time="2">
+						 	        	<materials>
+						 	        		<material class="RainJacketCamo2" count="1" />
+						 	        	</materials>
+						 	        </item>
+						 	        <item class="RainJacketCamo3Up" time="2">
+						 	        	<materials>
+						 	        		<material class="RainJacketCamo3" count="1" />
+						 	        	</materials>
+						 	        </item>
+						 	        <item class="RainJacketDarkGreyUp" time="2">
+						 	        	<materials>
+						 	        		<material class="RainJacketDarkGrey" count="1" />
+						 	        	</materials>
+						 	        </item>
+						 	        <item class="RainJacketGreenUp" time="2">
+						 	        	<materials>
+						 	        		<material class="RainJacketGreen" count="1" />
+						 	        	</materials>
+						 	        </item>
+						 	        <item class="RainJacketGreenGreyUp" time="2">
+						 	        	<materials>
+						 	        		<material class="RainJacketGreenGrey" count="1" />
+						 	        	</materials>
+						 	        </item>
+						 	        <item class="RainJacketGreyUp" time="2">
+						 	        	<materials>
+						 	        		<material class="RainJacketGrey" count="1" />
+						 	        	</materials>
+						 	        </item>
+						 	        <item class="RainJacketGreyBlackUp" time="2">
+						 	        	<materials>
+						 	        		<material class="RainJacketGreyBlack" count="1" />
+						 	        	</materials>
+						 	        </item>
+						 	        <item class="RainJacketKakiUp" time="2">
+						 	        	<materials>
+						 	        		<material class="RainJacketKaki" count="1" />
+						 	        	</materials>
+						 	        </item>
+						 	        <item class="RainJacketLightDarkGreyUp" time="2">
+						 	        	<materials>
+						 	        		<material class="RainJacketLightDarkGrey" count="1" />
+						 	        	</materials>
+						 	        </item>
+						 	        <item class="RainJacketMarineUp" time="2">
+						 	        	<materials>
+						 	        		<material class="RainJacketMarine" count="1" />
+						 	        	</materials>
+						 	        </item>
+						 	        <item class="RainJacketOrangeBlueUp" time="2">
+						 	        	<materials>
+						 	        		<material class="RainJacketOrangeBlue" count="1" />
+						 	        	</materials>
+						 	        </item>
+						 	        <item class="RainJacketPinkPurpleUp" time="2">
+						 	        	<materials>
+						 	        		<material class="RainJacketPinkPurple" count="1" />
+						 	        	</materials>
+						 	        </item>
+						 	        <item class="RainJacketRedUp" time="2">
+						 	        	<materials>
+						 	        		<material class="RainJacketRed" count="1" />
+						 	        	</materials>
+						 	        </item>
+						 	        <item class="RainJacketRedBlueUp" time="2">
+						 	        	<materials>
+						 	        		<material class="RainJacketRedBlue" count="1" />
+						 	        	</materials>
+						 	        </item>
+						 	        <item class="RainJacketRedGreyUp" time="2">
+						 	        	<materials>
+						 	        		<material class="RainJacketRedGrey" count="1" />
+						 	        	</materials>
+						 	        </item>
+						 	        <item class="RainJacketYellowUp" time="2">
+						 	        	<materials>
+						 	        		<material class="RainJacketYellow" count="1" />
+						 	        	</materials>
+						 	        </item>
+					    		</items>
+					    	</type>
+							<type name="Backpacks" >
+								<items>
+									<item class="StowPackBlack" time="1">
+										<materials>
+											<material class="RK_Cloth" count="4" />
+											<material class="Rope" count="2" />
+											<material class="PaintCan_Black" />
+										</materials>
+									</item>
+									<item class="StowPackBlue" time="1">
+										<materials>
+											<material class="RK_Cloth" count="4" />
+											<material class="Rope" count="2" />
+											<material class="PaintCan_Blue" />
+										</materials>
+									</item>
+									<item class="StowPackGreen" time="1">
+										<materials>
+											<material class="RK_Cloth" count="4" />
+											<material class="Rope" count="2" />
+											<material class="PaintCan_Green" />
+										</materials>
+									</item>
+									<item class="StowPackOrange" time="1">
+										<materials>
+											<material class="RK_Cloth" count="4" />
+											<material class="Rope" count="2" />
+											<material class="PaintCan_Orange" />
+										</materials>
+									</item>
+									<item class="StowPackPink" time="1">
+										<materials>
+											<material class="RK_Cloth" count="4" />
+											<material class="Rope" count="2" />
+											<material class="PaintCan_Pink" />
+										</materials>
+									</item>
+									<item class="StowPackPurple" time="1">
+										<materials>
+											<material class="RK_Cloth" count="4" />
+											<material class="Rope" count="2" />
+											<material class="PaintCan_Purple" />
+										</materials>
+									</item>
+									<item class="StowPackRed" time="1">
+										<materials>
+											<material class="RK_Cloth" count="4" />
+											<material class="Rope" count="2" />
+											<material class="PaintCan_Red" />
+										</materials>
+									</item>
+									<item class="StowPackWhite" time="1">
+										<materials>
+											<material class="RK_Cloth" count="4" />
+											<material class="Rope" count="2" />
+											<material class="PaintCan_White" />
+										</materials>
+									</item>	
+									<item class="StowPackYellow" time="1">
+										<materials>
+											<material class="RK_Cloth" count="4" />
+											<material class="Rope" count="2" />
+											<material class="PaintCan_Yellow" />
+										</materials>
+									</item>
+							    </items>
+                            </type>
+                        </types>
+                    </subcat>
+                </subcats>
+            </cat>
+        </cats>
+    </guide>
+</recipes>

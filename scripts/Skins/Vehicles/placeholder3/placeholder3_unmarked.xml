@@ -1,0 +1,10 @@
+<skin name="placeholder3_unmarked">
+  <params>
+    <param name="display_name" value="Jeep Unmarked Skin" />
+    <param name="description" value="Unmarked skin for the jeep" />
+    <param name="material" value="objects/vehicles/willys/willys_unmarked" />
+  </params>
+  <items>
+    <item name="placeholder3" />
+  </items>
+</skin>

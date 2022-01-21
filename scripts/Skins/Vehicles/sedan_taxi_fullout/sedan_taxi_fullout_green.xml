@@ -1,0 +1,12 @@
+<skin name="sedan_taxi_fullout_green">
+
+	<params>
+		<param name="display_name" value="Default Skin"/>
+		<param name="description" value="Default Skin"/>
+		<param name="material" value="Objects/vehicles/NZMadCar/nzmadcar_green"/>
+	</params>
+
+	<items>
+		<item name="sedan_taxi_fullout"/>
+	</items>
+</skin>

@@ -1,0 +1,12 @@
+<skin name="placeholder17_default">
+
+	<params>
+		<param name="display_name" value="Default Skin"/>
+		<param name="description" value="Default Skin"/>
+		<param name="material" value="objects/vehicles/BIG VEHICLES/The Fandrom/The Fandrom"/>
+	</params>
+
+	<items>
+		<item name="placeholder17"/>
+	</items>
+</skin>

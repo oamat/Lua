@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<item name="powered_generator_diesel" class="Placeable" category="any">
+  <params>
+    <param name="selectable" value="0" />
+    <param name="mass" value="500" />
+    <param name="physics" value="0" />
+    <param name="view_dist_min" value="100" />
+    <param name="no_icon" value="1" />
+    <param name="display_name" value="@DieselGenerator" />
+    <param name="description" value="@DieselGeneratorDescription" />
+  </params>
+  <base_part class="generator" type="6669" name="powered_generator_diesel" max_health="40000" repair_with="ElectricalParts" towable="1" limit="1">
+    <generator filename="Objects/props/large_generator/large_generator_tow.cgf" power_type="fuel" helper="light" power_output="25">
+      <levels>
+        <type category="oil" decay_rate="15" fill_amount="4000" />
+        <!-- 4L, .015L / minute -->
+        <type category="dieselfuel" decay_rate="150" fill_amount="40000" />
+        <!-- 40L, .150L / minute -->
+      </levels>
+    </generator>
+    <base_actions>
+      <base_action class="toggle_generator">
+        <toggle_generator effect="" sound_running="Play_generator_large_on" sound_stopping="Play_generator_large_off" />
+      </base_action>
+    </base_actions>
+    <envareas>
+      <envarea enabled="0" scaleEffectsFromCenter="1" bb1="-2,-2,-1" bb2="2,2,3.0" temperature="7" />
+    </envareas>
+  </base_part>
+  <geometry>
+    <thirdperson name="objects/props/large_generator/large_generator_tow.cgf" />
+  </geometry>
+  <storage>
+    <types>
+      <type category="carbattery" capacity="1" visible="1" />
+      <type category="drivebelt" capacity="1" visible="1" />
+    </types>
+  </storage>
+</item>

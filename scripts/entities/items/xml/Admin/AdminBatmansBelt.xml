@@ -1,0 +1,162 @@
+<item name="AdminBatmansBelt" class="Item" category="any">
+	<params>
+		<param name="selectable" value="0"/>
+		<param name="auto_wear" value="1"/>
+		<param name="mass" value="0.15"/>
+		<param name="healthMax" value="1000.0"/>
+		<param name="damage_scale" value="0.25"/>
+		<param name="display_name" value="Batmansbelt  TEST, DROP OR YOU COULD BE BANNED"/>
+		<param name="description" value="Batmansbelt  TEST, DROP OR YOU COULD BE BANNED"/>
+	</params>
+	
+	<MovementModifiers speedScale="1.25" speedScaleTactical="1.15"/>
+
+	<wearable>
+		<param name="slot" value="waist"/>
+	</wearable>
+
+	<geometry>
+		<onground name="Objects/characters/players/male/waist/fanny_pack/fannypack_onground.cgf" material="Objects/characters/players/male/waist/fanny_pack/fanny_greengrey"/>
+	</geometry>
+	
+	 <protection level="11">
+
+        <environmental>
+          <protection_amount type="explosion" percentage="7500.0" />
+          <protection_amount type="rain_acid" percentage="7500.0" />
+          <protection_amount type="cold" percentage="7500.0" />
+          <protection_amount type="physical" percentage="7500.0" />
+          <protection_amount type="heat" percentage="7500.0" />
+          <protection_amount type="fire" percentage="7500.0" />
+          <protection_amount type="rain" percentage="7500.0" />
+          <protection_amount type="humidity" percentage="7500.0" />
+          <protection_amount type="pool_acid" percentage="7500.0" />
+          <protection_amount type="rain_radiation" percentage="7500.0" />
+          <protection_amount type="feet_sharp" percentage="7500.0" />
+          <protection_amount type="feet_blunt" percentage="7500.0" />
+          <protection_amount type="electricity" percentage="7500.0" />
+          <protection_amount type="gas_smoke" percentage="7500.0" />
+          <protection_amount type="gas_radiation" percentage="7500.0" />
+          <protection_amount type="ray_radiation" percentage="7500.0" />
+        </environmental>
+        
+		<protectBodyPart name="default">
+          <protection_amount hit_type="default" percentage="7500.0" />
+          <protection_amount hit_type="melee" percentage="7500.0" />
+          <protection_amount hit_type="fall" percentage="7500.0" />
+          <protection_amount hit_type="punish" percentage="7500.0" />
+          <protection_amount hit_type="acid" percentage="7500.0" />
+          <protection_amount hit_type="bleed" percentage="7500.0" />
+          <protection_amount hit_type="poison" percentage="7500.0" />
+        </protectBodyPart>
+
+        <protectBodyPart name="pelvis">
+            <protection_amount hit_type="default" percentage="7500.0" />
+			<protection_amount hit_type="blunt" percentage="7500.0"/>
+			<protection_amount hit_type="melee" percentage="7500.0"/>
+			<protection_amount hit_type="ammo_22" percentage="7500.0"/>
+			<protection_amount hit_type="ammo_10mm" percentage="7500.0"/> 
+			<protection_amount hit_type="ammo_357" percentage="7500.0"/> 
+			<protection_amount hit_type="ammo_44M" percentage="7500.0"/>
+			<protection_amount hit_type="ammo_9mm" percentage="7500.0"/> 
+			<protection_amount hit_type="ammo_acp_45" percentage="7500.0"/> 
+			<protection_amount hit_type="ammo_5_45x39" percentage="7500.0"/>
+			<protection_amount hit_type="ammo_5_56x45" percentage="7500.0"/>						
+			<protection_amount hit_type="ammo_7_62x39" percentage="7500.0"/>
+			<protection_amount hit_type="ammo_308" percentage="7500.0"/>
+			<protection_amount hit_type="ammo_223" percentage="7500.0"/>
+			<protection_amount hit_type="ammo_5_70x28" percentage="7500.0"/> 
+			<protection_amount hit_type="ammo_7_62x51" percentage="7500.0"/>
+			<protection_amount hit_type="ammo_5_56x77" percentage="7500.0"/>
+			<protection_amount hit_type="ammo_50cal" percentage="7500.0"/>
+			<protection_amount hit_type="ammo_50calx" percentage="7500.0"/>
+			<protection_amount hit_type="ammo_40mm_grenade" percentage="7500.0"/>
+			<protection_amount hit_type="ammo_grenade" percentage="7500.0"/>
+			<protection_amount hit_type="Grenade" percentage="7500.0"/>
+			<protection_amount hit_type="ammo_rocket" percentage="7500.0"/>	
+        </protectBodyPart>
+
+        <protectBodyPart name="torso">
+          <protection_amount hit_type="default" percentage="7500.0" />
+        </protectBodyPart>
+
+        <protectBodyPart name="head">
+          <protection_amount hit_type="default" percentage="7500.0" />
+        </protectBodyPart>
+
+        <protectBodyPart name="armLeft">
+          <protection_amount hit_type="default" percentage="7500.0" />
+        </protectBodyPart>
+
+        <protectBodyPart name="armRight">
+          <protection_amount hit_type="default" percentage="7500.0" />
+        </protectBodyPart>
+
+        <protectBodyPart name="handLeft">
+          <protection_amount hit_type="default" percentage="7500.0" />
+        </protectBodyPart>
+
+        <protectBodyPart name="handRight">
+          <protection_amount hit_type="default" percentage="7500.0" />
+        </protectBodyPart>
+
+        <protectBodyPart name="footLeft">
+          <protection_amount hit_type="default" percentage="7500.0" />
+        </protectBodyPart>
+
+        <protectBodyPart name="footRight">
+          <protection_amount hit_type="default" percentage="7500.0" />
+        </protectBodyPart>
+
+        <protectBodyPart name="legLeft">
+          <protection_amount hit_type="default" percentage="7500.0" />
+        </protectBodyPart>
+
+        <protectBodyPart name="legRight">
+          <protection_amount hit_type="default" percentage="7500.0" />
+        </protectBodyPart>
+
+        <protectBodyPart name="shoulderLeft">
+          <protection_amount hit_type="default" percentage="7500.0" />
+        </protectBodyPart>
+
+        <protectBodyPart name="shoulderRight">
+          <protection_amount hit_type="default" percentage="7500.0" />
+        </protectBodyPart>
+
+
+    </protection>
+	
+	<usable>
+		<param name="title" value="Convert To Rags"/>
+		<param name="action" value="craft" />
+		<param name="param" value="Rags" />
+		<param name="soundUsed" value="Play_fabric_tear" />
+	</usable>
+
+	<explosion> <!-- Only used to show PFX on destroy -->
+		<param name="damage" value="0"/>
+		<param name="pressure" value="0"/>
+		<param name="min_radius" value="0"/>
+		<param name="max_radius" value="0"/>
+		<param name="min_phys_radius" value="0"/>
+		<param name="max_phys_radius" value="0"/>
+		<param name="sound_radius" value="0"/>
+		<param name="hole_size" value="0"/>
+		<param name="effect" value="item_degradation.generic.debris_medium"/>
+		<param name="effect_scale" value="1"/>
+		<param name="radial_blur_dist" value="0"/>
+		<param name="hit_type" value="frag"/>
+	</explosion>
+
+	<storage>
+		<locations>
+			<location category="any"/>
+			<location category="waist"/>
+		</locations>
+		<types>
+			<type category="any" capacity="10"/>
+		</types>
+	</storage>
+	
+</item>

@@ -1,0 +1,33 @@
+ <item name="snake_nzCooked" class="Consumable" category="any">
+
+	<params>
+		<param name="selectable" value="0"/>
+		<param name="mass" value="1.0"/>
+		<param name="stack_size" value="10"/>		
+		<param name="display_name" value="snake Cooked"/>
+		<param name="description" value="snake cooked, for cure radiation but ... it stings !"/>
+	</params>
+
+	<geometry>
+		<thirdperson name="Objects/NationZ/Consumables/RattleSnake/Rattlesnake_nzCooked.cgf" material="Objects/NationZ/Consumables/RattleSnake/rattlesnake_nzCooked.mtl" />
+	</geometry>
+
+	<consumable>
+		<!-- a cookable item must have cookedItem and cookedTime defined -->
+		<param name="cookable" value="1"/>
+		<param name="cookedItem" value="snake_nzBurned"/>
+		<param name="cookedTime" value="60"/>
+		<param name="foodAmount" value="700"/>
+		<param name="torpidityAmount" value="-40"/>
+		<param name="staminaAmount" value="-100"/>
+		<param name="radiationAmount" value="-100"/>
+		<param name="soundConsumed" value="Play_food_soft_eat"/>
+	</consumable>
+	
+	<storage>
+		<locations>
+			<location category="any"/>
+		</locations>
+	</storage>
+
+</item>

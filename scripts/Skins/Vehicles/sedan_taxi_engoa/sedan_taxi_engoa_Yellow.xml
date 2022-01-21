@@ -1,0 +1,13 @@
+<skin name="sedan_taxi_engoa_Yellow">
+
+	<params>
+		<param name="display_name" value="Sedan Yellow Skin"/>
+		<param name="description" value="Yellow skin for the Sedan"/>
+		<param name="material" value="objects/vehicles/sedan_crown_vic/base/sedan_base_yellow"/>
+	</params>
+
+	<items>
+		<item name="sedan_taxi_engoa"/>	
+	</items>
+
+</skin>

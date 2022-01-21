@@ -1,0 +1,10 @@
+<skin name="placeholder11_greener">
+  <params>
+    <param name="display_name" value="Shelby Mustang GT500 greener skin" />
+    <param name="description" value="Greener skin for the Mustang" />
+    <param name="material" value="objects/vehicles/shelby_gt500/shelby_gt_greener" />
+  </params>
+  <items>
+    <item name="placeholder11" />
+  </items>
+</skin>

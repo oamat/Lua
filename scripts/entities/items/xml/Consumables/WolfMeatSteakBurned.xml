@@ -1,0 +1,26 @@
+<item name="WolfMeatSteakBurned" class="Consumable" category="any">
+
+	<params>
+		<param name="selectable" value="0" />
+		<param name="mass" value="1.0" />
+		<param name="stack_size" value="25" />		
+		<param name="display_name" value="Burned Wolf Meat" />
+		<param name="description" value="Burned wolf meat. Still provides some nurishment." />
+	</params>
+
+	<geometry>
+		<thirdperson name="objects/consumables/meat_steaks/meat_steak_burnt.cgf"/>
+	</geometry>
+
+	<consumable>
+		<param name="foodAmount" value="75" />
+		<param name="soundConsumed" value="Play_food_hard_eat" />
+	</consumable>
+
+	<storage>
+		<locations>
+			<location category="any"/>
+		</locations>
+	</storage>
+
+</item>

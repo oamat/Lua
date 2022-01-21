@@ -1,0 +1,85 @@
+<ammo name="Flare_rocketNew" class="Grenade">
+  <geometry>
+    <firstperson name="Objects/weapons/rocket_launcher/rocket_launcher_missle.cgf" />
+  </geometry>
+  <flags>
+    <param name="serverspawn" value="1" />
+    <param name="predictspawn" value="1" />
+  </flags>
+  <physics type="particle">
+    <param name="mass" value="0.05" />
+    <param name="speed" value="55" />
+    <param name="traceable" value="1" />
+    <param name="spin" value="5, 5, 5" />
+    <param name="spin_random" value="10, 10, 10" />
+    <param name="air_resistance" value="0.0016" />
+    <param name="water_resistance" value="10.0" />
+    <param name="gravity" value="0, 0, -1" />
+    <param name="water_gravity" value="0, 0, -9.81" />
+    <param name="material" value="mat_metal_grenade" />
+    <param name="pierceability" value="14" />
+    <param name="single_contact" value="1" />
+  </physics>
+  <whiz>
+    <param name="sound" value="Play_bullet_whiz" />
+    <param name="distance" value="200.0" />
+  </whiz>
+  <ricochet>
+    <param name="sound" value="Play_explosion_large" />
+  </ricochet>
+  <sonic_boom>
+    <param name="sound" value="Play_explosion_large" />
+    <param name="distance" value="100.0" />
+  </sonic_boom>
+  <chemlight>
+    <param name="color" value="255,215,215" />
+    <param name="radius" value="5.0" />
+    <param name="diffuseMult" value="100" />
+    <param name="specularMult" value="0.01" />
+    <param name="HDRDynamic" value="0.0" />
+    <param name="style" value="10" />
+    <param name="animSpeed" value="1" />
+    <param name="castShadows" value="1" />
+    <param name="light_bulb_size" value="0.1" />
+    <param name="light_material" value="materials/lights/lens_flares/generic/lens_optics" />
+    <param name="lens_flare_name" value="miscreated.flaregun.flare" />
+    <param name="lens_flare_fov" value="360" />
+  </chemlight>
+  <trail>
+    <param name="effect" value="smoke_and_fire.weapon_stinger.AA" />
+    <param name="scale" value="0.04" />
+  </trail>
+  <explosion>
+    <param name="pressure" value="5000" />
+    <param name="torpidity" value="20" />
+    <param name="stamina" value="10" />
+    <param name="min_radius" value="1" />
+    <param name="max_radius" value="4" />
+    <param name="min_phys_radius" value="3" />
+    <param name="max_phys_radius" value="6" />
+    <param name="sound_radius" value="250" />
+    <param name="hole_size" value="2" />
+    <param name="terrain_hole_size" value="3" />
+    <param name="radialblurdist" value="45" />
+    <param name="effect" value="traps.grenadefrag.explosion" />
+    <param name="effect_scale" value="5" />
+    <param name="type" value="explosion" />
+  </explosion>
+  <params>
+    <param name="lifetime" value="7.0" />
+    <param name="showtime" value="0" />
+    <param name="bleed_percent" value="33" />
+    <param name="fire_percent" value="0" />
+    <param name="poison_percent" value="0" />
+    <param name="irradiate_percent" value="0" />
+    <param name="hit_type" value="arrow" />
+    <param name="aitype" value="grenade" />
+    <param name="bulletType" value="6" />
+  </params>
+  <grenade>
+    <param name="onImpactLifetime" value="0" />
+    <param name="detonateOnImpact" value="1" />
+    <param name="detonateOnActorImpact" value="1" />
+    <param name="allowDetonationDelay" value="0" />
+  </grenade>
+</ammo>

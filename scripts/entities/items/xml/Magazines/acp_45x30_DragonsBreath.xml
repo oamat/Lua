@@ -1,0 +1,47 @@
+<item name="acp_45x30_DragonsBreath" class="Magazine" category="any">
+  <params>
+    <param name="selectable" value="0" />
+    <param name="mass" value="0.325" />
+    <param name="display_name" value="DragonsBreath AUMP45" />
+    <param name="description" value="DragonsBreath Magazine for AUMP45" />
+    <param name="tag" value="acp_45x30" />
+  </params>
+  <magazine>
+    <magazine capacity="30" />
+    <ammos>
+      <ammo name="ammo_acp_45_DragonsBreath" amount="30" pile="Pile_45ACP_DragonsBreath" />
+    </ammos>
+    <param name="sound_load" value="Play_magazine_load" />
+    <param name="sound_unload" value="Play_magazine_unload" />
+  </magazine>
+  <geometry>
+    <onground name="Objects/magazines/acp_45_UMP/acp_45_ump.cgf" />
+  </geometry>
+  	<usable>
+        <param name="title" value="Salvage to Sheet Metal"/>
+        <param name="action" value="craft"/>
+        <param name="param" value="SheetMetal"/>
+        <param name="soundUsed" value=""/>
+    </usable>
+    
+  <storage>
+    <locations>
+      <location category="any" />
+      <location category="acp_45x30_mag" />
+    </locations>
+  </storage>
+  <steam>
+    <param name="tags" value="Category:Magazine" />
+    <param name="icon_url" value="http://miscreatedgame.com/shots/item_images/acp_45x30_200.png?crc=EA163B7D" />
+    <param name="store_hidden" value="0" />
+    <param name="amcoins" value="3" />
+    <param name="tradable" value="0" />
+    <param name="name_color" value="FF001E" />
+    <param name="itemdefid" value="80064" />
+    <param name="marketable" value="0" />
+    <param name="store_tags" value="Category:Magazine" />
+    <param name="background_color" value="2A2A2A" />
+    <param name="hidden" value="0" />
+    <param name="icon_url_large" value="http://miscreatedgame.com/shots/item_images/acp_45x30_2048.png?crc=EA163B7D" />
+  </steam>
+</item>

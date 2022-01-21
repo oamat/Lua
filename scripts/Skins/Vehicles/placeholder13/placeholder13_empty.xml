@@ -1,0 +1,10 @@
+<skin name="placeholder13_empty">
+	<params>
+		<param name="display_name" value="Default Skin"/>
+		<param name="description" value="Default Skin"/>	
+	</params>
+
+	<items>
+		<item name="placeholder13"/>
+	</items>
+</skin>

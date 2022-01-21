@@ -1,0 +1,22 @@
+<item name="CamoNetting" class="Item" category="any">
+
+	<params>
+		<param name="selectable" value="0" />
+		<param name="mass" value="1.0" />
+		<param name="stack_size" value="50" />
+		<param name="display_name" value="Camo Netting" />
+		<param name="description" value="Camo netting used in various construction recipes." />
+		<param name="vendor_cost" value="100"/>
+	</params>
+
+	<geometry>
+		<thirdperson name="objects/craftingmats/camo_netting/camo_netting_folded.cgf"/>
+	</geometry>
+
+	<storage>
+		<locations>
+			<location category="any"/>
+		</locations>
+	</storage>
+
+</item>

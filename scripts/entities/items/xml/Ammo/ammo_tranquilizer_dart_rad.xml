@@ -1,0 +1,53 @@
+<ammo name="ammo_tranquilizer_dart_rad" class="Bullet">
+  <geometry>
+    <firstperson name="objects/ammo/tranquilizer_dart/tranquilizer_dart.cgf" />
+  </geometry>
+  <flags>
+    <param name="clientonly" value="1" />
+    <param name="reusable" value="1" />
+  </flags>
+  <whiz>
+    <param name="sound" value="Play_bullet_whiz" />
+    <param name="distance" value="10.0" />
+  </whiz>
+  <ricochet>
+    <param name="sound" value="Play_bullet_ricochet" />
+  </ricochet>
+  <physics type="particle">
+    <param name="mass" value="0.06" />
+    <param name="speed" value="85" />
+    <param name="radius" value="0.003" />
+    <param name="air_resistance" value="1.5" />
+    <param name="water_resistance" value="10.0" />
+    <param name="gravity" value="0, 0, -9.81" />
+    <param name="water_gravity" value="0, 0, -9.81" />
+    <param name="material" value="mat_fabric" />
+    <param name="single_contact" value="1" />
+    <param name="pierceability" value="14" />
+    <pierceabilityLevels>
+      <param name="level3" value="100" />
+      <param name="level2" value="100" />
+      <param name="level1" value="100" />
+      <param name="maxPenetrationThickness" value="0.01" />
+    </pierceabilityLevels>
+  </physics>
+  <params>
+    <param name="hit_type" value="ammo_tranquilizer_dart" />
+    <param name="damage" value="20" />
+    <param name="torpidity" value="50" />
+    <param name="stamina" value="80" />
+    <param name="bleed_percent" value="99" />
+    <param name="irradiate_percent" value="99" />
+    <param name="break_chance" value="0.2" />
+    <param name="knocks_target" value="0" />
+    <param name="min_damage_for_knockDown" value="0" />
+    <param name="min_damage_for_knockDown_leg" value="0" />
+    <param name="showtime" value="0" />
+    <param name="lifetime" value="10.0" />
+    <param name="bulletType" value="6" />
+  </params>
+  <trailUnderWater>
+    <param name="effect" value="water.bubbles.bullets" />
+    <param name="scale" value="3.0" />
+  </trailUnderWater>
+</ammo>

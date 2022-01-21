@@ -1,0 +1,10 @@
+<skin name="placeholder5_greenyellow">
+  <params>
+    <param name="display_name" value="Camaro SS green and yellow skin" />
+    <param name="description" value="green and yellow skin for the Camaro" />
+    <param name="material" value="objects/vehicles/camaro_ss/camaroSSgreenyellow" />
+  </params>
+  <items>
+    <item name="placeholder5" />
+  </items>
+</skin>

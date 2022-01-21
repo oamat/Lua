@@ -1,0 +1,32 @@
+<item name="castor_nzCooked" class="Consumable" category="any"> 
+
+	<params>
+		<param name="selectable" value="0"/>
+		<param name="mass" value="1.0"/>
+		<param name="stack_size" value="10"/>		
+		<param name="display_name" value="Beaver Cooked"/>
+		<param name="description" value="Beaver cooked, for stamina and torpidity!"/>
+	</params>
+
+	<geometry>
+		<thirdperson name="Objects/NationZ/Consumables/Castor/castor_nzCooked.cgf" material="Objects/NationZ/Consumables/Castor/castor_nzCooked.mtl" />
+	</geometry>
+
+	<consumable>
+		<!-- a cookable item must have cookedItem and cookedTime defined -->
+		<param name="cookable" value="1"/>
+		<param name="cookedItem" value="castor_nzBurned"/>
+		<param name="cookedTime" value="60"/>
+		<param name="foodAmount" value="700"/>
+		<param name="staminaAmount" value="30"/>
+		<param name="torpidityAmount" value="-70"/>
+		<param name="soundConsumed" value="Play_food_soft_eat"/>
+	</consumable>
+
+	<storage>
+		<locations>
+			<location category="any"/>
+		</locations>
+	</storage>
+
+</item>

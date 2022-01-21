@@ -1,0 +1,10 @@
+<skin name="placeholder11_borange">
+  <params>
+    <param name="display_name" value="Shelby Mustang GT500 borange skin" />
+    <param name="description" value="Blood orange skin for the Mustang" />
+    <param name="material" value="objects/vehicles/shelby_gt500/shelby_gt_borange" />
+  </params>
+  <items>
+    <item name="placeholder11" />
+  </items>
+</skin>

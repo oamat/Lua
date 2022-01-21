@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<recipes>
+<guide name="guide_cooking_4" id="56">
+		<cats>
+			<cat name="Consumable">
+				<subcats>
+					<subcat name="Food">				
+						<types>
+							<type name="Cooking oven">
+								<items>
+									<item class="DeerStew" time="1" >
+										<materials>
+											<material class="DeerMeatSteakRaw" count="3" />
+											<material class="AnimalFat" />
+											<material class="Potatoes" />
+											<material class="Carrots" count="2" />
+										</materials>
+									</item>
+									<item class="WolfStew" time="1" >
+										<materials>
+											<material class="WolfMeatSteakRaw" count="3" />
+											<material class="AnimalFat" />
+											<material class="Potatoes" />
+											<material class="Carrots" count="2" />
+										</materials>
+									</item>
+									<item class="VegetableStew" time="1" >
+										<materials>
+											<material class="BrushPeas" count="4" />
+											<material class="Potatoes" count="2" />
+											<material class="Carrots" count="2" />
+										</materials>
+									</item>	
+									<item class="ChickenPotatoes" time="1" >
+										<materials>
+											<material class="ChickenRaw" />
+											<material class="Potatoes" count="2" />
+										</materials>
+									</item>	
+									<item class="WolfBeans" time="1" >
+										<materials>
+											<material class="WolfMeatSteakRaw" count="2" />
+											<material class="BrushPeas" count="2" />
+										</materials>
+									</item>	
+									<item class="NordicWolf" time="1" >
+										<materials>
+											<material class="WolfMeatSteakRaw" count="2" />
+											<material class="AnimalFat" />
+											<material class="MiniBottleVodka" />
+										</materials>
+									</item>	
+									<item class="PumpkinSoup" time="1" >
+										<materials>
+											<material class="Pumpkin" count="2" />
+										</materials>
+									</item>	
+									<item class="BearStew" time="1" >
+										<materials>
+											<material class="BearMeatRaw" count="2" />
+											<material class="AnimalFat" />
+											<material class="Potatoes" count="2" />
+											<material class="Carrots" count="2"/>
+											<material class="BrushPeas" count="4" />
+										</materials>
+									</item>
+									<item class="BearBeer" time="1" >
+										<materials>
+											<material class="BearMeatRaw" count="2" />
+											<material class="AnimalFat" />
+											<material class="BeerCan" />
+										</materials>
+									</item>
+									<item class="ShroomSoup" time="1" >
+										<materials>
+											<material class="MushroomFood" count="2" />
+										</materials>
+									</item>	
+									<item class="ShroomEggs" time="1" >
+										<materials>
+											<material class="EggChicken" />
+											<material class="MushroomFood" />
+										</materials>
+									</item>	
+									<item class="BaconEggs" time="1" amount="2" >
+										<materials>
+											<material class="EggChicken" />
+											<material class="HamCured" />
+										</materials>
+									</item>
+									<item class="StrangePorridge" time="1" amount="2" >
+										<materials>
+											<material class="PotatoesRotten" />
+											<material class="AnimalGut" />
+											<material class="Gunpowder" />
+										</materials>
+									</item>
+									<item class="FruitSalad" time="1" >
+										<materials>
+											<material class="AppleFresh" count="3" />
+											<material class="Berries" count="8" />
+											<material class="PeachesCan" />
+										</materials>
+									</item>
+									<item class="SeaSalad" time="1" >
+										<materials>
+											<material class="ClamSingle" count="2" />
+											<material class="TunaCan" />
+											<material class="Seaweed" />
+										</materials>
+									</item>
+									<item class="TomatoesFarcies" time="1" >
+										<materials>
+											<material class="DeerMeatSteakRaw" count="4" />
+											<material class="MushroomFood" count="2" />
+											<material class="Tomatoes" count="4" />
+										</materials>
+									</item>
+									<item class="ApplesNormande" time="1" >
+										<materials>
+											<material class="AppleFresh" count="4" />
+											<material class="Honeycomb" />
+										</materials>
+									</item>
+								</items>						
+							</type>
+						</types>
+					</subcat>							
+				</subcats>
+			</cat>		
+		</cats>
+	</guide>
+
+	<guide name="Cookoven">
+		<cats>
+			<cat name="Consumable">
+				<subcats>
+					<subcat name="Food">				
+						<types>
+							<type name="Cooking oven">
+								<items>
+									<item class="DeerStew" time="1" >
+										<materials>
+											<material class="DeerMeatSteakRaw" count="3" />
+											<material class="AnimalFat" />
+											<material class="Potatoes" />
+											<material class="Carrots" count="2" />
+										</materials>
+									</item>
+									<item class="WolfStew" time="1" >
+										<materials>
+											<material class="WolfMeatSteakRaw" count="3" />
+											<material class="AnimalFat" />
+											<material class="Potatoes" />
+											<material class="Carrots" count="2" />
+										</materials>
+									</item>
+									<item class="VegetableStew" time="1" >
+										<materials>
+											<material class="BrushPeas" count="4" />
+											<material class="Potatoes" count="2" />
+											<material class="Carrots" count="2" />
+										</materials>
+									</item>	
+									<item class="ChickenPotatoes" time="1" >
+										<materials>
+											<material class="ChickenRaw" />
+											<material class="Potatoes" count="2" />
+										</materials>
+									</item>	
+									<item class="WolfBeans" time="1" >
+										<materials>
+											<material class="WolfMeatSteakRaw" count="2" />
+											<material class="BrushPeas" count="2" />
+										</materials>
+									</item>	
+									<item class="NordicWolf" time="1" >
+										<materials>
+											<material class="WolfMeatSteakRaw" count="2" />
+											<material class="AnimalFat" />
+											<material class="MiniBottleVodka" />
+										</materials>
+									</item>	
+									<item class="PumpkinSoup" time="1" >
+										<materials>
+											<material class="Pumpkin" count="2" />
+										</materials>
+									</item>	
+									<item class="BearStew" time="1" >
+										<materials>
+											<material class="BearMeatRaw" count="2" />
+											<material class="AnimalFat" />
+											<material class="Potatoes" count="2" />
+											<material class="Carrots" count="2"/>
+											<material class="BrushPeas" count="4" />
+										</materials>
+									</item>
+									<item class="BearBeer" time="1" >
+										<materials>
+											<material class="BearMeatRaw" count="2" />
+											<material class="AnimalFat" />
+											<material class="BeerCan" />
+										</materials>
+									</item>
+									<item class="ShroomSoup" time="1" >
+										<materials>
+											<material class="MushroomFood" count="2" />
+										</materials>
+									</item>	
+									<item class="ShroomEggs" time="1" >
+										<materials>
+											<material class="EggChicken" />
+											<material class="MushroomFood" />
+										</materials>
+									</item>	
+									<item class="BaconEggs" time="1" amount="2" >
+										<materials>
+											<material class="EggChicken" />
+											<material class="HamCured" />
+										</materials>
+									</item>
+									<item class="StrangePorridge" time="1" amount="2" >
+										<materials>
+											<material class="PotatoesRotten" />
+											<material class="AnimalGut" />
+											<material class="Gunpowder" />
+										</materials>
+									</item>
+									<item class="FruitSalad" time="1" >
+										<materials>
+											<material class="AppleFresh" count="3" />
+											<material class="Berries" count="8" />
+											<material class="PeachesCan" />
+										</materials>
+									</item>
+									<item class="SeaSalad" time="1" >
+										<materials>
+											<material class="ClamSingle" count="2" />
+											<material class="TunaCan" />
+											<material class="Seaweed" />
+										</materials>
+									</item>
+									<item class="TomatoesFarcies" time="1" >
+										<materials>
+											<material class="DeerMeatSteakRaw" count="4" />
+											<material class="MushroomFood" count="2" />
+											<material class="Tomatoes" count="4" />
+										</materials>
+									</item>
+									<item class="ApplesNormande" time="1" >
+										<materials>
+											<material class="AppleFresh" count="4" />
+											<material class="Honeycomb" />
+										</materials>
+									</item>
+								</items>						
+							</type>
+						</types>
+					</subcat>							
+				</subcats>
+			</cat>		
+		</cats>
+	</guide>
+	
+
+	<guide name="workbench">
+		<cats>
+			<cat name="Base Building">
+				<subcats>
+					<subcat name="Utilities">
+								<items>
+								<item class="Cookoven" time="5">
+									<materials>
+										<material class="SheetMetal" count="25" />
+										<material class="ScrapMetal" count="15" />
+										<material class="ElectricalParts" count="5" />
+									</materials>
+								</item>
+							</items>
+					</subcat>
+				</subcats>
+			</cat>
+		</cats>
+	</guide>
+</recipes>	
+

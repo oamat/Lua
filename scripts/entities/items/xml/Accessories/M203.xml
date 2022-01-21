@@ -1,0 +1,57 @@
+<item name="M203" class="Magazine" category="any">
+	<params>
+		<param name="selectable" value="0"/>
+		<param name="mass" value="0.25"/>
+		<param name="display_name" value="M203 Grenade Launcher"/>
+		<param name="description" value="M203 Grenade Launcher for Assault Rifles"/>
+		<param name="hide_as_attachment" value="0"/>
+		<param name="dontRotateOnSpawn" value="1"/>
+		<param name="scopeAttachment" value="0"/>
+		<param name="tag" value="M203"/>
+		<param name="vendor_cost" value="80"/>
+	</params>
+
+  <!-- Test first -->
+  <magazine>
+   <!-- must only be one magazine element in this section-->
+		<magazine capacity="5"/> <!-- max number of rounds this magazine can hold -->
+
+		<!-- Ammo block -->
+		<!-- A magazine can support one or more types of ammo. For every ammo type, we add a <ammo ... /> line -->
+		<!-- We have to specify at least the ammo name (must be a registered projectile in the weapon system)  -->
+		<!-- amount indicates that the magazine will give the player that many rounds when initially spawned -->
+		<ammos>
+				<!-- ammo name="Grenade" amount="1" pile="GrenadePickup" / -->
+				<!-- ammo name="ammo_40mm_grenade" amount="5" pile="Pile_40mmGrenade" / -->
+				<!-- ammo name="ammo_40mm_grenade" amount="1" pile="Pile_RPGGrenade" / -->
+				<ammo name="ammo_sticky" amount="5" pile="Pile_sticky" />
+				
+
+			<!-- ** right now only the first ammo item is used ** -->
+			<!-- rounds in the magazine when you first pick it up by default -->
+			<!-- insert other ammo types that can be used in this magazine as well -->
+		</ammos>
+    <param name="sound_load" value="Play_magazine_load" />
+    <param name="sound_unload" value="Play_magazine_unload" />
+  </magazine> 
+  <!-- Test first -->
+
+	<geometry>
+		<thirdperson name="objects/weapons/attachments/m203/m203.cgf"/>
+	</geometry>
+
+	<usable>
+        <param name="title" value="Salvage to Sheet Metal"/>
+        <param name="action" value="craft"/>
+        <param name="param" value="SheetMetal"/>
+        <param name="soundUsed" value=""/>
+    </usable>
+
+	<storage>
+		<locations>
+			<location category="any"/>
+			<location category="stanag_mag"/>
+			<location category="mags_ak5d"/>
+		</locations>
+	</storage>
+</item>

@@ -1,0 +1,572 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<recipes>
+	<guide name="default" id="0">
+		<cats>
+			<cat name="Base Building">
+				<subcats>
+					<subcat name="Doors">
+						<types>
+							<type name="Strong Lockable">
+								<items>								
+									<item class="door_titanium" time="5">
+										<materials>
+												<material class="ScrapMetal" count="50" />
+												<material class="SheetMetal" count="50" />
+                                 				<material class="Nails" count="50" />
+												<material class="TitaniumBag" count="2" />                                                                  
+                                 				<material class="Amalgaduino" count="2"/>
+										</materials>
+                         			</item>	
+									<item class="metal_door_lockable_1m_2m" time="5">
+										<materials>
+											<material class="ScrapMetal" count="15" />
+											<material class="SheetMetal" count="15" />
+										</materials>
+                         			</item>							
+									<item class="door_glass_white" time="1">
+										<materials>
+											<material class="Lumber" count="30" />
+											<material class="ScrapMetal" count="3" />
+											<material class="SheetMetal" count="8" />
+										</materials>
+									</item>
+									<item class="porkchop_celldoor_lockable" time="4">
+                                        <materials>                                           
+											<material class="ScrapMetal" count="10" />
+											<material class="SheetMetal" count="30" />
+                                        </materials>
+                                    </item>
+									<item class="door_wood_white" time="1">
+										<materials>
+											<material class="Lumber" count="30" />
+											<material class="ScrapMetal" count="3" />
+											<material class="SheetMetal" count="8" />
+										</materials>
+									</item>
+									<item class="door_wood_brown" time="1">
+										<materials>
+											<material class="Lumber" count="30" />
+											<material class="ScrapMetal" count="3" />
+											<material class="SheetMetal" count="8" />
+										</materials>
+									</item>
+									<item class="door_wood_white_dirty" time="1">
+										<materials>
+											<material class="Lumber" count="30" />
+											<material class="ScrapMetal" count="3" />
+											<material class="SheetMetal" count="8" />
+										</materials>
+									</item>
+									<item class="dws_celldoor" time="1">
+										<materials>
+											<material class="ScrapMetal" count="10" />
+											<material class="SheetMetal" count="30" />
+										</materials>
+									</item>
+									
+									<item class="purnelium_door_base" time="1">
+										<materials>
+											<material class="ScrapMetal" count="10" />
+											<material class="SheetMetal" count="30" />
+										</materials>
+									</item>																	
+								</items>
+							</type>
+								<type name="Lockless">
+								<items>
+									<item class="dws_3_Room_Singlestory_BackDoor" time="1">
+										<materials>
+											<material class="Lumber" count="5" />
+											<material class="ScrapMetal" count="2" />
+											<material class="SheetMetal" count="2" />
+										</materials>
+									</item>
+									<item class="dws_3_Room_Singlestory_FrontDoor" time="1">
+										<materials>
+											<material class="Lumber" count="5" />
+											<material class="ScrapMetal" count="2" />
+											<material class="SheetMetal" count="2" />
+										</materials>
+									</item>
+									<item class="dws_24store_door_left" time="1">
+										<materials>
+											<material class="Lumber" count="5" />
+											<material class="ScrapMetal" count="2" />
+											<material class="SheetMetal" count="2" />
+										</materials>
+									</item>
+									<item class="dws_24store_door" time="1">
+										<materials>
+											<material class="Lumber" count="5" />
+											<material class="ScrapMetal" count="2" />
+											<material class="SheetMetal" count="2" />
+										</materials>
+									</item>
+									<item class="dws_blind_door" time="1">
+										<materials>
+											<material class="Lumber" count="5" />
+											<material class="ScrapMetal" count="2" />
+											<material class="SheetMetal" count="2" />
+										</materials>
+									</item>
+									
+									<item class="dws_Church_MainDoors_Left" time="1">
+										<materials>
+											<material class="Lumber" count="5" />
+											<material class="ScrapMetal" count="2" />
+											<material class="SheetMetal" count="2" />
+										</materials>
+									</item>
+									
+									<item class="dws_Church_MainDoors_Right" time="1">
+										<materials>
+											<material class="Lumber" count="5" />
+											<material class="ScrapMetal" count="2" />
+											<material class="SheetMetal" count="2" />
+										</materials>
+									</item>
+									
+									<item class="dws_cubicles_door" time="1">
+										<materials>
+											<material class="Lumber" count="5" />
+											<material class="ScrapMetal" count="2" />
+											<material class="SheetMetal" count="2" />
+										</materials>
+									</item>
+									
+									<item class="dws_cubicles_door_right" time="1">
+										<materials>
+											<material class="Lumber" count="5" />
+											<material class="ScrapMetal" count="2" />
+											<material class="SheetMetal" count="2" />
+										</materials>
+									</item>
+									
+									
+									
+									<item class="dws_corner_door" time="1">
+										<materials>
+											<material class="Lumber" count="5" />
+											<material class="ScrapMetal" count="2" />
+											<material class="SheetMetal" count="2" />
+										</materials>
+									</item>
+																		
+									<item class="dws_Clean_Door_Mesh" time="1">
+										<materials>
+											<material class="Lumber" count="5" />
+											<material class="ScrapMetal" count="2" />
+											<material class="SheetMetal" count="2" />
+										</materials>
+									</item>
+									
+									<item class="dws_darkwood_door1" time="1">
+										<materials>
+											<material class="Lumber" count="5" />
+											<material class="ScrapMetal" count="2" />
+											<material class="SheetMetal" count="2" />
+										</materials>
+									</item>
+																		
+									<item class="dws_entrance_door" time="1">
+										<materials>
+											<material class="Lumber" count="5" />
+											<material class="ScrapMetal" count="2" />
+											<material class="SheetMetal" count="2" />
+										</materials>
+									</item>
+									
+									<item class="dws_farm_gate" time="1">
+										<materials>
+											<material class="Lumber" count="5" />
+											<material class="ScrapMetal" count="2" />
+											<material class="SheetMetal" count="2" />
+										</materials>
+									</item>
+																		
+									<item class="dws_gasstationdoors" time="1">
+										<materials>
+											<material class="Lumber" count="5" />
+											<material class="ScrapMetal" count="2" />
+											<material class="SheetMetal" count="2" />
+										</materials>
+									</item>
+																		
+									<item class="dws_Flat_Blue_LargeWindow" time="1">
+										<materials>
+											<material class="Lumber" count="5" />
+											<material class="ScrapMetal" count="2" />
+											<material class="SheetMetal" count="2" />
+										</materials>
+									</item>
+									
+									<item class="dws_Flat_Blue_longWindow" time="1">
+										<materials>
+											<material class="Lumber" count="5" />
+											<material class="ScrapMetal" count="2" />
+											<material class="SheetMetal" count="2" />
+										</materials>
+									</item>
+									
+									<item class="dws_flatbed_trailer_container_doorleft" time="1">
+										<materials>
+											<material class="Lumber" count="5" />
+											<material class="ScrapMetal" count="2" />
+											<material class="SheetMetal" count="2" />
+										</materials>
+									</item>
+									
+									<item class="dws_flatbed_trailer_container_doorright" time="1">
+										<materials>
+											<material class="Lumber" count="5" />
+											<material class="ScrapMetal" count="2" />
+											<material class="SheetMetal" count="2" />
+										</materials>
+									</item>
+									
+									<item class="dws_FlatWhite_Door_right" time="1">
+										<materials>
+											<material class="Lumber" count="5" />
+											<material class="ScrapMetal" count="2" />
+											<material class="SheetMetal" count="2" />
+										</materials>
+									</item>
+									
+									<item class="dws_FlatWhite_Door" time="1">
+										<materials>
+											<material class="Lumber" count="5" />
+											<material class="ScrapMetal" count="2" />
+											<material class="SheetMetal" count="2" />
+										</materials>
+									</item>
+									
+									<item class="dws_fridge_Ldoor" time="1">
+										<materials>
+											<material class="Lumber" count="5" />
+											<material class="ScrapMetal" count="2" />
+											<material class="SheetMetal" count="2" />
+										</materials>
+									</item>
+									
+									<item class="dws_Fridge_old_Doors_left" time="1">
+										<materials>
+											<material class="Lumber" count="5" />
+											<material class="ScrapMetal" count="2" />
+											<material class="SheetMetal" count="2" />
+										</materials>
+									</item>
+									
+									<item class="dws_Fridge_old_Doors" time="1">
+										<materials>
+											<material class="Lumber" count="5" />
+											<material class="ScrapMetal" count="2" />
+											<material class="SheetMetal" count="2" />
+										</materials>
+									</item>
+									
+									<item class="dws_fridge_Rdoor" time="1">
+										<materials>
+											<material class="Lumber" count="5" />
+											<material class="ScrapMetal" count="2" />
+											<material class="SheetMetal" count="2" />
+										</materials>
+									</item>
+									
+									<item class="dws_front_door_01_right" time="1">
+										<materials>
+											<material class="Lumber" count="5" />
+											<material class="ScrapMetal" count="2" />
+											<material class="SheetMetal" count="2" />
+										</materials>
+									</item>
+									
+									<item class="dws_front_door_01" time="1">
+										<materials>
+											<material class="Lumber" count="5" />
+											<material class="ScrapMetal" count="2" />
+											<material class="SheetMetal" count="2" />
+										</materials>
+									</item>
+									
+									<item class="dws_gasstationdoors" time="1">
+										<materials>
+											<material class="Lumber" count="5" />
+											<material class="ScrapMetal" count="2" />
+											<material class="SheetMetal" count="2" />
+										</materials>
+									</item>
+									
+									<item class="dws_hospital_door" time="1">
+										<materials>
+											<material class="Lumber" count="5" />
+											<material class="ScrapMetal" count="2" />
+											<material class="SheetMetal" count="2" />
+										</materials>
+									</item>
+									
+									<item class="dws_hotel_door_Right" time="1">
+										<materials>
+											<material class="Lumber" count="5" />
+											<material class="ScrapMetal" count="2" />
+											<material class="SheetMetal" count="2" />
+										</materials>
+									</item>
+									
+									<item class="dws_hotel_door_left" time="1">
+										<materials>
+											<material class="Lumber" count="5" />
+											<material class="ScrapMetal" count="2" />
+											<material class="SheetMetal" count="2" />
+										</materials>
+									</item>
+									
+									<item class="dws_int_door" time="1">
+										<materials>
+											<material class="Lumber" count="5" />
+											<material class="ScrapMetal" count="2" />
+											<material class="SheetMetal" count="2" />
+										</materials>
+									</item>
+									
+									<item class="dws_int_door_left" time="1">
+										<materials>
+											<material class="Lumber" count="5" />
+											<material class="ScrapMetal" count="2" />
+											<material class="SheetMetal" count="2" />
+										</materials>
+									</item>
+									
+									<item class="dws_jawboat_door_right" time="1">
+										<materials>
+											<material class="Lumber" count="5" />
+											<material class="ScrapMetal" count="2" />
+											<material class="SheetMetal" count="2" />
+										</materials>
+									</item>
+									
+									<item class="dws_jawboat_door" time="1">
+										<materials>
+											<material class="Lumber" count="5" />
+											<material class="ScrapMetal" count="2" />
+											<material class="SheetMetal" count="2" />
+										</materials>
+									</item>
+									
+									<item class="dws_lockerDoor" time="1">
+										<materials>
+											<material class="Lumber" count="5" />
+											<material class="ScrapMetal" count="2" />
+											<material class="SheetMetal" count="2" />
+										</materials>
+									</item>
+									
+									<item class="dws_MetalDoor_Matt" time="1">
+										<materials>
+											<material class="Lumber" count="5" />
+											<material class="ScrapMetal" count="2" />
+											<material class="SheetMetal" count="2" />
+										</materials>
+									</item>
+									
+									<item class="dws_mobilehome_door" time="1">
+										<materials>
+											<material class="Lumber" count="5" />
+											<material class="ScrapMetal" count="2" />
+											<material class="SheetMetal" count="2" />
+										</materials>
+									</item>
+									
+									<item class="dws_mobilehome_door_left" time="1">
+										<materials>
+											<material class="Lumber" count="5" />
+											<material class="ScrapMetal" count="2" />
+											<material class="SheetMetal" count="2" />
+										</materials>
+									</item>
+									
+									<item class="dws_modern_family_door" time="1">
+										<materials>
+											<material class="Lumber" count="5" />
+											<material class="ScrapMetal" count="2" />
+											<material class="SheetMetal" count="2" />
+										</materials>
+									</item>
+									
+									<item class="dws_OldPainted_WhiteDoor" time="1">
+										<materials>
+											<material class="Lumber" count="5" />
+											<material class="ScrapMetal" count="2" />
+											<material class="SheetMetal" count="2" />
+										</materials>
+									</item>
+									
+									<item class="dws_outhouse_door" time="1">
+										<materials>
+											<material class="Lumber" count="5" />
+											<material class="ScrapMetal" count="2" />
+											<material class="SheetMetal" count="2" />
+										</materials>
+									</item>
+									
+									<item class="dws_sheriff_office_window_door_01" time="1">
+										<materials>
+											<material class="Lumber" count="5" />
+											<material class="ScrapMetal" count="2" />
+											<material class="SheetMetal" count="2" />
+										</materials>
+									</item>
+									
+									<item class="dws_shipping_Container_LeftDoor" time="1">
+										<materials>
+											<material class="Lumber" count="5" />
+											<material class="ScrapMetal" count="2" />
+											<material class="SheetMetal" count="2" />
+										</materials>
+									</item>
+									
+									<item class="dws_warehouse_door_small" time="1">
+										<materials>
+											<material class="Lumber" count="5" />
+											<material class="ScrapMetal" count="2" />
+											<material class="SheetMetal" count="2" />
+										</materials>
+									</item>
+									
+									<item class="dws_warehouse1_door_big" time="1">
+										<materials>
+											<material class="Lumber" count="5" />
+											<material class="ScrapMetal" count="2" />
+											<material class="SheetMetal" count="2" />
+										</materials>
+									</item>
+									</items>
+								</type>
+							</types>
+						</subcat>
+						<subcat name="Buildings">
+						<types>												
+							<type name="Houses">
+								<items>
+									<item class="one_story_black" time="3">
+										<materials>
+											<material class="Nails" count="560" />
+											<material class="Lumber" count="1048" />
+											<material class="PaintCan_Black" count="10" />	
+										</materials>
+									</item>
+									<item class="one_story_green" time="3">
+										<materials>
+											<material class="Nails" count="560" />
+											<material class="Lumber" count="1048" />
+											<material class="PaintCan_Green" count="10" />	
+										</materials>
+									</item>
+									<item class="one_story_red" time="3">
+										<materials>
+											<material class="Nails" count="560" />
+											<material class="Lumber" count="1048" />
+											<material class="PaintCan_Red" count="10" />	
+										</materials>
+									</item>
+									<item class="one_story_white" time="3">
+										<materials>
+											<material class="Nails" count="560" />
+											<material class="Lumber" count="1048" />
+											<material class="PaintCan_White" count="10" />	
+										</materials>
+									</item>																		
+									<item class="cabin_wood_simple" time="3">
+										<materials>
+											<material class="Nails" count="1920" />
+											<material class="Lumber" count="1536" />
+											<material class="PaintCan_Brown" count="10" />	
+										</materials>
+									</item>
+									<item class="cabin_wood_simple_red" time="3">
+										<materials>
+											<material class="Nails" count="1920" />
+											<material class="Lumber" count="1536" />
+											<material class="PaintCan_Red" count="10" />	
+										</materials>
+									</item>
+									<item class="cabin_wood_simple_black" time="3">
+										<materials>
+											<material class="Nails" count="1920" />
+											<material class="Lumber" count="1536" />
+											<material class="PaintCan_Black" count="10" />	
+										</materials>
+									</item>
+									<item class="cabin_wood" time="3">
+										<materials>
+											<material class="Nails" count="2560" />
+											<material class="Lumber" count="2048" />
+											<material class="PaintCan_Brown" count="10" />	
+										</materials>
+									</item>
+									<item class="cabin_wood_black" time="3">
+										<materials>
+											<material class="Nails" count="2560" />
+											<material class="Lumber" count="2048" />
+											<material class="PaintCan_Black" count="10" />											
+										</materials>
+									</item>	
+										<item class="villa_white" time="3">
+										<materials>
+											<material class="AmcoinLedger" count="2560"/>
+											<material class="Nails" count="2560" />
+											<material class="Lumber" count="2048" />
+											<material class="ScrapMetal" count="205" />
+											<material class="PaintCan_White" count="10" />	
+										</materials>
+									</item>
+									<item class="villa_red" time="3">
+										<materials>
+											<material class="AmcoinLedger" count="2560"/>
+											<material class="Nails" count="2560" />
+											<material class="Lumber" count="2048" />
+											<material class="ScrapMetal" count="205" />
+											<material class="PaintCan_Red" count="10" />	
+										</materials>
+									</item>
+									<item class="villa_black" time="3">
+										<materials>
+											<material class="AmcoinLedger" count="2560"/>
+											<material class="Nails" count="2560" />
+											<material class="Lumber" count="2048" />
+											<material class="ScrapMetal" count="205" />
+											<material class="PaintCan_Black" count="10" />	
+										</materials>
+									</item>							
+								</items>
+							</type>
+							<type name="Tent and Bunker">
+								<items>					
+									<item class="bunker1" time="3">
+										<materials>
+											<material class="AmcoinLedger" count="1560"/>
+											<material class="Nails" count="560" />
+											<material class="Rocks" count="148" />
+											<material class="ScrapMetal" count="55" />
+											<material class="SheetMetal" count="50" />
+											<material class="CamoNetting" count="60" />	
+										</materials>
+									</item>
+									<item class="biotent2" time="3">
+										<materials>
+											<material class="AmcoinLedger" count="1560"/>
+											<material class="Nails" count="56" />
+											<material class="RK_Cloth" count="10" />
+											<material class="RK_Leather" count="8" />											
+											<material class="ScrapMetal" count="25" />
+											<material class="CamoNetting" count="60" />	
+										</materials>
+									</item>							
+								</items>
+							</type>
+						</types>
+					</subcat>
+				</subcats>	
+			</cat>
+		</cats>
+	</guide>
+</recipes>

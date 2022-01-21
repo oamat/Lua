@@ -1,0 +1,10 @@
+<skin name="F100Truck_Brown">
+  <params>
+    <param name="display_name" value="Pickup Truck Brown Skin" />
+    <param name="description" value="Brown skin for the Pickup Truck" />
+    <param name="material" value="objects/vehicles/F100Truck/f100truck_brown" />
+  </params>
+  <items>
+    <item name="f100truck" />
+  </items>
+</skin>

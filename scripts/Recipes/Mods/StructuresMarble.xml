@@ -1,0 +1,327 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<recipes>
+   <guide name="guide_marble" id="54">
+      <cats>
+        <cat name="Base Building">
+            <subcats>
+               <subcat name="Marble">
+                  <types>
+                     <type name="Walls"> 
+                        <items>
+                           <item class="marble_wall_3m_2m" time="2">
+                              <materials>
+                                 <material class="Rocks" count="10" />
+                                 <material class="MarbleBag" count="1" />
+                              </materials>
+                           </item>
+                           <item class="marble_wall_3m_2m_window" time="2">
+                              <materials>
+                                 <material class="Rocks" count="10" />
+                                 <material class="MarbleBag" count="1" />
+                              </materials>
+                           </item>
+                           <item class="marble_wall_3m_4m" time="2">
+                              <materials>
+                                 <material class="Rocks" count="10" />
+                                 <material class="MarbleBag" count="1" />
+                              </materials>
+                           </item>
+                           <item class="marble_wall_3m_4m_door" time="2">
+                              <materials>
+                                 <material class="Rocks" count="10" />
+                                 <material class="MarbleBag" count="1" />
+                              </materials>
+                           </item>
+                           <item class="marble_wall_3m_4m_window" time="2">
+                              <materials>
+                                 <material class="Rocks" count="10" />
+                                 <material class="MarbleBag" count="1" />                                 
+                              </materials>
+                           </item>
+                           <item class="marble_wall_black_3m_2m" time="2">
+                              <materials>
+                                 <material class="Rocks" count="10" />
+                                 <material class="MarbleBag" count="1" />
+                              </materials>
+                           </item>
+                           <item class="marble_wall_black_3m_2m_window" time="2">
+                              <materials>
+                                 <material class="Rocks" count="10" />
+                                 <material class="MarbleBag" count="1" />
+                              </materials>
+                           </item>
+                           <item class="marble_wall_black_3m_4m" time="2">
+                              <materials>
+                                 <material class="Rocks" count="10" />
+                                 <material class="MarbleBag" count="1" />
+                              </materials>
+                           </item>
+                           <item class="marble_wall_black_3m_4m_door" time="2">
+                              <materials>
+                                 <material class="Rocks" count="10" />
+                                 <material class="MarbleBag" count="1" />
+                              </materials>
+                           </item>
+                           <item class="marble_wall_black_3m_4m_window" time="2">
+                              <materials>
+                                 <material class="Rocks" count="10" />
+                                 <material class="MarbleBag" count="1" />
+                              </materials>
+                           </item>
+                           <item class="marble_wall_blue_3m_2m" time="2">
+                              <materials>
+                                 <material class="Rocks" count="10" />
+                                 <material class="MarbleBag" count="1" />
+                              </materials>
+                           </item>
+                           <item class="marble_wall_blue_3m_2m_window" time="2">
+                              <materials>
+                                 <material class="Rocks" count="10" />
+                                 <material class="MarbleBag" count="1" />
+                              </materials>
+                           </item>
+                           <item class="marble_wall_blue_3m_4m" time="2">
+                              <materials>
+                                 <material class="Rocks" count="10" />
+                                 <material class="MarbleBag" count="1" />
+                              </materials>
+                           </item>
+                           <item class="marble_wall_blue_3m_4m_door" time="2">
+                              <materials>
+                                 <material class="Rocks" count="10" />
+                                 <material class="MarbleBag" count="1" />
+                              </materials>
+                           </item>
+                           <item class="marble_wall_blue_3m_4m_window" time="2">
+                              <materials>
+                                 <material class="Rocks" count="10" />
+                                 <material class="MarbleBag" count="1" />
+                              </materials>
+                           </item>
+						         <item class="marble_wall_green_3m_2m" time="2">
+                              <materials>
+                                 <material class="Rocks" count="10" />
+                                 <material class="MarbleBag" count="1" />
+                              </materials>
+                           </item>
+                           <item class="marble_wall_green_3m_2m_window" time="2">
+                              <materials>
+                                 <material class="Rocks" count="10" />
+                                 <material class="MarbleBag" count="1" />
+                              </materials>
+                           </item>
+                           <item class="marble_wall_green_3m_4m" time="2">
+                              <materials>
+                                 <material class="Rocks" count="10" />
+                                 <material class="MarbleBag" count="1" />
+                              </materials>
+                           </item>
+                           <item class="marble_wall_green_3m_4m_door" time="2">
+                              <materials>
+                                 <material class="Rocks" count="10" />
+                                 <material class="MarbleBag" count="1" />
+                              </materials>
+                           </item>
+                           <item class="marble_wall_green_3m_4m_window" time="2">
+                              <materials>
+                                 <material class="Rocks" count="10" />
+                                 <material class="MarbleBag" count="1" />
+                              </materials>
+                           </item>                           
+                        </items>
+                     </type>
+                     <type name="Ramps">
+                        <items>
+                           <item class="marble_angled_roof_3x4x4" time="2">
+                              <materials>
+                                 <material class="Rocks" count="10" />
+                                 <material class="MarbleBag" count="1" />
+                              </materials>
+                           </item>
+                           <item class="marble_angled_roof_black_3x4x4" time="2">
+                              <materials>
+                                 <material class="Rocks" count="10" />
+                                 <material class="MarbleBag" count="1" />
+                              </materials>
+                           </item>
+                           <item class="marble_angled_roof_blue_3x4x4" time="2">
+                              <materials>
+                                 <material class="Rocks" count="10" />
+                                 <material class="MarbleBag" count="1" />
+                              </materials>
+                           </item>
+                           <item class="marble_angled_roof_green_3x4x4" time="2">
+                              <materials>
+                                 <material class="Rocks" count="10" />
+                                 <material class="MarbleBag" count="1" />
+                              </materials>
+                           </item>                          
+                        </items>
+                     </type>
+                     <type name="Foundation">
+                        <items>
+                           <item class="marble_foundation_4m_4m_4m" time="2">
+                              <materials>
+                                 <material class="Rocks" count="20" />
+                                 <material class="MarbleBag" count="1" />
+                              </materials>
+                           </item>
+                           <item class="marble_foundation_black_4m_4m_4m" time="2">
+                              <materials>
+                                 <material class="Rocks" count="20" />
+                                 <material class="MarbleBag" count="1" />
+                              </materials>
+                           </item>
+                           <item class="marble_foundation_blue_4m_4m_4m" time="2">
+                              <materials>
+                                 <material class="Rocks" count="20" />
+                                 <material class="MarbleBag" count="1" />
+                              </materials>
+                           </item>
+                           <item class="marble_foundation_green_4m_4m_4m" time="2">
+                              <materials>
+                                 <material class="Rocks" count="20" />
+                                 <material class="MarbleBag" count="1" />
+                              </materials>
+                           </item>
+                        </items>
+                     </type>
+                     <type name="Platforms">
+                        <items>
+                           <item class="marble_platform_3m_4m_4m" time="2">
+                              <materials>
+                                 <material class="Rocks" count="10" />
+                                 <material class="MarbleBag" count="1" />
+                              </materials>
+                           </item>
+                           <item class="marble_platform_3m_4m_4m_stairs" time="2">
+                              <materials>
+                                 <material class="Rocks" count="10" />
+                                 <material class="MarbleBag" count="1" />
+                              </materials>
+                           </item>
+                           <item class="marble_platform_black_3m_4m_4m" time="2">
+                              <materials>
+                                 <material class="Rocks" count="10" />
+                                 <material class="MarbleBag" count="1" />
+                              </materials>
+                           </item>
+                           <item class="marble_platform_black_3m_4m_4m_stairs" time="2">
+                              <materials>
+                                 <material class="Rocks" count="10" />
+                                 <material class="MarbleBag" count="1" />
+                              </materials>
+                           </item>
+                           <item class="marble_platform_blue_3m_4m_4m" time="2">
+                              <materials>
+                                 <material class="Rocks" count="10" />
+                                 <material class="MarbleBag" count="1" />
+                              </materials>
+                           </item>
+						         <item class="marble_platform_blue_3m_4m_4m_stairs" time="2">
+                              <materials>
+                                 <material class="Rocks" count="10" />
+                                 <material class="MarbleBag" count="1" />
+                              </materials>
+                           </item>
+                           <item class="marble_platform_green_3m_4m_4m" time="2">
+                              <materials>
+                                 <material class="Rocks" count="10" />
+                                 <material class="MarbleBag" count="1" />
+                              </materials>
+                           </item>
+                           <item class="marble_platform_green_3m_4m_4m_stairs" time="2">
+                              <materials>
+                                 <material class="Rocks" count="10" />
+                                 <material class="MarbleBag" count="1" />
+                              </materials>
+                           </item> 
+                                   <item class="marble_platform_3m_8m_8m" time="2">
+                              <materials>
+                                 <material class="Rocks" count="10" />
+                                 <material class="MarbleBag" count="2" />
+                              </materials>
+                           </item> 
+                                   <item class="marble_platform_green_3m_8m_8m" time="2">
+                              <materials>
+                                 <material class="Rocks" count="10" />
+                                 <material class="MarbleBag" count="2" />
+                              </materials>
+                           </item> 
+                                   <item class="marble_platform_blue_3m_8m_8m" time="2">
+                              <materials>
+                                 <material class="Rocks" count="10" />
+                                 <material class="MarbleBag" count="2" />
+                              </materials>
+                           </item> 
+                                   <item class="marble_platform_black_3m_8m_8m" time="2">
+                              <materials>
+                                 <material class="Rocks" count="10" />
+                                 <material class="MarbleBag" count="2" />
+                              </materials>
+                           </item> 
+                        </items>
+                     </type> 
+                       <type name="Crenelation">
+                        <items>                          
+                           <item class="marble_crenelation" time="2">
+                              <materials>
+                                 <material class="Rocks" count="10" />
+                                 <material class="MarbleBag" count="1" />
+                              </materials>
+                           </item>
+                           <item class="marble_crenelation_black" time="2">
+                              <materials>
+                                 <material class="Rocks" count="10" />
+                                 <material class="MarbleBag" count="1" />
+                              </materials>
+                           </item>
+                           <item class="marble_crenelation_blue" time="2">
+                              <materials>
+                                 <material class="Rocks" count="10" />
+                                 <material class="MarbleBag" count="1" />
+                              </materials>
+                           </item>
+                           <item class="marble_crenelation_green" time="2">
+                              <materials>
+                                 <material class="Rocks" count="10" />
+                                 <material class="MarbleBag" count="1" />
+                              </materials>
+                           </item>                            
+                        </items>
+                     </type> 
+                   <type name="Columns">
+                        <items>                          
+                           <item class="marble_column_3m" time="2">
+                              <materials>
+                                 <material class="Rocks" count="10" />
+                                 <material class="MarbleBag" count="1" />
+                              </materials>
+                           </item>
+                           <item class="marble_column_3m_black" time="2">
+                              <materials>
+                                 <material class="Rocks" count="10" />
+                                 <material class="MarbleBag" count="1" />
+                              </materials>
+                           </item>
+                           <item class="marble_column_3m_blue" time="2">
+                              <materials>
+                                 <material class="Rocks" count="10" />
+                                 <material class="MarbleBag" count="1" />
+                              </materials>
+                           </item>
+                           <item class="marble_column_3m_green" time="2">
+                              <materials>
+                                 <material class="Rocks" count="10" />
+                                 <material class="MarbleBag" count="1" />
+                              </materials>
+                           </item> 
+                        </items>
+                     </type> 
+                  </types>
+               </subcat>            
+            </subcats>
+        </cat>
+      </cats>
+   </guide>
+</recipes>

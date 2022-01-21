@@ -1,0 +1,13 @@
+<skin name="armored_truck_police_red">
+
+	<params>
+		<param name="display_name" value="Vito red"/>
+		<param name="description" value="red Skin for the Vito"/>
+		<param name="material" value="Objects/vehicles/BIG VEHICLES/Mercedes Benz Vito/Mercedes Benz Vito_red"/>
+	</params>
+
+	<items>
+		<item name="armored_truck_police"/>
+	</items>
+
+</skin>

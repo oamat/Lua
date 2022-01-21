@@ -1,0 +1,38 @@
+<item name="flagpole_algeria" class="Placeable" category="any">
+
+    <params>
+        <param name="selectable" value="0"/>
+        <param name="mass" value="5.5"/>
+        <param name="display_name" value="@flagpole_algeria"/>
+        <param name="description" value="@flagpole_algeriaDescription"/>
+    </params>
+
+    <base_part class="static" type="4883" name="flagpole_algeria" max_health="1000" repair_with="Lumber">
+        <static filename="Objects/basebuilding/other/flag/flag_pole_algeria.cgf"/>
+    </base_part>
+
+    <geometry>
+        <thirdperson name="objects/basebuilding/wood/wood_part.cgf"/>
+    </geometry>
+
+    <storage>
+        <locations>
+            <location category="any"/>
+        </locations>
+    </storage>
+
+	<steam>
+		<param name="tags" value="Category:BaseBuilding"/>
+		<param name="icon_url" value="http://miscreatedgame.com/shots/item_images/flagpole_algeria_200.png?crc=8EE1DA79"/>
+		<param name="store_hidden" value="0"/>
+		<param name="amcoins" value="3"/>
+		<param name="tradable" value="0"/>
+		<param name="name_color" value="FF001E"/>
+		<param name="itemdefid" value="30275"/>
+		<param name="marketable" value="0"/>
+		<param name="store_tags" value="Category:BaseBuilding"/>
+		<param name="background_color" value="2A2A2A"/>
+		<param name="hidden" value="0"/>
+		<param name="icon_url_large" value="http://miscreatedgame.com/shots/item_images/flagpole_algeria_2048.png?crc=8EE1DA79"/>
+	</steam>
+</item>

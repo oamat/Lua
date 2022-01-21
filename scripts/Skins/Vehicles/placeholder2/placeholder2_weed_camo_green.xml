@@ -1,0 +1,10 @@
+<skin name="placeholder2_weed_camo_green">
+  <params>
+    <param name="display_name" value="placeholder2_weed_camo_green skin" />
+    <param name="description" value="placeholder2_weed_camo_green" />
+    <param name="material" value="Objects/endtimestories/vehicles/ravager_weed_camo_green" />
+  </params>
+  <items>
+    <item name="placeholder2" />
+  </items>
+</skin>

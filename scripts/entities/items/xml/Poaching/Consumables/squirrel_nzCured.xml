@@ -1,0 +1,28 @@
+ <item name="squirrel_nzCured" class="Consumable" category="any">
+
+	<params>
+		<param name="selectable" value="0"/>
+		<param name="mass" value="1.0"/>
+		<param name="stack_size" value="10"/>		
+		<param name="display_name" value="squirrel Cured"/>
+		<param name="description" value="squirrel cured, I like it but it makes you thirsty !"/>
+	</params>
+
+	<geometry>
+		<thirdperson name="Objects/NationZ/Consumables/squirrel/Squirrel_nzCured.cgf" material="Objects/NationZ/Consumables/squirrel/Squirrel_nzCured.mtl" />
+	</geometry>
+
+	<consumable>
+		<param name="foodAmount" value="450"/>
+		<param name="drinkAmount" value="-100"/>
+		<param name="torpidityAmount" value="-20"/>
+		<param name="soundConsumed" value="Play_food_soft_eat"/>
+	</consumable>
+
+	<storage>
+		<locations>
+			<location category="any"/>
+		</locations>
+	</storage>
+
+</item>

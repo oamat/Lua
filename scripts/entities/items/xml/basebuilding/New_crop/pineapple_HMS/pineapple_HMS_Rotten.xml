@@ -1,0 +1,37 @@
+<item name="pineapple_HMS_Rotten" class="Consumable" category="any"> 
+
+	<params>
+		<param name="selectable" value="0"/>
+		<param name="mass" value="2.5"/>
+		<param name="stack_size" value="5"/>
+		<param name="display_name" value="Rotten Pineapple"/>
+		<param name="description" value="The rotten pineapple can be used to fertilize."/>
+	</params>
+
+	<geometry>
+		<thirdperson name="Objects/HotMeatStick/New_crop/pineapple_HMS/pineapple_HMS/pineapple_hms.cgf" material="Objects/HotMeatStick/New_crop/pineapple_HMS/pineapple_HMS/pineapple_HMS_Rotten"/>
+	</geometry>
+
+	<consumable>
+		<param name="poisonChance" value="55"/>
+		<param name="torpidityAmount" value="20"/>
+		<param name="staminaAmount" value="-40"/>
+		<param name="foodAmount" value="125"/>
+		<param name="drinkAmount" value="100"/>
+		<param name="soundConsumed" value="Play_food_soft_hard"/>
+	</consumable>
+
+	<usable>
+		<param name="title" value="@WatermelonRottenFertilizePlanter"/>
+		<param name="action" value="fertilize"/>
+		<param name="soundUsed" value="Play_apply_fertilizer"/>
+		<param name="targetClassNames" value="planter_box"/>
+	</usable>
+
+	<storage>
+		<locations>
+			<location category="any"/>
+		</locations>
+	</storage>
+
+</item>

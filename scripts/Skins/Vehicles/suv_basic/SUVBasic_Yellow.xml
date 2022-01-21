@@ -1,0 +1,12 @@
+<skin name="SUVBasic_Yellow">
+
+	<params>
+		<param name="display_name" value="SUV Yellow Skin"/>
+		<param name="description" value="Yellow skin for the SUV"/>
+		<param name="material" value="Objects/vehicles/NZChumBuggy/nzchumbuggy_yellow"/>
+	</params>
+
+	<items>
+		<item name="suv_basic"/>
+	</items>
+</skin>

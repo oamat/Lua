@@ -1,0 +1,22 @@
+<item name="BaseInfoInvoker" class="Item" category="any">
+
+	<params>
+		<param name="selectable" value="0"/>
+		<param name="mass" value="0.1"/>
+		<param name="stack_size" value="1" />
+		<param name="display_name" value="Spell to see the info of a base"/>
+		<param name="description" value="It shows base info like owner, crate num, part num and crates position, creative raid!"/>
+		<param name="vendor_cost" value="500"/>
+	</params>
+
+	<geometry>
+		<thirdperson name="Objects/props/crafting_guides/guide_basic.cgf"/>
+	</geometry>
+
+	<storage>
+		<locations>
+			<location category="any"/>
+		</locations>
+	</storage>
+	
+</item>

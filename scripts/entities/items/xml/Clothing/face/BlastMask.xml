@@ -1,0 +1,67 @@
+<item name="BlastMask" class="Item" category="any">
+	<params>
+		<param name="colorable" value="1"/>
+		<param name="droppable" value="1"/>
+		<param name="selectable" value="0"/>
+		<param name="auto_wear" value="1"/>
+		<param name="mass" value="0.1"/>
+		<param name="healthMax" value="550.0"/>
+		<param name="damage_scale" value="0.5"/>
+		<param name="destroyWhenDegraded" value="1"/>
+		<param name="display_name" value="BlastMask"/>
+		<param name="description" value="Blast protection for the face"/>
+		<param name="vendor_cost" value="200"/>
+	</params>
+
+	<wearable>
+		<param name="skin" value="Objects/characters/players/male/face/hockey_mask/hockey_mask.skin"/>
+		<param name="mtl" value="Objects/characters/players/male/face/hockey_mask/hockey_mask.mtl"/> <!-- not currently used in code -->
+		<param name="slot" value="face"/>
+	</wearable>
+
+	<geometry>
+		<thirdperson name="Objects/characters/players/male/face/hockey_mask/hockey_mask_tp.cgf" material="Objects/characters/players/male/face/hockey_mask/hockey_mask"/>
+	</geometry>
+
+	<protection level="2">
+        <environmental>
+            <protection_amount type="cold" percentage="15"/>
+            <protection_amount type="heat" percentage="15"/>
+			<protection_amount type="fire" percentage="15.0"/>
+        </environmental>
+		<protectBodyPart name="head"> <!-- Use valid bodyparts defined in Libs/BodyDamage/BodyParts_*.xml -->
+			<protection_amount hit_type="blunt" percentage="50.0"/>
+			<protection_amount hit_type="melee" percentage="50.0"/>
+			<!-- Default damage reduction of 75% unless specified below -->
+			<protection_amount hit_type="ammo_357" percentage="85.0"/> 
+			<protection_amount hit_type="ammo_9mm" percentage="85.0"/> 
+			<protection_amount hit_type="ammo_acp_45" percentage="75.0"/> 
+			<protection_amount hit_type="ammo_308" percentage="80.0"/>
+			<protection_amount hit_type="ammo_7_62x39" percentage="85.0"/>
+			<protection_amount hit_type="ammo_7_62x51" percentage="85.0"/>
+			<protection_amount hit_type="ammo_5_56x45" percentage="85.0"/>
+		</protectBodyPart>
+    </protection>
+
+	<storage>
+		<locations>
+			<location category="any"/>
+			<location category="face"/>
+		</locations>
+	</storage>
+
+	<steam>
+		<param name="tags" value="Category:Clothing;Slot:Face"/>
+		<param name="icon_url" value="http://miscreatedgame.com/shots/item_images/HockeyMask_200.png?crc=897AC1F6"/>
+		<param name="store_hidden" value="0"/>
+		<param name="amcoins" value="1"/>
+		<param name="tradable" value="0"/>
+		<param name="name_color" value="FF001E"/>
+		<param name="itemdefid" value="40070"/>
+		<param name="marketable" value="0"/>
+		<param name="store_tags" value="Category:Clothing;Slot:Face"/>
+		<param name="background_color" value="2A2A2A"/>
+		<param name="hidden" value="0"/>
+		<param name="icon_url_large" value="http://miscreatedgame.com/shots/item_images/HockeyMask_2048.png?crc=897AC1F6"/>
+	</steam>
+</item>

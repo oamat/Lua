@@ -1,0 +1,12 @@
+<skin name="placeholder24_camo2">
+
+	<params>
+		<param name="display_name" value="Default Skin"/>
+		<param name="description" value="Default Skin"/>
+		<param name="material" value="Objects/vehicles/armored_truck/armored_truck_army_camo2"/>
+	</params>
+
+	<items>
+		<item name="placeholder24"/>
+	</items>
+</skin>

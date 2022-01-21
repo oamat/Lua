@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<recipes>
+	<guide name="default" id="0">
+		<cats>
+			<cat name="Gardening">
+				<subcats>
+					<subcat name="Seeds">
+						<items>
+							<item class="SeedsBeets" time="3" amount="3">
+								<materials>
+									<material class="Beets" />
+								</materials>
+							</item>
+							<item class="SeedsBrushPeas" time="3" amount="3">
+								<materials>
+									<material class="BrushPeas" />
+								</materials>
+							</item>
+							<item class="SeedsCarrots" time="3" amount="3">
+								<materials>
+									<material class="Carrots" />
+								</materials>
+							</item>
+							<item class="SeedsPotatoes" time="3" amount="3">
+								<materials>
+									<material class="Potatoes" />
+								</materials>
+							</item>
+							<item class="SeedsPumpkins" time="3" amount="3">
+								<materials>
+									<material class="Pumpkin" />
+								</materials>
+							</item>
+							<item class="SeedsRadishes" time="3" amount="3">
+								<materials>
+									<material class="Radishes" />
+								</materials>
+							</item>
+							<item class="SeedsSnapPeas" time="3" amount="3">
+								<materials>
+									<material class="SnapPeas" />
+								</materials>
+							</item>
+							<item class="SeedsTomatoes" time="3" amount="3">
+								<materials>
+									<material class="Tomatoes" />
+								</materials>
+							</item>
+							<item class="SeedsWatermelons" time="3" amount="3">
+								<materials>
+									<material class="Watermelon" />
+								</materials>
+							</item>
+							<item class="SeedsPineapple" time="3" amount="3">
+								<materials>
+									<material class="pineapple_HMS" />
+								</materials>
+							</item>
+							<item class="SeedsStrawberry" time="3" amount="3">
+								<materials>
+									<material class="strawberry_HMS" />
+								</materials>
+							</item>
+						</items>
+					</subcat>	
+					<subcat name="Composting">
+						<items>
+							<item class="BeetsRotten" time="5">
+								<materials>
+									<material class="Beets" />
+								</materials>
+							</item>
+							<item class="BrushPeasRotten" time="5">
+								<materials>
+									<material class="BrushPeas" />
+								</materials>
+							</item>
+							<item class="CarrotsRotten" time="5">
+								<materials>
+									<material class="Carrots" />
+								</materials>
+							</item>
+							<item class="PotatoesRotten" time="5">
+								<materials>
+									<material class="Potatoes" />
+								</materials>
+							</item>
+							<item class="PumpkinRotten" time="5">
+								<materials>
+									<material class="Pumpkin" />
+								</materials>
+							</item>
+							<item class="RadishesRotten" time="5">
+								<materials>
+									<material class="Radishes" />
+								</materials>
+							</item>
+							<item class="SnapPeasRotten" time="5">
+								<materials>
+									<material class="SnapPeas" />
+								</materials>
+							</item>
+							<item class="TomatoesRotten" time="5">
+								<materials>
+									<material class="Tomatoes" />
+								</materials>
+							</item>
+							<item class="AppleRotten" time="5">
+								<materials>
+									<material class="AppleFresh" />
+								</materials>
+							</item>
+							<item class="WatermelonRotten" time="5">
+								<materials>
+									<material class="Watermelon" />
+								</materials>
+							</item>
+							<item class="pineapple_HMS_Rotten" time="5">
+								<materials>
+									<material class="pineapple_HMS" />
+								</materials>
+							</item>
+							<item class="strawberry_HMS_Rotten" time="5">
+								<materials>
+									<material class="strawberry_HMS" />
+								</materials>
+							</item>
+						</items>
+					</subcat>
+				</subcats>
+			</cat>
+		</cats>
+	</guide>
+</recipes>

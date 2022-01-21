@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recipes>
+	<guide name="default" id="0">
+		<cats>
+			<cat name="Base Building">
+				<subcats>
+					<subcat name="Utilities"> 
+						<items>
+									<item class="PropaneHeaterTop" time="5">
+										<materials>
+											<material class="ScrapMetal" count="2" />
+											<material class="IronIngot" count="2" />
+											<material class="Nails" count="4" />
+										</materials>
+									</item>
+									<item class="dws_cabinStove" time="1">
+										<materials>
+											<material class="PropaneTank" count="2" />
+											<material class="ScrapMetal" count="16" />
+											<material class="SheetMetal" count="16" />
+										</materials>
+									</item>
+									<item class="dws_firepit_outdoors_1" time="1">
+										<materials>
+                                            <material class="Rocks" count="16" />
+											<material class="ScrapMetal" count="4" />
+										</materials>
+									</item>
+									<item class="dws_firepit_outdoors_2" time="1">
+										<materials>
+                                            <material class="Rocks" count="16" />
+											<material class="ScrapMetal" count="4" />
+										</materials>
+									</item>							
+						</items>
+					</subcat>
+				</subcats>
+			</cat>
+		</cats>
+	</guide>
+</recipes>

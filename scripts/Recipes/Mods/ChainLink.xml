@@ -1,0 +1,138 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recipes>
+  <guide name="default" id="0">
+    <cats>
+      <cat name="Base Building">
+        <subcats>
+          <subcat name="Metal">
+            <types>
+              <type name="Sliding Chain">
+                <items>
+                   <item class="sliding_gate_frame_double" time="1">
+                             <materials>
+                                 <material class="SheetMetal" count="15" />
+                                 <material class="ScrapMetal" count="15" />
+                                 <material class="Nails" count="15" />
+                                 <material class="Hammer" count="1" />
+                              </materials>
+                    </item>
+                    <item class="sliding_gate_door_wall_2x4" time="1">
+                              <materials>
+                                 <material class="SheetMetal" count="15" />
+                                 <material class="ScrapMetal" count="15" />
+                                 <material class="Nails" count="15" />
+                                 <material class="Hammer" count="1" />
+                              </materials>
+                   </item>
+                   <item class="sliding_gate_door_double_wall_2x8" time="1">
+                              <materials>
+                                 <material class="SheetMetal" count="20" />
+                                 <material class="ScrapMetal" count="20" />
+                                 <material class="Nails" count="15" />
+                                 <material class="Hammer" count="1" />
+                              </materials>
+                   </item>
+                   <item class="sliding_gate_door_double" time="1">
+                              <materials>
+                                 <material class="SheetMetal" count="20" />
+                                 <material class="ScrapMetal" count="20" />
+                                 <material class="Nails" count="15" />
+                                 <material class="Hammer" count="1" />
+                              </materials>
+                  </item>
+                </items>
+              </type>
+              <type name="Big Metal Chainlink Wall">
+                <items>
+                  <item class="4mx6m_chainlink_01" time="1">
+                      <materials>
+                          <material class="SheetMetal" count="40" />
+                          <material class="ScrapMetal" count="25" />
+                          <material class="Nails" count="25" />
+                          <material class="Hammer" count="1" />
+                      </materials>
+                  </item>
+                </items>
+              </type>
+              <type name="Chainlink fence">
+                <items>
+                  <item class="barbwire_fence_placeable_gate_rail" time="5">
+                    <materials>
+                      <material class="BarbedWireCoil" count="6" />
+                      <material class="ScrapMetal" count="8" />
+                    </materials>
+                  </item>
+                  <item class="barbwire_fence_placeable_gate" time="5">
+                    <materials>
+                      <material class="BarbedWireCoil" count="4" />
+                      <material class="ScrapMetal" count="8" />
+                    </materials>
+                  </item>
+                  <item class="barbwire_fence_placeable_swinging_gate_posts" time="5">
+                    <materials>
+                      <material class="ScrapMetal" count="2" />
+					            <material class="ScrapMetal" count="4" />
+                    </materials>
+                  </item>
+                  <item class="barbwire_fence_placeable_swinging_gate_left" time="5">
+                    <materials>
+                      <material class="BarbedWireCoil" count="2" />
+                      <material class="ScrapMetal" count="4" />
+                    </materials>
+                  </item>
+                  <item class="barbwire_fence_placeable_swinging_gate_right" time="5">
+                    <materials>
+                      <material class="BarbedWireCoil" count="2" />
+                      <material class="ScrapMetal" count="4" />
+                    </materials>
+                  </item>
+                  <item class="fence_chainlink_placeable_door" time="5">
+                    <materials>
+                      <material class="BarbedWireCoil" count="1" />
+                      <material class="ScrapMetal" count="3" />
+                    </materials>
+                  </item>
+                  <item class="barbwire_fence_placeable_pole" time="5">
+                    <materials>
+                      <material class="ScrapMetal" count="1" />
+                    </materials>
+                  </item>
+                  <item class="barbwire_fence_placeable_corner_b" time="5">
+                    <materials>
+                      <material class="BarbedWireCoil" count="4" />
+                      <material class="ScrapMetal" count="8" />
+                    </materials>
+                  </item>
+                  <item class="barbwire_fence_placeable_corner_a" time="5">
+                    <materials>
+                      <material class="BarbedWireCoil" count="4" />
+                      <material class="ScrapMetal" count="8" />
+                    </materials>
+                  </item>
+                  <item class="barbwire_fence_placeable_8m" time="5">
+                    <materials>
+                      <material class="BarbedWireCoil" count="4" />
+                      <material class="ScrapMetal" count="8" />
+                    </materials>
+                  </item>
+                  <item class="barbwire_fence_placeable_4m" time="5">
+                    <materials>
+                      <material class="BarbedWireCoil" count="2" />
+                      <material class="ScrapMetal" count="4" />
+                    </materials>
+                  </item>
+                  <item class="barbwire_fence_placeable_2m" time="5">
+                    <materials>
+                      <material class="BarbedWireCoil" count="1" />
+                      <material class="ScrapMetal" count="2" />
+                    </materials>
+                  </item>
+                </items>
+              </type>
+            </types>
+          </subcat>
+        </subcats>
+      </cat>
+    </cats>
+  </guide>
+</recipes>

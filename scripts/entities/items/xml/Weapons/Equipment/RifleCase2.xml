@@ -1,0 +1,34 @@
+<item name="RifleCase2" class="Item" category="primary" priority="13" weaponParams="1">
+	<params>
+		<param name="selectable" value="0"/>
+		<param name="mass" value="10"/>
+		<param name="healthMax" value="100"/>
+		<param name="damage_scale" value="0.25"/>
+		<param name="display_name" value="Rifle Case Desert Camo"/>
+		<param name="description" value="Don't drop rifles on floor to change them, use this Rifle Case."/>>
+		<param name="vendor_cost" value="10"/>
+	</params>
+
+
+	<geometry>
+		<thirdperson name="Objects/Weapons/RifleCase/geometry_suitcase_weapon.cgf" material="Objects/Weapons/RifleCase/material_suitcase_default2.mtl"/>
+	</geometry>	
+
+	<usable>
+        <param name="title" value="Salvage to Sheet Metal"/>
+        <param name="action" value="craft"/>
+        <param name="param" value="ScrapMetal"/>
+        <param name="soundUsed" value=""/>
+    </usable>
+	
+	<storage>
+		<locations>
+			<location category="any"/>
+			<location category="secondary"/>
+		</locations>
+		<types>
+			<type category="primary" class="Weapon" capacity="1"/>
+		</types>
+	</storage>
+
+</item>

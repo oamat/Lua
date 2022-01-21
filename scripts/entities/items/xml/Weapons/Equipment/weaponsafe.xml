@@ -1,0 +1,32 @@
+<item name="weaponsafe" class="Item" category="any">
+
+	<params>
+		<param name="display_name" value="Weapon Safe"/>
+		<param name="description" value="Weapon Safe on floor"/>        
+		<param name="stack_size" value="1"/>       
+        <param name="mass" value="10"/>
+		<param name="healthMax" value="100.0"/>		
+		 <param name="vendor_cost" value="6"/>		
+        <param name="tag" value="weaponsafe"/>		
+	</params>
+
+	<usable>
+        <param name="title" value="Salvage to Sheet Metal"/>
+        <param name="action" value="craft"/>
+        <param name="param" value="SheetMetal"/>
+        <param name="soundUsed" value=""/>
+    </usable>
+
+	<geometry>
+		<thirdperson name="Objects/SCAAMCuartas/IronSonsStash/ironsonsstash.cgf"/>
+	</geometry>
+
+	<storage>
+		<types>
+			<type category="any" capacity="4"/>
+		</types>
+        <locations> <!-- Can only have max 2 categories defined below -->
+			<location category="any"/>		
+		</locations>
+	</storage>
+</item>

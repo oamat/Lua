@@ -1,0 +1,22 @@
+<item name="Pepper" class="Item" category="any">
+
+	<params>
+		<param name="selectable" value="0" />
+		<param name="mass" value="0.25" />
+		<param name="stack_size" value="25"/>
+		<param name="display_name" value="Pepper" />
+		<param name="description" value="Spice up your meal." />
+		<param name="vendor_cost" value="60"/>
+	</params>
+
+	<geometry>
+		<thirdperson name="Objects/consumables/saltandpepper/pepper.cgf"/>
+	</geometry>
+
+	<storage>
+		<locations>
+			<location category="any"/>
+		</locations>
+	</storage>
+
+</item>

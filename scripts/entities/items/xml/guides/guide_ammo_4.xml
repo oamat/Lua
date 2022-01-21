@@ -1,0 +1,28 @@
+<item name="guide_ammo_4" class="Item" category="any">
+
+	<params>
+		<param name="selectable" value="0"/>
+		<param name="mass" value="0.1"/>
+		<param name="stack_size" value="15" />
+		<param name="display_name" value="Ammo Guide 4"/>
+		<param name="description" value="This guide allows you to create different types of ammunition"/>
+		<param name="vendor_cost" value="25"/>
+	</params>
+
+	<geometry>
+		<thirdperson name="Objects/props/crafting_guides/guide_specialized.cgf"/>
+	</geometry>
+
+	<usable>
+		<param name="action" value="guide"/>
+		<param name="param" value="41"/>
+		<param name="soundUsed" value="Play_book_page_turn"/>
+	</usable>
+
+	<storage>
+		<locations>
+			<location category="any"/>
+		</locations>
+	</storage>
+
+</item>

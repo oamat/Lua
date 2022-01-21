@@ -1,0 +1,10 @@
+<skin name="placeholder3_black">
+  <params>
+    <param name="display_name" value="Willys Black Skin" />
+    <param name="description" value="Black skin for the Willys" />
+    <param name="material" value="objects/vehicles/willys/willys_black" />
+  </params>
+  <items>
+    <item name="placeholder3" />
+  </items>
+</skin>

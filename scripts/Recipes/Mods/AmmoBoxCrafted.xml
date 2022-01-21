@@ -1,0 +1,277 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recipes>
+	<guide name="guide_ammo_2" id="34">
+		<cats>
+			<cat name="Weapons">
+				<subcats>
+					<subcat name="Ammo Boxes">
+						<types>
+							<type name="Crafted Ammo Boxes" >
+								<items>
+									<item class="Crafted_AmmoBox_10mm" time="5" amount="0">
+										<materials>
+											<material class="ScrapMetal" count="5"/>
+											<material class="SheetMetal" count="5"/>
+										</materials>
+									</item>
+									<item class="Crafted_AmmoBox_12Gauge_Beanbag" time="5" amount="0">
+										<materials>
+											<material class="ScrapMetal" count="5"/>
+											<material class="SheetMetal" count="5"/>
+										</materials>
+									</item>
+									<item class="Crafted_AmmoBox_12Gauge_Pellet" time="5" amount="0">
+										<materials>
+											<material class="ScrapMetal" count="5"/>
+											<material class="SheetMetal" count="5"/>
+										</materials>
+									</item>
+									<item class="Crafted_AmmoBox_12Gauge_Slug" time="5" amount="0">
+										<materials>
+											<material class="ScrapMetal" count="5"/>
+											<material class="SheetMetal" count="5"/>
+										</materials>
+									</item>
+									<item class="Crafted_AmmoBox_22" time="5" amount="0">
+										<materials>
+											<material class="ScrapMetal" count="5"/>
+											<material class="SheetMetal" count="5"/>
+										</materials>
+									</item>
+									<item class="Crafted_AmmoBox_223" time="5" amount="0">
+										<materials>
+											<material class="ScrapMetal" count="5"/>
+											<material class="SheetMetal" count="5"/>
+										</materials>
+									</item>
+									<item class="Crafted_AmmoBox_308" time="5" amount="0">
+										<materials>
+											<material class="ScrapMetal" count="5"/>
+											<material class="SheetMetal" count="5"/>
+										</materials>
+									</item>
+									<item class="Crafted_AmmoBox_357" time="5" amount="0">
+										<materials>
+											<material class="ScrapMetal" count="5"/>
+											<material class="SheetMetal" count="5"/>
+										</materials>
+									</item>
+									<item class="Crafted_AmmoBox_44M" time="5" amount="0">
+										<materials>
+											<material class="ScrapMetal" count="5"/>
+											<material class="SheetMetal" count="5"/>
+										</materials>
+									</item>									
+									<item class="Crafted_AmmoBox_5_45x39" time="5" amount="0">
+										<materials>
+											<material class="ScrapMetal" count="5"/>
+											<material class="SheetMetal" count="5"/>
+										</materials>
+									</item>
+									<item class="Crafted_AmmoBox_5_56x45" time="5" amount="0">
+										<materials>
+											<material class="ScrapMetal" count="5"/>
+											<material class="SheetMetal" count="5"/>
+										</materials>
+									</item>
+									<item class="Crafted_AmmoBox_6PPC" time="5" amount="0">
+										<materials>
+											<material class="ScrapMetal" count="5"/>
+											<material class="SheetMetal" count="5"/>
+										</materials>
+									</item>
+									<item class="Crafted_AmmoBox_5_70x28" time="5" amount="0">
+										<materials>
+											<material class="ScrapMetal" count="5"/>
+											<material class="SheetMetal" count="5"/>
+										</materials>
+									</item>
+									<item class="Crafted_AmmoBox_7_62x39" time="5" amount="0">
+										<materials>
+											<material class="ScrapMetal" count="5"/>
+											<material class="SheetMetal" count="5"/>
+										</materials>
+									</item>
+									<item class="Crafted_AmmoBox_7_62x51" time="5" amount="0">
+										<materials>
+											<material class="ScrapMetal" count="5"/>
+											<material class="SheetMetal" count="5"/>
+										</materials>
+									</item>
+									<item class="Crafted_AmmoBox_9mm" time="5" amount="0">
+										<materials>
+											<material class="ScrapMetal" count="5"/>
+											<material class="SheetMetal" count="5"/>
+										</materials>
+									</item>
+									<item class="Crafted_AmmoBox_acp_45" time="5" amount="0">
+										<materials>
+											<material class="ScrapMetal" count="5"/>
+											<material class="SheetMetal" count="5"/>
+										</materials>
+									</item>
+									<item class="Crafted_AmmoBox_7_62x39Venom" time="5" amount="0">
+										<materials>
+											<material class="ScrapMetal" count="5"/>
+											<material class="SheetMetal" count="5"/>
+										</materials>
+									</item>
+									<item class="Crafted_AmmoBox_556x77" time="5" amount="0">
+										<materials>
+											<material class="ScrapMetal" count="5"/>
+											<material class="SheetMetal" count="5"/>
+										</materials>
+									</item>
+									<item class="Crafted_AmmoBox_50cal" time="5" amount="0">
+										<materials>
+											<material class="ScrapMetal" count="5"/>
+											<material class="SheetMetal" count="5"/>
+										</materials>
+									</item>	
+								</items>
+							</type>
+						</types>
+					</subcat>
+				</subcats>
+			</cat>
+		</cats>
+	</guide>
+
+	<guide name="workbench">
+		<cats>
+			<cat name="Weapons">
+				<subcats>
+					<subcat name="Ammo Boxes">
+						<types>
+							<type name="Crafted Ammo Boxes" >
+								<items>
+									<item class="Crafted_AmmoBox_10mm" time="5" amount="0">
+										<materials>
+											<material class="ScrapMetal" count="5"/>
+											<material class="SheetMetal" count="5"/>
+										</materials>
+									</item>
+									<item class="Crafted_AmmoBox_12Gauge_Beanbag" time="5" amount="0">
+										<materials>
+											<material class="ScrapMetal" count="5"/>
+											<material class="SheetMetal" count="5"/>
+										</materials>
+									</item>
+									<item class="Crafted_AmmoBox_12Gauge_Pellet" time="5" amount="0">
+										<materials>
+											<material class="ScrapMetal" count="5"/>
+											<material class="SheetMetal" count="5"/>
+										</materials>
+									</item>
+									<item class="Crafted_AmmoBox_12Gauge_Slug" time="5" amount="0">
+										<materials>
+											<material class="ScrapMetal" count="5"/>
+											<material class="SheetMetal" count="5"/>
+										</materials>
+									</item>
+									<item class="Crafted_AmmoBox_22" time="5" amount="0">
+										<materials>
+											<material class="ScrapMetal" count="5"/>
+											<material class="SheetMetal" count="5"/>
+										</materials>
+									</item>
+									<item class="Crafted_AmmoBox_223" time="5" amount="0">
+										<materials>
+											<material class="ScrapMetal" count="5"/>
+											<material class="SheetMetal" count="5"/>
+										</materials>
+									</item>
+									<item class="Crafted_AmmoBox_308" time="5" amount="0">
+										<materials>
+											<material class="ScrapMetal" count="5"/>
+											<material class="SheetMetal" count="5"/>
+										</materials>
+									</item>
+									<item class="Crafted_AmmoBox_357" time="5" amount="0">
+										<materials>
+											<material class="ScrapMetal" count="5"/>
+											<material class="SheetMetal" count="5"/>
+										</materials>
+									</item>
+									<item class="Crafted_AmmoBox_44M" time="5" amount="0">
+										<materials>
+											<material class="ScrapMetal" count="5"/>
+											<material class="SheetMetal" count="5"/>
+										</materials>
+									</item>									
+									<item class="Crafted_AmmoBox_5_45x39" time="5" amount="0">
+										<materials>
+											<material class="ScrapMetal" count="5"/>
+											<material class="SheetMetal" count="5"/>
+										</materials>
+									</item>
+									<item class="Crafted_AmmoBox_5_56x45" time="5" amount="0">
+										<materials>
+											<material class="ScrapMetal" count="5"/>
+											<material class="SheetMetal" count="5"/>
+										</materials>
+									</item>
+									<item class="Crafted_AmmoBox_6PPC" time="5" amount="0">
+										<materials>
+											<material class="ScrapMetal" count="5"/>
+											<material class="SheetMetal" count="5"/>
+										</materials>
+									</item>
+									<item class="Crafted_AmmoBox_5_70x28" time="5" amount="0">
+										<materials>
+											<material class="ScrapMetal" count="5"/>
+											<material class="SheetMetal" count="5"/>
+										</materials>
+									</item>
+									<item class="Crafted_AmmoBox_7_62x39" time="5" amount="0">
+										<materials>
+											<material class="ScrapMetal" count="5"/>
+											<material class="SheetMetal" count="5"/>
+										</materials>
+									</item>
+									<item class="Crafted_AmmoBox_7_62x51" time="5" amount="0">
+										<materials>
+											<material class="ScrapMetal" count="5"/>
+											<material class="SheetMetal" count="5"/>
+										</materials>
+									</item>
+									<item class="Crafted_AmmoBox_9mm" time="5" amount="0">
+										<materials>
+											<material class="ScrapMetal" count="5"/>
+											<material class="SheetMetal" count="5"/>
+										</materials>
+									</item>
+									<item class="Crafted_AmmoBox_acp_45" time="5" amount="0">
+										<materials>
+											<material class="ScrapMetal" count="5"/>
+											<material class="SheetMetal" count="5"/>
+										</materials>
+									</item>
+									<item class="Crafted_AmmoBox_7_62x39Venom" time="5" amount="0">
+										<materials>
+											<material class="ScrapMetal" count="5"/>
+											<material class="SheetMetal" count="5"/>
+										</materials>
+									</item>
+									<item class="Crafted_AmmoBox_556x77" time="5" amount="0">
+										<materials>
+											<material class="ScrapMetal" count="5"/>
+											<material class="SheetMetal" count="5"/>
+										</materials>
+									</item>
+									<item class="Crafted_AmmoBox_50cal" time="5" amount="0">
+										<materials>
+											<material class="ScrapMetal" count="5"/>
+											<material class="SheetMetal" count="5"/>
+										</materials>
+									</item>	
+								</items>
+							</type>
+						</types>
+					</subcat>
+				</subcats>
+			</cat>
+		</cats>
+	</guide>
+
+</recipes>

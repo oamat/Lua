@@ -1,0 +1,91 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recipes>
+	<guide name="guide_ammo_5" id="42">
+		<cats>
+			<cat name="Weapons">
+				<subcats>
+					<subcat name="Ammunition"> 
+						<types>
+							<type name="Ammo">	
+								<items>																						
+									<item class="Pile_762x39Venom" time="0.5" amount="10">
+										<materials>
+											<material class="Gunpowder" count="10"/>
+											<material class="Pile_762x39" count="10"/>																					
+											<material class="Sulphur" count="5"/>
+											<material class="AppleRotten" count="1"/>
+											<material class="HeatPack" count="1"/>
+											
+										</materials>
+									</item>	
+									<item class="Pile_556x77" time="0.5" amount="10">
+										<materials>
+											<material class="Gunpowder" count="10"/>
+											<material class="Pile_556x45" count="10"/>																																													
+											<material class="BioFuel" count="1"/>
+											<material class="AppleRotten" count="1"/>
+											<material class="PotassiumIodidePills" count="2"/>																						
+										</materials>
+									</item>	
+									<item class="Pile_6PPC" time="0.5" amount="10">
+										<materials>
+											<material class="Gunpowder" count="10"/>											
+											<material class="SheetMetal" count="10"/>
+											<material class="ScrapMetal" count="10"/>
+											<material class="IronIngot" count="10"/>
+											<material class="IronOre" count="1"/>																																	
+										</materials>
+									</item>	
+								</items>
+							</type>
+						</types>
+					</subcat>				
+				</subcats>
+			</cat>
+		</cats>
+	</guide>
+	<guide name="workbench">
+		<cats>
+			<cat name="Weapons">
+				<subcats>
+					<subcat name="Ammunition"> 
+						<types>
+							<type name="Ammo">	
+								<items>																						
+									<item class="Pile_762x39Venom" time="0.5" amount="10">
+										<materials>
+											<material class="Gunpowder" count="10"/>
+											<material class="Pile_762x39" count="10"/>																					
+											<material class="Sulphur" count="5"/>
+											<material class="AppleRotten" count="1"/>
+											<material class="HeatPack" count="1"/>
+											
+										</materials>
+									</item>	
+									<item class="Pile_556x77" time="0.5" amount="10">
+										<materials>
+											<material class="Gunpowder" count="10"/>
+											<material class="Pile_556x45" count="10"/>																																													
+											<material class="BioFuel" count="1"/>
+											<material class="AppleRotten" count="1"/>
+											<material class="PotassiumIodidePills" count="2"/>																						
+										</materials>
+									</item>	
+									<item class="Pile_6PPC" time="0.5" amount="10">
+										<materials>
+											<material class="Gunpowder" count="10"/>											
+											<material class="SheetMetal" count="10"/>
+											<material class="ScrapMetal" count="10"/>
+											<material class="IronIngot" count="10"/>
+											<material class="IronOre" count="1"/>																																	
+										</materials>
+									</item>	
+								</items>
+							</type>
+						</types>
+					</subcat>				
+				</subcats>
+			</cat>
+		</cats>
+	</guide>
+</recipes>

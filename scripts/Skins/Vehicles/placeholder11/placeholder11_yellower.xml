@@ -1,0 +1,10 @@
+<skin name="placeholder11_yellower">
+  <params>
+    <param name="display_name" value="Shelby Mustang GT500 yellower skin" />
+    <param name="description" value="Yellower skin for the Mustang" />
+    <param name="material" value="objects/vehicles/shelby_gt500/shelby_gt_yellower" />
+  </params>
+  <items>
+    <item name="placeholder11" />
+  </items>
+</skin>

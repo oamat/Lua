@@ -1,0 +1,12 @@
+<skin name="placeholder10_default">
+
+	<params>
+		<param name="display_name" value="Default Skin"/>
+		<param name="description" value="Default Skin"/>
+		<param name="material" value="Objects/vehicles/Hurakan_FBI/Hurakan_FBI"/>
+	</params>
+
+	<items>
+		<item name="placeholder10"/>
+	</items>
+</skin>

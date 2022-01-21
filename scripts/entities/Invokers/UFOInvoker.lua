@@ -1,0 +1,203 @@
+UFOInvoker = {
+    Properties = {
+		bPickable = 1,
+		eiPhysicsType = 2, -- not physicalized by default
+		bMounted = 0,
+		bUsable = 0,
+		bSpecialSelect = 0,
+		soclasses_SmartObjectClass = "",
+        initialSetup = "",
+	},
+	
+	Client = {},
+	Server = {},
+	
+	Editor = {
+		Icon = "Item.bmp",
+		IconOnTop = 1,
+    },
+}
+
+function UFOInvoker:Expose()
+    Net.Expose {
+        Class = self,
+        ClientMethods = {
+        },
+        ServerMethods = {
+            LastShotInvokeUFOEventImplEnt = { RELIABLE_ORDERED, POST_ATTACH, ENTITYID, ENTITYID }
+        },
+        ServerProperties = {
+		}
+    };
+end
+
+local Physics_DX9MP_Simple = {
+    bPhysicalize = 1, -- True if object should be physicalized at all.
+    bPushableByPlayers = 0,
+
+    Density = -1,
+    Mass = -1,
+    bStaticInDX9Multiplayer = 1
+}
+
+function UFOInvoker.Server:LastShotInvokeUFOEventImplEnt(data, playerId, itemId)
+    LastShotInvokeUFOEventImpl(data, playerId, itemId);
+end
+
+function UFOInvoker:OnPropertyChange()
+    self:OnReset();
+end
+
+function UFOInvoker:OnEditorSetGameMode(gameMode)
+
+end
+
+function UFOInvoker:OnReset()
+
+end
+
+function UFOInvoker.Server:OnShutdown()
+
+end
+
+function UFOInvoker:OnShutdown()
+
+end
+
+function UFOInvoker:OnDestroy()
+
+end
+
+function UFOInvoker:PhysicalizeThis(slot)
+    if (self.Properties.Physics.MP.bDontSyncPos == 1) then
+        CryAction.DontSyncPhysics(self.id);
+    end
+
+    local physics = self.Properties.Physics;
+    if (CryAction.IsImmersivenessEnabled() == 0) then
+        physics = Physics_DX9MP_Simple;
+    end
+    EntityCommon.PhysicalizeRigid(self, slot, physics, 1);
+
+    if (physics.Buoyancy) then
+        self:SetPhysicParams(PHYSICPARAM_BUOYANCY, physics.Buoyancy);
+    end
+end
+
+function UFOInvoker.Server:OnHit(hit)
+
+end
+
+function UFOInvoker.Client:OnHit(hit, remote)
+
+end
+
+-- EI Begin
+
+function UFOInvoker:IsActionable(user)
+    if (self.item:CanPickUp(user.id) or self.item:CanUse(user.id) or self.item:IsActionable(user.id)) then
+		return 1;
+	else
+		return 0;
+	end
+end
+
+function UFOInvoker:GetActions(user)
+    local actions = {};
+	actions = self.item:GetActions(user.id, actions);
+    return actions;
+end
+
+function UFOInvoker:PerformAction(user, action)
+    return self.item:PerformAction(user.id, action);
+end
+
+function UFOInvoker:GetContextActions(item2, actions, targetId, targetPartId)
+    table.insert(actions, 1, 'Invoke UFOCrash Now');
+
+    return actions;
+end
+
+function UFOInvoker:PerformContextAction(action, targetId, targetPartId)
+    
+    if (action == 'Invoke UFOCrash Now') then      
+    
+   --[[  mSendEvent( it's a test 
+            'Server',
+            {
+                Type = 'LastShotInvokersEventTest',
+                Data = { 
+                    message = 'Event works Fine!'
+                }
+            },
+            false,
+            false
+        );    ]]
+
+     
+        mSendEvent(
+                'Server',
+                {
+                    Type = 'LastShotInvokeUFOEventImpl',
+                    Data = {
+                        message = 'ok'
+                    }
+                },
+                self.id,
+                false
+            ); 
+          
+            --System.RemoveEntity(self.id);
+
+       --[[ local player = System.GetEntity(g_localActorId);  -- This way it doesn't work.
+            local itemInvoker = player.inventory:GetCurrentItem();
+            if (itemInvoker and itemInvoker.class == 'UFOInvoker') then  
+                self.server:LastShotInvokeUFOEventImplEnt(data,g_localActorId,self.id); -- This way it doesn't work.
+            end  
+        ]]     
+             
+                         
+    else
+        local handled = false;
+        local keep = true;
+        return handled, keep;
+    end
+    
+end
+
+function UFOInvoker:SaveValue()
+	return "";
+end
+
+function UFOInvoker:RestoreValue(value)
+
+end
+
+function UFOInvoker.Server:OnInit()
+
+end
+
+----------------------------------------------------------------------------------------------------
+function UFOInvoker.Client:OnInit()
+    if (not self.bInitialized) then
+        self:OnReset();
+        self.bInitialized = 1;
+    end
+    self:CacheResources();
+end
+
+----------------------------------------------------------------------------------
+function UFOInvoker:CacheResources()
+
+end
+
+-- EI End
+AddInteractLargeObjectProperty(UFOInvoker);
+UFOInvoker:Expose();
+
+local function CreateUFOInvokerTable()
+    Log('creating table UFOInvoker');
+    _G['UFOInvoker'] = new(UFOInvoker);
+end
+
+CreateUFOInvokerTable();

@@ -1,0 +1,29 @@
+<item name="BearMeatCooked" class="Consumable" category="any">
+
+	<params>
+		<param name="selectable" value="0" />
+		<param name="mass" value="1.0" />
+		<param name="stack_size" value="25" />		
+		<param name="display_name" value="Cooked Bear" />
+		<param name="description" value="Cooked bear. Looks super delicious." />
+	</params>
+
+	<geometry>
+		<thirdperson name="objects/consumables/ham/ham_cooked.cgf"/>
+	</geometry>
+
+	<consumable>
+		<param name="cookable" value="1" />
+		<param name="cookedItem" value="BearMeatBurned" />
+		<param name="cookedTime" value="80" />
+		<param name="foodAmount" value="700" />
+		<param name="soundConsumed" value="Play_food_soft_eat" />
+	</consumable>
+
+	<storage>
+		<locations>
+			<location category="any"/>
+		</locations>
+	</storage>
+
+</item>

@@ -1,0 +1,12 @@
+<skin name="sedan_base_default">
+
+	<params>
+		<param name="display_name" value="Default Skin"/>
+		<param name="description" value="Default Skin"/>
+		<param name="material" value="Objects/vehicles/SPORT VEHICLES/Subaru BRZ/Subaru BRZ"/>
+	</params>
+
+	<items>
+		<item name="sedan_base"/>
+	</items>
+</skin>

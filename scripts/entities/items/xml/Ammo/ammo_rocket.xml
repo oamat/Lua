@@ -1,0 +1,88 @@
+<ammo name="ammo_rocket" class="Grenade">
+	<geometry>
+		<firstperson name="objects/ammo/tranquilizer_dart/tranquilizer_dart.cgf" />
+	</geometry>
+
+	<flags>
+		<param name="clientonly" value="1" />
+		<param name="reusable" value="0" />
+	</flags>
+
+	<whiz>
+		<param name="sound" value="Play_bullet_whiz" />
+		<param name="distance" value="10.0" />
+	</whiz>
+
+	<ricochet>
+		<param name="sound" value="Play_bullet_ricochet" />
+	</ricochet>
+
+	<!-- No sonic boom - subsonic round -->
+
+	<physics type="particle">
+		<param name="mass" value="0.5" />
+		<param name="speed" value="45" />
+		<param name="max_logged_collisions" value="1" />
+		<param name="traceable" value="1" />
+		<param name="spin" value="45, 45, 45" />
+		<param name="spin_random" value="720, 720, 720" />
+		<param name="material" value="mat_glass_bottle" />
+	</physics>
+
+	<explosion>
+		<param name="pressure" value="1000" />
+		<param name="torpidity" value="100" />
+		<param name="stamina" value="100" />
+		<param name="min_radius" value="3" />
+		<param name="max_radius" value="8" />
+		<param name="min_phys_radius" value="3" />
+		<param name="max_phys_radius" value="8" />
+		<param name="sound_radius" value="150" />
+		<param name="hole_size" value="5" />
+		<param name="terrain_hole_size" value="5" />
+		<param name="radialblurdist" value="30" />
+		<param name="type" value="explosion" />
+	</explosion>
+	
+	<damage_area>
+		<param name="ground_particle_path" value="weapon_fx.molotov3.dummy"/>
+		<param name="ground_particle_duration" value="45"/>
+		<param name="ground_particle_effect_slot" value="5"/>
+		<param name="area_id" value="-5"/>
+		<param name="radius" value="8"/>
+		<param name="body_particle_duration" value="15.0"/>
+		<param name="dmg_taken_by_player" value="35.0"/>
+		<param name="incremental_duration" value="1.0"/>
+		<param name="body_fire_start_time" value="1.0"/>
+	</damage_area>
+	
+	<params>
+		<param name="hit_type" value="C4Timed" />
+		<param name="torpidity" value="100.0" />
+		<param name="stamina" value="100.0" />
+		<param name="knocks_target" value="1"/>
+		<param name="min_damage_for_knockDown" value="50"/>
+		<param name="min_damage_for_knockDown_leg" value="90"/>
+		<param name="bleed_percent" value="1" />
+		<param name="lifetime" value="5.0" />
+		<param name="showtime" value="0.05" /> <!-- Time delay before projectile is rendered (so it doesn't clip through camera when shot). Decreased from 0.15 for slow moving visible projectile  -->
+		<param name="bulletType" value="1" />
+		</params>
+		
+	<grenade>
+		<param name="onImpactLifetime" value="0" /> <!-- Don't decrease time to detonate just because it hit a surface -->
+		<param name="detonateOnImpact" value="1" />
+		<param name="detonateOnActorImpact" value="1" />
+		<param name="allowDetonationDelay" value="1" />
+	</grenade>
+	
+	<trail>
+		<param name="effect" value="weapon_fx.molotov3.trail" />
+		<param name="prime" value="true" />
+	</trail>
+
+	<trailUnderWater>
+		<param name="effect" value="water.bubbles.bullets" />
+		<param name="scale" value="3.0" />
+	</trailUnderWater>
+</ammo>

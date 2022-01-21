@@ -1,0 +1,21 @@
+<item name="ShelterPole" class="Item" category="any">
+
+	<params>
+		<param name="selectable" value="0" />
+		<param name="mass" value="2.25" />
+		<param name="stack_size" value="25" />		
+		<param name="display_name" value="Shelter Pole" />
+		<param name="description" value="A long pole of wood, used in shelter construction." />
+	</params>
+
+	<geometry>
+		<thirdperson name="objects/craftingmats/wood/shelter_log_pile.cgf"/>
+	</geometry>
+
+	<storage>
+		<locations>
+			<location category="any"/>
+		</locations>
+	</storage>
+
+</item>

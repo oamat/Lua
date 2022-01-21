@@ -1,0 +1,27 @@
+<item name="WolfStew" class="Consumable" category="any">
+
+	<params>
+		<param name="selectable" value="0" />
+		<param name="mass" value="1.0" />
+		<param name="display_name" value="Wolf Stew" />
+		<param name="description" value="A freshly made stew" />
+	</params>
+
+	<geometry>
+		<thirdperson name="Objects/LordSnave/LSLunchbox/lunch_box.cgf" />
+	</geometry>
+
+	<consumable>
+		<param name="consumePartial" value="2" />
+		<param name="foodAmount" value="600" />
+		<param name="drinkAmount" value="500" />
+		<param name="soundConsumed" value="Play_food_soft_eat" />
+	</consumable>
+
+	<storage>
+		<locations>
+			<location category="any"/>
+		</locations>
+	</storage>
+
+</item>

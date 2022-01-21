@@ -1,0 +1,22 @@
+<item name="guide_concrete" class="Item" category="any">
+  <params>
+    <param name="selectable" value="0" />
+    <param name="mass" value="0.1" />
+    <param name="display_name" value="Guide 'Concrete Structures'" />
+    <param name="description" value="A guide about building with concrete Bag" />
+    <param name="vendor_cost" value="45"/>    
+  </params>
+  <geometry>
+    <thirdperson name="Objects/props/crafting_guides/guide_specialized.cgf" />
+  </geometry>
+  <usable>
+    <param name="action" value="guide" />
+    <param name="param" value="52" />
+    <param name="soundUsed" value="Play_book_page_turn" />
+  </usable>
+  <storage>
+    <locations>
+      <location category="any" />
+    </locations>
+  </storage>
+</item>

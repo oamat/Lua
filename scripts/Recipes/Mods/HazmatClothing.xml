@@ -1,0 +1,267 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<recipes>
+	<guide name="guide_hazmat" id="39">
+		<cats>
+			<cat name="Clothing">
+				<subcats>		
+					<subcat name="Hazmat Clothes">
+						<types>
+							<type name="Masks" >
+								<items>
+									<item class="GasMask" time="3">
+										<materials>
+											<material class="Rags" count="3" />
+											<material class="DriveBelt" count="1" />
+											<material class="RK_Teflon" count="2" />
+											<material class="DuctTape" count="1" />
+										</materials>
+									</item>	
+                                    <item class="HazmatMask" time="3">
+										<materials>
+											<material class="Rags" count="5" />
+											<material class="DriveBelt" count="1" />
+											<material class="RK_Teflon" count="2" />
+											<material class="DuctTape" count="1" />
+										</materials>
+									</item>
+									<item class="HazmatMaskBlack" time="2">
+										<materials>
+											<material class="HazmatMask" count="1" />
+											<material class="PaintCan_Black" count="1"/>
+										</materials>
+									</item>
+									<item class="HazmatMaskBlue" time="2">
+										<materials>
+											<material class="HazmatMask" count="1"/>
+											<material class="PaintCan_Blue" count="1"/>
+										</materials>
+									</item>
+									<item class="HazmatMaskGreen" time="2">
+										<materials>
+											<material class="HazmatMask" count="1"/>
+											<material class="PaintCan_Green" count="1"/>
+										</materials>
+									</item>
+									<item class="HazmatMaskOrange" time="2">
+										<materials>
+											<material class="HazmatMask" count="1"/>
+											<material class="PaintCan_Orange" count="1"/>
+										</materials>
+									</item>
+									<item class="HazmatMaskPink" time="2">
+										<materials>
+											<material class="HazmatMask" count="1"/>
+											<material class="PaintCan_Pink" count="1"/>
+										</materials>
+									</item>
+									<item class="HazmatMaskWhite" time="2">
+										<materials>
+											<material class="HazmatMask" count="1"/>
+											<material class="PaintCan_White" count="1"/>
+										</materials>
+									</item>
+									<item class="HazmatMaskYellow" time="2">
+										<materials>
+											<material class="HazmatMask" count="1"/>
+											<material class="PaintCan_Yellow" count="1"/>
+										</materials>
+									</item>
+								</items>
+							</type>
+							<type name="Suits">
+								<items>
+									<item class="HazmatSuitBlack" time="5">
+										<materials>
+											<material class="PaintCan_Black" count="1" />
+											<material class="RK_Teflon" count="3" />
+											<material class="CombatBootsBlack" count="1"/>
+											<material class="DuctTape" count="1"/>
+										</materials>
+									</item>
+									<item class="HazmatSuitBlue" time="5">
+										<materials>
+											<material class="PaintCan_Blue" count="1" />
+											<material class="RK_Teflon" count="3" />
+											<material class="CombatBootsBlack" count="1"/>
+											<material class="DuctTape" count="1"/>
+										</materials>
+									</item>
+									<item class="HazmatSuitBrownCamo" time="5">
+										<materials>
+											<material class="PaintCan_Brown" count="1" />
+											<material class="RK_Teflon" count="3" />
+											<material class="CombatBootsBlack" count="1"/>
+											<material class="DuctTape" count="1"/>
+										</materials>
+									</item>
+									<item class="HazmatSuitGreen" time="5">
+										<materials>
+											<material class="PaintCan_Green" count="1" />
+											<material class="RK_Teflon" count="3" />
+											<material class="CombatBootsBlack" count="1"/>
+											<material class="DuctTape" count="1"/>
+										</materials>
+									</item>
+									<item class="HazmatSuitGreenCamo" time="5">
+										<materials>
+											<material class="PaintCan_Green" count="1" />
+											<material class="RK_Teflon" count="3" />
+											<material class="CombatBootsBlack" count="1"/>
+											<material class="DuctTape" count="1"/>
+										</materials>
+									</item>
+									<item class="HazmatSuitOrange" time="5">
+										<materials>
+											<material class="PaintCan_Orange" count="1" />
+											<material class="RK_Teflon" count="3" />
+											<material class="CombatBootsBlack" count="1"/>
+											<material class="DuctTape" count="1"/>
+										</materials>
+									</item>
+									<item class="HazmatSuitPink" time="5">
+										<materials>
+											<material class="PaintCan_Pink" count="1" />
+											<material class="RK_Teflon" count="3" />
+											<material class="CombatBootsBlack" count="1"/>
+											<material class="DuctTape" count="1"/>
+										</materials>
+									</item>
+									<item class="HazmatSuitPurple" time="5">
+										<materials>
+											<material class="PaintCan_Purple" count="1" />
+											<material class="RK_Teflon" count="3" />
+											<material class="CombatBootsBlack" count="1"/>
+											<material class="DuctTape" count="1"/>
+										</materials>
+									</item>
+									<item class="HazmatSuitWhite" time="5">
+										<materials>
+											<material class="PaintCan_White" count="1" />
+											<material class="RK_Teflon" count="3" />
+											<material class="CombatBootsBlack" count="1"/>
+											<material class="DuctTape" count="1"/>
+										</materials>
+									</item>
+									<item class="HazmatSuitYellow" time="5">
+										<materials>
+											<material class="PaintCan_Yellow" count="1" />
+											<material class="RK_Teflon" count="3" />
+											<material class="CombatBootsBlack" count="1"/>
+											<material class="DuctTape" count="1"/>
+										</materials>
+									</item>
+									<item class="HazmatSuitRed" time="5">
+							        	<materials>
+							        		<material class="PaintCan_Red" count="1" />
+											<material class="RK_Teflon" count="3" />
+											<material class="CombatBootsBlack" count="1"/>
+											<material class="DuctTape" count="1"/>
+							        	</materials>
+							        </item>
+								</items>
+							</type>
+							<type name="Suits (Hood)">
+							    <items>
+									<item class="HazmatSuitBlackUp" time="4">
+							        	<materials>
+							        		<material class="HazmatSuitBlack" />
+							        	</materials>
+							        </item>
+									<item class="HazmatSuitBlueUp" time="4">
+							        	<materials>
+							        		<material class="HazmatSuitBlue" />
+							        	</materials>
+							        </item>
+									<item class="HazmatSuitGreenUp" time="4">
+							        	<materials>
+							        		<material class="HazmatSuitGreen" />
+							        	</materials>
+							        </item>
+									<item class="HazmatSuitOrangeUp" time="4">
+							        	<materials>
+							        		<material class="HazmatSuitOrange" />
+							        	</materials>
+							        </item>
+									<item class="HazmatSuitPinkUp" time="4">
+							        	<materials>
+							        		<material class="HazmatSuitPink" />
+							        	</materials>
+							        </item>
+									<item class="HazmatSuitWhiteUp" time="4">
+							        	<materials>
+							        		<material class="HazmatSuitWhite" />
+							        	</materials>
+							        </item>
+									<item class="HazmatSuitYellowUp" time="4">
+							        	<materials>
+							        		<material class="HazmatSuitYellow" />
+							        	</materials>
+							        </item>
+									<item class="HazmatSuitRedUp" time="4">
+							        	<materials>
+							        		<material class="HazmatSuitRed" />
+							        	</materials>
+							        </item>
+								</items>
+							</type>
+							<type name="Tanks">
+								<items>
+									<item class="GasCanisterPack" time="5">
+										<materials>
+											<material class="PaintCan_Silver" count="1" />
+											<material class="RK_Teflon" count="3" />
+											<material class="PropaneTank" count="2"/>
+											<material class="DuctTape" count="5"/>
+										</materials>
+									</item>
+									<item class="GasCanisterPackBlack" time="2">
+										<materials>
+											<material class="PaintCan_Black" count="1" />
+											<material class="GasCanisterPack" count="1"/>
+										</materials>
+									</item>
+									<item class="GasCanisterPackBlue" time="2">
+										<materials>
+											<material class="PaintCan_Blue" count="1" />
+											<material class="GasCanisterPack" count="1"/>
+										</materials>
+									</item>
+									<item class="GasCanisterPackGreen" time="2">
+										<materials>
+											<material class="PaintCan_Green" count="1" />
+											<material class="GasCanisterPack" count="1"/>
+										</materials>
+									</item>
+									<item class="GasCanisterPackOrange" time="2">
+										<materials>
+											<material class="PaintCan_Orange" count="1" />
+											<material class="GasCanisterPack" count="1"/>
+										</materials>
+									</item>
+									<item class="GasCanisterPackPink" time="2">
+										<materials>
+											<material class="PaintCan_Pink" count="1" />
+											<material class="GasCanisterPack" count="1"/>
+										</materials>
+									</item>
+									<item class="GasCanisterPackWhite" time="2">
+										<materials>
+											<material class="PaintCan_White" count="1" />
+											<material class="GasCanisterPack" count="1"/>
+										</materials>
+									</item>
+									<item class="GasCanisterPackYellow" time="2">
+										<materials>
+											<material class="PaintCan_Yellow" count="1" />
+											<material class="GasCanisterPack" count="1"/>
+										</materials>
+									</item>
+								</items>
+							</type>
+						</types>
+					</subcat>
+				</subcats>
+			</cat>
+		</cats>
+	</guide>
+</recipes>		

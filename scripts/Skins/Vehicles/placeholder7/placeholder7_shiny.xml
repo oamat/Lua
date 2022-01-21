@@ -1,0 +1,10 @@
+<skin name="placeholder7_shiny">
+  <params>
+    <param name="display_name" value="Charger shiny Skin" />
+    <param name="description" value="Shiny Black skin for the charger" />
+    <param name="material" value="objects/vehicles/Dodge_Charger_SRT8_police/Dodge_Charger_SRT8_police" />
+  </params>
+  <items>
+    <item name="placeholder7" />
+  </items>
+</skin>

@@ -1,0 +1,28 @@
+<UIElements name="mod_LastShotRankUI">
+  <UIElement name="mod_LastShotRankUI" mouseevents="0" keyevents="0" cursor="0" controller_input="0" render_lockless="1">
+    <GFx file="LastShotGFX/LastShotRank.gfx" layer="1">
+      <Constraints>
+       <Align mode="fixed" />
+        <Position top="0" left="0" width="220" height="140" />
+      </Constraints>
+    </GFx>
+    <functions>
+      <function name="ActionScriptFunction" funcname="ActionScriptFunction">
+        <param name="_player1" desc="" type="String" />
+        <param name="_kills1" desc="" type="String" /> 
+        <param name="_headshots1" desc="" type="String" />               
+        <param name="_player2" desc="" type="String" />
+        <param name="_kills2" desc="" type="String" /> 
+        <param name="_headshots2" desc="" type="String" />               
+        <param name="_player3" desc="" type="String" />
+        <param name="_kills3" desc="" type="String" /> 
+        <param name="_headshots3" desc="" type="String" />
+        <param name="activated" desc="" type="int" />   <!-- int, string, bool, float -->               
+      </function>
+    </functions>
+    <events />
+    <variables />
+    <Arrays />
+    <movieclips />
+  </UIElement>
+</UIElements>

@@ -1,0 +1,21 @@
+<item name="Thatch" class="Item" category="any">
+
+	<params>
+		<param name="selectable" value="0" />
+		<param name="mass" value="0.2" />
+		<param name="stack_size" value="250" />
+		<param name="display_name" value="Thatch" />
+		<param name="description" value="A thin fiber, useful in crafting and for creating fires." />
+	</params>
+
+	<geometry>
+		<thirdperson name="Objects/craftingMats/thatch/thatch.cgf"/>
+	</geometry>
+
+	<storage>
+		<locations>
+			<location category="any"/>
+		</locations>
+	</storage>
+
+</item>

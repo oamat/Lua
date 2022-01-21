@@ -1,0 +1,10 @@
+<skin name="F100Truck_Sky_Blue">
+  <params>
+    <param name="display_name" value="Pickup Truck Sky Blue Skin" />
+    <param name="description" value="Sky Blue skin for the Pickup Truck" />
+    <param name="material" value="objects/vehicles/F100Truck/f100truck_sky_blue" />
+  </params>
+  <items>
+    <item name="f100truck" />
+  </items>
+</skin>

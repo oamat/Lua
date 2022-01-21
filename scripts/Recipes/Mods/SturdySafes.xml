@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<recipes>
+   <guide name="default" id="0">
+      <cats>
+         <cat name="Base Building">
+            <subcats>            
+               <subcat name="Sturdy Armored">
+                  <types>                  
+                     <type name="Metal Safes">
+                        <items>
+                           <item class="metal_safe" time="5">
+                              <materials>
+                                 <material class="SheetMetal" count="250" />
+                                 <material class="ScrapMetal" count="250" />
+                                 <material class="Nails" count="250" />                
+											<material class="TitaniumBag" count="3" />                                                                  
+                                 <material class="Amalgaduino" count="2"/>
+                              </materials>
+                           </item> 
+                             <item class="safe_large" time="5">
+                              <materials>
+                                 <material class="SheetMetal" count="250" />
+                                 <material class="ScrapMetal" count="250" />
+                                 <material class="TitaniumBag" count="1" />  
+                                 <material class="Nails" count="250" />
+                              </materials>
+                           </item> 
+                             <item class="safedoor_large2" time="5">
+                              <materials>
+                                 <material class="SheetMetal" count="250" />
+                                 <material class="ScrapMetal" count="250" />
+                                 <material class="TitaniumBag" count="1" />  
+                                 <material class="Nails" count="250" />
+                              </materials>
+                           </item> 
+                        </items>
+                     </type>
+                  </types>
+               </subcat>
+            </subcats>
+         </cat>
+      </cats>
+   </guide>
+</recipes>

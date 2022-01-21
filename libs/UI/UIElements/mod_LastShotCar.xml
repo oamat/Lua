@@ -1,0 +1,21 @@
+<UIElements name="mod_LastShotCar">
+  <UIElement name="mod_LastShotCar" mouseevents="0" keyevents="0" cursor="0" controller_input="0" render_lockless="1">
+    <GFx file="LastShotGFX/LastShotCarShort.gfx" layer="2">
+      <Constraints>
+        <Align mode="dynamic" valign="bottom" halign="center" scale="0" max="0" />
+      </Constraints>
+    </GFx>
+    <functions>
+      <function name="ActionScriptFunction" funcname="ActionScriptFunction">
+        <param name="gas" desc="" type="Int" />
+        <param name="oil" desc="" type="Int" />
+        <param name="speed" desc="" type="Int" />
+        <param name="health" desc="" type="Int" />
+      </function>
+    </functions>
+    <events />
+    <variables />
+    <Arrays />
+    <movieclips />
+  </UIElement>
+</UIElements>

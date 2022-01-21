@@ -1,0 +1,27 @@
+<item name="TomatoesFarcies" class="Consumable" category="any">
+
+	<params>
+		<param name="selectable" value="0" />
+		<param name="mass" value="1.0" />
+		<param name="display_name" value="Stuffed Tomatoes" />
+		<param name="description" value="A delicious recipe where meat is finely cutted, mixed with fresh herbs and stuffed into tomatoes." />
+	</params>
+
+	<geometry>
+		<thirdperson name="Objects/LordSnave/LSLunchbox/lunch_box.cgf" />
+	</geometry>
+
+	<consumable>
+		<param name="consumePartial" value="4" />
+		<param name="foodAmount" value="1200" />
+		<param name="drinkAmount" value="800" />
+		<param name="soundConsumed" value="Play_food_soft_eat" />
+	</consumable>
+
+	<storage>
+		<locations>
+			<location category="any"/>
+		</locations>
+	</storage>
+
+</item>

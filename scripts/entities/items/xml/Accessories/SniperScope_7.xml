@@ -1,0 +1,34 @@
+<item name="SniperScope_7" class="Item" category="any">
+	<params>
+		<param name="display_name" value="Wide Camo Sniper Scope"/> 
+		<param name="description" value="Wide Camo Sniper Scope"/>
+		<param name="selectable" value="0"/>
+		<param name="mass" value="0.25"/>
+		<param name="scopeAttachment" value="1"/>
+		<param name="stack_size" value="5" />
+		<param name="hide_as_attachment" value="0"/>
+		<param name="dontRotateOnSpawn" value="1"/>
+		<param name="vendor_cost" value="140"/>
+	</params>
+
+	<geometry>
+		<firstperson name="objects/weapons/attachments/sniper_scope/sniper_scope_onground.cgf" useStreaming="0" material="objects/weapons/attachments/last_scopes/sniper_scope_7.mtl"/>
+		<thirdperson name="objects/weapons/attachments/sniper_scope/sniper_scope_onground.cgf" useStreaming="0" material="objects/weapons/attachments/last_scopes/sniper_scope_7.mtl"/>
+		<aux1 name="objects/weapons/attachments/sniper_scope/sniper_scope_zoom.cgf" useStreaming="0"/>
+	</geometry>
+
+	<usable>
+        <param name="title" value="Salvage to Sheet Metal"/>
+        <param name="action" value="craft"/>
+        <param name="param" value="SheetMetal"/>
+        <param name="soundUsed" value=""/>
+    </usable>
+
+	<storage>
+		<locations>
+			<location category="any"/>
+			<location category="scope_rifle"/>
+		</locations>
+	</storage>
+
+</item>

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<recipes>
+	<guide name="guide_explosives_2" id="29">
+		<cats>
+			<cat name="Weapons">
+				<subcats>
+					<subcat name="Ammunition"> 
+						<types>
+							<type name="Ammo">
+								<items>
+									<item class="Pile_40mmGrenade" time="1.5" amount="1">
+										<materials>
+											<material class="GrenadePickup" count="1"/>
+											<material class="Gunpowder" count="5"/>
+											<material class="BioFuel" count="5"/>
+											<material class="SheetMetal" count="5"/>							
+										</materials>
+									</item>
+									<item class="Pile_sticky" time="3" amount="1">
+										<materials>
+											<material class="PipebombPickup" count="1"/>
+											<material class="Gunpowder" count="5"/>
+											<material class="BioFuel" count="5"/>
+											<material class="SheetMetal" count="5"/>																	
+										</materials>
+									</item>
+									<item class="Pile_Rocket" time="3" amount="1">
+										<materials>
+											<material class="GrenadePickup" count="3"/>
+											<material class="C4TimedPickup" count="2"/>
+											<material class="Gunpowder" count="25"/>
+											<material class="BioFuel" count="15"/>
+											<material class="SheetMetal" count="25"/>																	
+										</materials>
+									</item>
+								
+								</items>
+							</type>
+						</types>
+					</subcat>				
+				</subcats>
+			</cat>
+		</cats>
+	</guide>
+
+	<guide name="workbench">
+		<cats>
+			<cat name="Weapons">
+				<subcats>
+					<subcat name="Ammunition"> 
+						<types>
+							<type name="Ammo">
+								<items>
+									<item class="Pile_40mmGrenade" time="1.5" amount="1">
+										<materials>
+											<material class="GrenadePickup" count="1"/>
+											<material class="Gunpowder" count="5"/>
+											<material class="BioFuel" count="5"/>
+											<material class="SheetMetal" count="5"/>							
+										</materials>
+									</item>
+									<item class="Pile_sticky" time="3" amount="1">
+										<materials>
+											<material class="PipebombPickup" count="1"/>
+											<material class="Gunpowder" count="5"/>
+											<material class="BioFuel" count="5"/>
+											<material class="SheetMetal" count="5"/>																	
+										</materials>
+									</item>
+									<item class="Pile_Rocket" time="3" amount="1">
+										<materials>
+											<material class="GrenadePickup" count="3"/>
+											<material class="C4TimedPickup" count="2"/>
+											<material class="Gunpowder" count="25"/>
+											<material class="BioFuel" count="15"/>
+											<material class="SheetMetal" count="25"/>																	
+										</materials>
+									</item>
+								
+								</items>
+							</type>
+						</types>
+					</subcat>				
+				</subcats>
+			</cat>
+		</cats>
+	</guide>
+</recipes>

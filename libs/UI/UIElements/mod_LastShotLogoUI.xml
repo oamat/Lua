@@ -1,0 +1,20 @@
+<UIElements name="mod_LastShotLogoUI">
+  <UIElement name="mod_LastShotLogoUI" mouseevents="0" keyevents="0" cursor="0" controller_input="0" render_lockless="1">
+    <GFx file="LastShotGFX/LastShotLogo.gfx" layer="1">
+      <Constraints>
+        <Align mode="dynamic" valign="center" halign="center" scale="1" max="0" />
+      </Constraints>
+    </GFx>
+    <functions>
+      <function name="ActionScriptFunction" funcname="ActionScriptFunction">
+        <param name="playerInfoString" desc="" type="String" />
+        <param name="newsString" desc="" type="String" /> 
+        <param name="discordString" desc="" type="String" />               
+      </function>
+    </functions>
+    <events />
+    <variables />
+    <Arrays />
+    <movieclips />
+  </UIElement>
+</UIElements>

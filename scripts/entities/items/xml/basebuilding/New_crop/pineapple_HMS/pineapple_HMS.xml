@@ -1,0 +1,33 @@
+<item name="pineapple_HMS" class="Consumable" category="any"> 
+
+	<params>
+		<param name="selectable" value="0"/>
+		<param name="mass" value="2.5"/>
+		<param name="stack_size" value="5"/>
+		<param name="display_name" value="Pineapple"/>
+		<param name="description" value="The fresh pineapple just picked is delicious!"/>
+	</params>
+
+	<geometry>
+		<thirdperson name="Objects/HotMeatStick/New_crop/pineapple_HMS/pineapple_HMS/pineapple_hms.cgf"/>
+	</geometry>
+
+	<consumable>
+		<param name="rottenItem" value="pineapple_HMS_Rotten"/>
+		<param name="foodAmount" value="280"/>
+		<param name="drinkAmount" value="280"/>
+		<param name="soundConsumed" value="Play_food_soft_hard"/>
+	</consumable>
+
+	<craftable>
+		<craft name="SurvivalKnife" craft="SeedsPineapple" destroy="0"/>
+		<craft name="HuntingKnife" craft="SeedsPineapple" destroy="0"/>
+	</craftable>
+
+	<storage>
+		<locations>
+			<location category="any"/>
+		</locations>
+	</storage>
+
+</item>

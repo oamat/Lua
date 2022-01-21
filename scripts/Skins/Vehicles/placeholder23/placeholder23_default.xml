@@ -1,0 +1,12 @@
+<skin name="placeholder23_default">
+
+	<params>
+		<param name="display_name" value="Default Skin"/>
+		<param name="description" value="Default Skin"/>
+		<param name="material" value="Objects/vehicles/Swat_Van/swat_van"/>
+	</params>
+
+	<items>
+		<item name="placeholder23"/>
+	</items>
+</skin>
