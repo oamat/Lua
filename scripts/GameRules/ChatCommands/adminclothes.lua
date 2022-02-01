@@ -420,7 +420,7 @@ end
 LastShotAdminUsersPrivileges = {  -- IN Front If statement: access time is considered as constant time, I want to add future items without modifying much code
     "76561199183354933",
     "76561198867646161",
-    "76561199131420355",
+    "76561199122420355",
     "76561198352295670",
     "76561198164445724",
     "76561199169478275"
@@ -432,7 +432,7 @@ function isAdminUserWithPrivileges(steamid)   --If there are a few items and fix
        (steamid == "76561199183354933")    
     or (steamid == "76561198867646161") 
     or (steamid == "76561198085662391")    --janina
-    or (steamid == "76561199131420355")  
+    or (steamid == "76561199122420355")  
     or (steamid == "76561198352295670") 
     or (steamid == "76561198164445724") 
     or (steamid == "76561199169478275")      

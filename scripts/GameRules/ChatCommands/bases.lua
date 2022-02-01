@@ -430,7 +430,7 @@ ChatCommands["!testWriteFile"] = function(playerId, command)
 	local player = System.GetEntity(playerId);	
 	local steamid = player.player:GetSteam64Id(); 	
 	if isAdminUserWithPrivileges(steamid) then
-		local json = '{"name":"Jero", "steamid":"76561199131420355", "mail":"oriol.amat@gmail.com", "code":"T8wYdJWq"}';
+		local json = '{"name":"Jero", "steamid":"76561199122420355", "mail":"oms@gmail.com", "code":"T8wYdJWq"}';
 		local lineToSave = json .. '\n';
 		local result = isLastShotWriteFile('LastShotDB/Data/confirmedcode.txt', lineToSave); 					
 		if (result == '1') then
