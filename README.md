@@ -1,4 +1,6 @@
-# Miscreated Lua codes (CryEngine)
+# Lua codes for my Miscreated Server:  LastShotBCN. (CryEngine)
+
+*This game is integrated inside CryEngine 3.6 : More game details:  https://miscreatedgame.com/
 
 ### Lua codes for Miscreated Mods in LastShotBCN Server (CryEngine)
 
@@ -9,3 +11,4 @@
     # .. 
 }
 ```
+
